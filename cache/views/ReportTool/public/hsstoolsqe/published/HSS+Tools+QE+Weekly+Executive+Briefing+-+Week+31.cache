@@ -1,0 +1,336 @@
+I"/5<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      HSS Tools QE Weekly Executive Briefing - Week 31 in HSS Tools QE
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    ...
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/hsstoolsqe/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/hsstoolsqe/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/hsstoolsqe/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/hsstoolsqe/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/hsstoolsqe/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/hsstoolsqe/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">HSS Tools QE</span><br />
+      HSS Tools QE Weekly Executive Briefing - Week 31
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h2 id='executive_summary_1'>Executive summary</h2>
+
+<p><strong>Week 31, July 30~~Aug 03 2012</strong></p>
+
+<p><strong><span>Highlights</span></strong></p>
+
+<ul>
+<li>Finish newspaper IEEE test plan in week 31. Because Newspaper 1.1 schedule is ahead, QE finish test plan creation, review and sign off within one week.</li>
+</ul>
+
+<p><strong><span>Lowlights</span></strong></p>
+
+<ul>
+<li>Customer portal reporting delay because the whole UI have been update and automation test case can not run successfully. QE update with one day, then run and get the result spend more than 40 hours. Solution is optimize the automation script and reduce run time. Now, all testing for customer portal has been finished last week, we will have another round of testing from this week.</li>
+</ul>
+
+<h2 id='11_risksactionsmilestone_2'>1.1. Risks/Actions/Milestone</h2>
+
+<p><strong>Milestone</strong></p>
+
+<ul>
+<li>
+<p><span>Aug 06</span> <strong>Bugzilla</strong> : Bugzilla 4.2.0-4 IEEE test plan finished and sent to RAP team.</p>
+</li>
+
+<li>
+<p><span>Aug 07</span> <strong>Treasury</strong>: PRD review and prepare test plan</p>
+</li>
+
+<li>
+<p><span>Aug 09</span> <strong>Authenticity</strong>: Deploy Authenticity 1.1 testing environment finish and start testing</p>
+</li>
+
+<li>
+<p><span>Aug 11</span> <strong>TCMS</strong>: TCMS 3.8 full functiona testing finish and testing report sent out.</p>
+</li>
+</ul>
+
+<p><strong>Risk</strong></p>
+
+<ul>
+<li><strong>Bugzilla</strong>: Eng-ops is preparing Bugzilla testing DB and they cannot sure exactly when the work will be done. Testing environment depend on testing DB.</li>
+</ul>
+
+<h2 id='12_work_completed_3'>1.2. Work completed</h2>
+
+<p><strong><span>Authenticity</span></strong></p>
+
+<ul>
+<li>Authenticy 1.1 test automation . Finish 50% automation this week that the part of filter product, Arch, Repo, package from .json files and compare with contant list.</li>
+</ul>
+
+<p><strong><span>TCMS</span></strong></p>
+
+<ul>
+<li>TCMS 3.8.0-2 acceptance testing on stage . Testing result is FAIL because new regression issue.</li>
+
+<li>TCMS 3.8.0-3 acceptance testing on stage . Testing result is FAIL because Two bugs can not be fixed.</li>
+</ul>
+
+<p><strong><span>Bugzilla</span></strong></p>
+
+<ul>
+<li>Communicate with developer for bugzilla 4.2-4 IEEE test plan and improve it. Draft V2 sent to developer review before Aug 06.</li>
+</ul>
+
+<p><strong><span>Newspaper</span></strong></p>
+
+<ul>
+<li>
+<p>Create Newspaper 1.2 IEEE test plan . QE finish the newspaper IEEE test plan draft in week 30 and update base on devs and PM’s feedback . Test plan have been sign off by developers and PM on Aug 03.</p>
+</li>
+
+<li>
+<p>Create Newspaper 1.2 test case in TCMS. Finished 70% this week</p>
+</li>
+</ul>
+
+<p><strong><span>Publican</span></strong></p>
+
+<ul>
+<li>Publican bug verification . There are 62 fixed bugs should be verified . QE verify 22 bugs with high or urgent severity. Then add our comments and marking the result in spreadsheet and sent to PM.</li>
+</ul>
+
+<p><strong><span>Docs Integration</span></strong></p>
+
+<ul>
+<li>Content and i18n testing on customer portal new site . Because the UI changed 90% , QE should re-build the automation test scripts and run automation test cases. Testing report sent to PM on Aug 02.</li>
+</ul>
+
+<h2 id='13_work_coming_up_4'>1.3. Work coming up</h2>
+
+<p><strong><span>Authenticity</span></strong></p>
+
+<ul>
+<li>
+<p>Authenticy 1.1 test automation . Finish diff module. Update it base on test environment.</p>
+</li>
+
+<li>
+<p>Depoly test environment. Deploy test environment on authenticity-test.englab.nay.redhat.com</p>
+</li>
+
+<li>
+<p>Authenticity 1.1 Acceptance and full functional testing on test env. If the acceptance testing PASS, QE continue do full functional testing and will finished all testing within 4 days.</p>
+</li>
+</ul>
+
+<p><strong><span>TCMS</span></strong></p>
+
+<ul>
+<li>TCMS 3.8.0-4 Full functional testing on stage . Because TCMS 3.8.0-3 testing FAIL , QE will do full functional testing after developer respin . As update planning , QE will start the second round testing from Aug 07 ~ 10.</li>
+</ul>
+
+<p><strong><span>Bugzilla</span></strong></p>
+
+<ul>
+<li>Bugzilla 4.2-4 test case creation . QE start do the test case design after developer sign off IEEE test plan</li>
+</ul>
+
+<p><strong><span>Newspaper</span></strong></p>
+
+<ul>
+<li>Create Newspaper 1.2 test case in TCMS. Finish the remaining 40% cases in TCMS</li>
+</ul>
+
+<p><strong><span>Treasury</span></strong></p>
+
+<ul>
+<li>Treasury PRD go through and discuss with PM.</li>
+</ul>
+
+<p><strong><span>Customer Portal</span></strong></p>
+
+<ul>
+<li>Content testing on https://access.stage.redhat.com/knowledge/docs/ . QE will finish the content testing before Aug 08 if there is no error for automation test result.</li>
+</ul>
+
+<h2 id='14_bug_contribution_5'>1.4 Bug Contribution</h2>
+
+<p><strong><span>New bugs and bugs verification</span></strong></p>
+<table><thead><tr><th>Projects</th><th>New</th><th>Verified</th><th>Reopen</th><th>ineffective</th><th>New High Priority</th><th>New High Severity</th></tr></thead><tbody><tr><td style='text-align: center;'>TCMS</td><td style='text-align: center;'>7</td><td style='text-align: center;'>11</td><td style='text-align: center;'>5</td><td style='text-align: center;'>1</td><td style='text-align: center;'>4</td><td style='text-align: center;'>4</td></tr>
+</tbody></table>
+<h2 id='appendix_6'>Appendix</h2>
+
+<h3 id='test_result_7'>Test Result</h3>
+
+<p><strong>TCMS 3.8.0-2 on stage - Acceptance Test - FAIL</strong></p>
+
+<pre><code>Test Result : FAIL 
+
+Summary:  
+QE  run acceptance testing with automation and do bug verification in this release . 
+Acceptance is PASS because there is no new test blocker or regression in this release . 
+Bug verification is FAIL because there are 5 assigned bugs( including 3 high priority: Bug 841189/ Bug 807197/ Bug 691282 / Bug 844883), and there are 7 new bugs.
+
+Test Features: 
+1. Basic Information  - PASS
+2. Bookmark  - PASS
+3. Case  - PASS
+4. Report   - PASS
+5. Run   - PASS
+6. Plan   - PASS
+7. Simple Search   - PASS
+8. Quick Search   - PASS
+9. Advanced Search   - PASS
+
+New Bugs (7) 
+Bug 844588 - [RFE][TestRun]When uploading a big attachment to a case run, it should warn the limit size of the attachment.
+Bug 844600 - When submit comments, the page is not refreshed.
+Bug 844946 - [CaseRuns] &quot;Communication with server got some unknow errors&quot; and bad UI
+Bug 844897 - [RemoveTag] Code leadage when clicking remove tag lable with a specified test plan
+Bug 844883 - [TestPlan][Search Test Plans]Advanced Search plan via product and version failed
+Bug 844878 - [TestPlan][Search Test Plans]Search plan via tag failed
+Bug 844872 - [TestPlan][Tree View]Creating parent node by using child node for plan causes dead loop
+
+Assigned Bugs (5) 
+843418 - &quot;my test plan&quot; doesn&#39;t list the plans owned by me
+841189 - XMLRPC: Unable to update test plan status
+807197 - [Test Run]Error page when add attachment
+691282 - Available Component field is too small to select &#39;Red_Hat_Enterprise_Linux-Release_Notes-6-ja-JP&#39;
+843312 - [Test Plan] The summary of plan and contained cases, runs, child are invalid hyperlinks
+
+Existing Bugs (1)
+Bug 715596 - XMLRPC driver does not allow None values 
+
+Verified Bugs (11)                                   
+843406 - Changing plan owner doesn&#39;t work 
+842251 - removed bug doesn&#39;t disappear from the testrun 
+833358 - [RFE] XMLRPC method for getting testcases/testcaseruns ready for execution (case when re-run an existing testrun) 
+786406 - Can&#39;t filter along category &quot;--default--&quot; 
+736591 - RFE: allow user sort the cases 
+672412 - The “Bookmark this page” function allows empty name 
+842995 - [Advanced search] Couldn&#39;t get search result via Advanced Search 
+786506 - Add URL links for the Notes field 
+843323 - [TestCase] 404 Not found error 
+842544 - [SearchTestPlan] Code leakage when searching test plan only by &quot;Acceptance&quot; of plan type field 
+816963 - [TestRun]When uploading a big attachment to a case run, &quot;The connection is reset&quot;  
+
+Automation test runs :
+http://ciqe.englab.nay.redhat.com/view/TCMS/job/TCMS_Acceptance_1/Result_Report_Acp_1/?
+http://ciqe.englab.nay.redhat.com/view/TCMS/job/TCMS_Acceptance_2/Result_Report_Acp_2/?</code></pre>
+
+<h3 id='ieee_test_plan_8'>IEEE Test Plan</h3>
+
+<pre><code>+ Authenticity 1.1 IEEE test plan: &lt;https://dart.qe.lab.eng.bne.redhat.com/RAP/en-US/Authenticity/1.1/html/IEEE_Test_Plan/index.html&gt;
+
++ Newspaper 1.2 IEEE Test Plan: &lt;https://dart.qe.lab.eng.bne.redhat.com/RAP/en-US/Newspaper/1.2/html/IEEE_Test_Plan/index.html&gt;</code></pre>
+
+<h3 id='test_case_9'>Test Case</h3>
+
+<pre><code>+ Authenticity 1.1 test case : &lt;https://tcms.engineering.redhat.com/plan/6657/&gt;</code></pre>
+
+<h3 id='automation_scripts_10'>Automation Scripts</h3>
+
+<pre><code>+ TCMS automation scripts: git@qe-git.englab.nay.redhat.com:/repo/hss-qe/tools/tcms/automation
+
++ Authenticity automation scripts: git@qe-git.englab.nay.redhat.com:/repo/hss-qe/tools/authenticity/automation
+
++ Customer Portal: git@qe-git.englab.nay.redhat.com:/repo/hss-qe/tools/docsmigration/automation</code></pre>
+
+<div class="byline">
+  Revised on August  7, 2012 12:44:11 
+  by
+  <span class="newWikiWord">jzhao</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

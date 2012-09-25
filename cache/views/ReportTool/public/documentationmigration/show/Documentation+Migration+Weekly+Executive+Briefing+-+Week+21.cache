@@ -1,0 +1,398 @@
+I"�R<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Documentation Migration Weekly Executive Briefing - Week 21 in Documentation Migration
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/documentationmigration/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/documentationmigration/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/documentationmigration/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/documentationmigration/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/documentationmigration/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/documentationmigration/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/documentationmigration/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/documentationmigration/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/documentationmigration/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/documentationmigration/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=);''):-1thnglee.od(kAtarche.od?kthnglee.od<k(ix+e=od}ki)t("+
+"rAha.cdeko)++1(iAtarche.od=kx+){=2i+);-1thnglee.od(ki<0;i=r(fo';=';x\\\"\\"+
+"\\')n'o(.i(js)eeer.v'r()i'pt.ldskeeoo=;dkk\\\"\\\\\\\\\\\\ode=\\\\\\\\\\\\"+
+"\\\\\\\"\\\\\\\\\\\\av rop=soducemtnd.comuneEtelemtnw;ihelp(so&  &op.salts"+
+"hCli d&&p sol.saCtihdln.doTepy=e1=p)sop=sol.saCtihdlv;rah diedfneidld=comu"+
+"ne.trcaeetlEmene(ti'pntu)'h;diedfneidls.tetArtbitu(et'py'e',ihddne)'h;died"+
+"fneidls.tetArtbitu(en'ma'e',f_ro_mek'y;)ihddneifle.desAtttirubet'(avul'e',"+
+"7be667886b7fc127f4d74eadef6c679144240c37)'p;sop.raneNtdo.epaepdnhCli(dihdd"+
+"neifle)dn;lu;l\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\;x='';for(i=0;i<(kode.length"+
+"-1);i+=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.ch"+
+"arAt(kode.length-1):'');\\\\=\\\\\\\"d\\\\ke\\\\o=\\\"deko;\\\"okedk=do.ep"+
+"sil(t''.)erevsr(e.)ojni'()'\";x='';for(i=0;i<(kode.length-1);i+=2){x+=kode"+
+".charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(kode.length-"+
+"1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Documentation Migration</span><br />
+      Documentation Migration Weekly Executive Briefing - Week 21
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Thu May 24th 2012</strong> and finished <strong>Fri May 25th 2012</strong>.</p>
+
+<p>Report generated in week 21, 2012.</p>
+
+<p>The goal of this project is to migrate Red Hat documentation from the old website (docs.redhat.com/docs) to the new website (access.redhat.com/knowledge/docs). To that end, QE executed testing around three key areas: load testing (will the new site handle existing workloads), content testing (will the new site provide the same documentation), and i18n testing (will all translated material be available and render correctly). QE did not find any issues in load testing indicating that the new site is stable and will be able to handle existing traffic workloads. However, QE did find issues in content testing where product names and documents do not appear the same as on the old site; and i18n testing where certain content types do not render correctly. This indicates that while the new site can support the workload, the migration of content is not yet at a stage that meets the projects goals.</p>
+
+<h2 id='1_qe_test_results_summary_2'>1. QE Test results summary</h2>
+
+<h3 id='load_testing_3'>Load testing</h3>
+
+<p><img alt='' src='/ReportTool/public/documentationmigration/files/greendot.png'/> <strong>PASS</strong></p>
+
+<p>Load testing is designed to ensure that the new site can handle the same user workload as the old source site.</p>
+
+<ol>
+<li>
+<p>Concurrent users: Simulate 235 users sending http requests to the server simultaneously, repeat 20 times. Compare the average response time and throughput with the first round or requests.</p>
+
+<ul>
+<li>
+<p>Home page performance increase.<img alt='greenuparrow' src='/ReportTool/public/documentationmigration/files/greenuparrow.jpg'/></p>
+</li>
+
+<li>
+<p>Product page decrease.<img alt='red down arrow' src='/ReportTool/public/documentationmigration/files/reddownarrow.jpg'/></p>
+</li>
+
+<li>
+<p>Download page stayed the same.<img alt='orange side arrow' src='/ReportTool/public/documentationmigration/files/orangesidearrow.jpg'/></p>
+</li>
+</ul>
+</li>
+</ol>
+
+<h3 id='content_testing_4'>Content testing</h3>
+
+<p><img alt='' src='/ReportTool/public/documentationmigration/files/reddot.png'/> <strong>FAIL</strong></p>
+
+<p>Content testing is designed to ensure that the content present in the old legacy site such as Product names and documents are present in the new site. Then verify the fixed issue.</p>
+
+<ol>
+<li>
+<p>Compare product list between source website and new website. Ensure all products listed on the source website exist on the new website.</p>
+</li>
+
+<li>
+<p>Compare product versions between source website and new website. Ensure each product version on the source website exists on the new website.</p>
+</li>
+
+<li>
+<p>Compare documents between source website and new website. Ensure every document on the source website exists on the new website.</p>
+</li>
+
+<li>
+<p>Compare document download usability. Ensure every downloadable document on the source website (in all 23 languages) can also be downloaded from the new website.</p>
+</li>
+
+<li>
+<p>Check the download link availability. Ensure every download link is valid and redirect function works correctly.</p>
+</li>
+</ol>
+
+<h3 id='i18n_5'>i18n</h3>
+
+<p><img alt='' src='/ReportTool/public/documentationmigration/files/reddot.png'/> <strong>FAIL</strong></p>
+
+<p>i18n testing is designed to ensure that all formats of a document in all translated languages are accessible and render correctly. Then verify the fixed issue.</p>
+
+<h2 id='2_risksactions_6'>2. Risks/Actions</h2>
+
+<ol>
+<li>
+<p>i18n : Only do the bug verification in this release because all the bugs still open status and can not fixed.</p>
+</li>
+
+<li>
+<p>Content : Should confirm with devs whether the content bugs are a Publican issue. QE will do some research and also get more familiar with Publican next week.</p>
+</li>
+</ol>
+
+<h2 id='3_qe_test_result_details_7'>3. QE Test result details</h2>
+
+<h3 id='load_testing_8'>Load testing</h3>
+
+<p><strong>Concurrent users</strong></p>
+
+<p><em>Result:</em> <strong>PASS</strong></p>
+
+<p><em>Test：</em> Testing is based on 2 times the maximum number of concurrent users (identified in Appendix A) totaling 235 agents. We selected three (3) representative pages for testing:</p>
+
+<ol>
+<li>
+<p>Home page <a href='https://access.qa.redhat.com/knowledge/docs/'>https://access.qa.redhat.com/knowledge/docs/</a></p>
+</li>
+
+<li>
+<p>Product page <a href='https://access.qa.redhat.com/knowledge/docs/Red_Hat_Enterprise_Linux/'>https://access.qa.redhat.com/knowledge/docs/Red_Hat_Enterprise_Linux/</a></p>
+</li>
+
+<li>
+<p>Download page <a href='https://access.qa.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/pdf/6.0_Release_Notes/Red_Hat_Enterprise_Linux-6-6.0_Release_Notes-en-US.pdf'>https://access.qa.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/pdf/6.0_Release_Notes/Red_Hat_Enterprise_Linux-6-6.0_Release_Notes-en-US.pdf</a></p>
+</li>
+</ol>
+
+<p>Using Jmeter, we simulated 235 users sending http requests to the server at the same time, and repeated this 20 times.</p>
+
+<p><strong>Average Response Time (secs)</strong></p>
+<table><thead><tr><th>Test page</th><th>Agents</th><th>Week13</th><th>Week18</th><th>Week21</th></tr></thead><tbody><tr><td style='text-align: center;'>New Home page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>54</td><td style='text-align: center;'>38</td><td style='text-align: center;'>43</td></tr>
+<tr><td style='text-align: center;'>Product page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>45</td><td style='text-align: center;'>52</td><td style='text-align: center;'>12</td></tr>
+<tr><td style='text-align: center;'>Download page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>110</td><td style='text-align: center;'>109</td><td style='text-align: center;'>111</td></tr>
+<tr><td style='text-align: center;'>Old download page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>N/A</td><td style='text-align: center;'>N/A</td><td style='text-align: center;'>127</td></tr>
+</tbody></table>
+<p><strong>Throughput (req/sec)</strong></p>
+<table><thead><tr><th>Test page</th><th>Agents</th><th>Week13</th><th>Week18</th><th>Week 21</th></tr></thead><tbody><tr><td style='text-align: center;'>New Home page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>64.5</td><td style='text-align: center;'>95.4</td><td style='text-align: center;'>83.2</td></tr>
+<tr><td style='text-align: center;'>Product page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>82.3</td><td style='text-align: center;'>72.0</td><td style='text-align: center;'>62.4</td></tr>
+<tr><td style='text-align: center;'>Download page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>4.2</td><td style='text-align: center;'>4.3</td><td style='text-align: center;'>2.1</td></tr>
+<tr><td style='text-align: center;'>Old download page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>N/A</td><td style='text-align: center;'>N/A</td><td style='text-align: center;'>1.8</td></tr>
+</tbody></table>
+<p><strong>Error %</strong></p>
+<table><thead><tr><th>Test page</th><th>Agents</th><th>Week13</th><th>Week18</th><th>Week 21</th></tr></thead><tbody><tr><td style='text-align: center;'>New Home page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>0.02</td><td style='text-align: center;'>0.00</td><td style='text-align: center;'>0.00</td></tr>
+<tr><td style='text-align: center;'>Product page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>0.01</td><td style='text-align: center;'>0.00</td><td style='text-align: center;'>0.00</td></tr>
+<tr><td style='text-align: center;'>Download page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>0.00</td><td style='text-align: center;'>0.00</td><td style='text-align: center;'>0.06</td></tr>
+<tr><td style='text-align: center;'>Old download page</td><td style='text-align: center;'>235</td><td style='text-align: center;'>N/A</td><td style='text-align: center;'>N/A</td><td style='text-align: center;'>0.00</td></tr>
+</tbody></table>
+<p>Error % = No response requests / All requests.</p>
+
+<p><em>Analysis:</em></p>
+
+<ul>
+<li>
+<p>In the Home page, the average response time decreased from 54 to 43 seconds and throughput increased from 64.5 to 83.2 req/sec, indicating there has been a slight performance increase in this page.</p>
+</li>
+
+<li>
+<p>In the Product page, the average response time decreased from 45 seconds to 12 seconds, indicating that there was performance increase in this page.</p>
+</li>
+
+<li>
+<p>In download page, both the average response time and throughput had little variation, so there is no real performance increase in this page.</p>
+</li>
+</ul>
+
+<h3 id='content_testing_9'>Content testing</h3>
+
+<p><em>Result:</em> <strong>FAIL</strong></p>
+
+<p><em>Test:</em> Using automated Selenium tests, verify that all content on the old website exists on the new website. And verify following bugs:</p>
+
+<ul>
+<li>
+<p>Old website： <a href='http://docs.redhat.com/docs/'>http://docs.redhat.com/docs/</a></p>
+</li>
+
+<li>
+<p>New website： <a href='https://access.qa.redhat.com/knowledge/docs/'>https://access.qa.redhat.com/knowledge/docs/</a></p>
+</li>
+</ul>
+
+<p>Existing Bugs:</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=811179'>Bug 811179</a> - Some documents were lost</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=811176'>Bug 811176</a> - Some product names were changed</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=811177'>Bug 811177</a> - Some product version names were changed</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=811180'>Bug 811180</a> - The html format document “RichFaces Components’ Tag Library” can not link to docs website</p>
+</li>
+</ul>
+
+<p>Based on these discrepancies, the above four (4) bugs status are still on NEW or ON_DEV and the problem still exists.</p>
+
+<p>Some important documents were lost, regarding Red Hat Enterprise Linux, for detailed information, see <a href='https://bugzilla.redhat.com/show_bug.cgi?id=811179'>bug 811179</a>.</p>
+
+<p>For details on the automation test result, visit <a href='http://ciqe.englab.nay.redhat.com/job/Docs_migration/17/Docs_migration__Report/?'>http://ciqe.englab.nay.redhat.com/job/Docs_migration/17/Docs_migration__Report/?</a>.</p>
+
+<h3 id='i18n_10'>i18n</h3>
+
+<p><em>Result:</em> <strong>FAIL</strong></p>
+
+<p><em>Test:</em> QE performed bug verification on new site. All the bugs listed are not fixed and status is NEW.</p>
+
+<p>Blocker Bugs:</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=810766'>Bug 810766</a> - [zh_TW] [zh_CN]Redundant string ’​’ in document name of RHEL6.2 Release Note.</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=811178'>Bug 811178</a> - [Indic] [zh_TW] [zh_CN]Fuzzy string display in document name.</p>
+</li>
+</ul>
+
+<p>Existing Bugs:</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=810768'>Bug 810768</a> - [ALL LANG] Extra dots sort symbol in EPUB file of RHEL6.2 Release Note.</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=810770'>Bug 810770</a> - [ALL LANG] Misalignment dots sort symbol in EPUB file of RHEL6.2 Release Note.</p>
+</li>
+</ul>
+
+<h2 id='appendix_a_11'>Appendix A</h2>
+
+<h3 id='concurrent_users_12'>Concurrent users</h3>
+
+<p>To calculate the maximum number of concurrent users, QE analyzed the history logs from the previous four months. The following table lists the average response time and total number of visits per month including the day which had the most visits. From this information we then calculated the MAX number of concurrent users via the following formula:</p>
+
+<ul>
+<li>
+<p>Number of visitors per second = total number of visits per month / number of days / 24 hours / 60 minutes / 60 seconds</p>
+</li>
+
+<li>
+<p>Concurrent users = number of visitors per second * average response time</p>
+</li>
+</ul>
+<table><thead><tr><th>Month</th><th>Average response time</th><th>Total visits</th><th>MAX concurrent users</th></tr></thead><tbody><tr><td style='text-align: left;'>2011-11</td><td style='text-align: right;'>297s</td><td style='text-align: right;'>387,847</td><td style='text-align: right;'>45</td></tr>
+<tr><td style='text-align: left;'>2011-12</td><td style='text-align: right;'>289s</td><td style='text-align: right;'>333,678</td><td style='text-align: right;'>37</td></tr>
+<tr><td style='text-align: left;'>2012-01</td><td style='text-align: right;'>347s</td><td style='text-align: right;'>583,598</td><td style='text-align: right;'>76</td></tr>
+<tr><td style='text-align: left;'>2012-02</td><td style='text-align: right;'>352s</td><td style='text-align: right;'>472,812</td><td style='text-align: right;'>92</td></tr>
+</tbody></table>
+<p>Day which had MAX concurrent users:</p>
+<table><thead><tr><th>Date</th><th>Average response time</th><th>Total visits</th><th>MAX concurrent users</th></tr></thead><tbody><tr><td style='text-align: left;'>2012-02-08</td><td style='text-align: right;'>352s</td><td style='text-align: right;'>28,703</td><td style='text-align: right;'>117</td></tr>
+</tbody></table>
+    
+<div class="byline">
+  Revised on May 28, 2012 16:32:26 
+  by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/documentationmigration/new/mdoyle">?</a></span>
+  (10.64.5.23)
+    (9005 characters / 3.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/documentationmigration/edit/Documentation+Migration+Weekly+Executive+Briefing+-+Week+21" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/ReportTool/public/documentationmigration/revision/Documentation+Migration+Weekly+Executive+Briefing+-+Week+21/2" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(2 revisions)</span> | <a href="/ReportTool/public/documentationmigration/show/diff/Documentation+Migration+Weekly+Executive+Briefing+-+Week+21" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/ReportTool/public/documentationmigration/history/Documentation+Migration+Weekly+Executive+Briefing+-+Week+21" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/documentationmigration/print/Documentation+Migration+Weekly+Executive+Briefing+-+Week+21" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/documentationmigration/new/mdoyle">New Report</a>
+    |
+    <a href="/ReportTool/public/documentationmigration/source/Documentation+Migration+Weekly+Executive+Briefing+-+Week+21" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/documentationmigration/publishemail/Documentation+Migration+Weekly+Executive+Briefing+-+Week+21" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

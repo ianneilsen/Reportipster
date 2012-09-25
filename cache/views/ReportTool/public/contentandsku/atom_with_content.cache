@@ -1,0 +1,660 @@
+I"�a<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Content and SKU Testing</title>
+  <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/published/HomePage"/>
+  <link rel="self" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/atom_with_content"/>
+  <updated>2012-07-31T06:52:20Z</updated>
+  <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-07-31:Content+and+SKU+Testing</id>
+  <subtitle>A QE Report Tool</subtitle>
+  <entry>
+    <title type="html">Content and SKU Weekly Executive Breifing - Week 31</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/published/Content+and+SKU+Weekly+Executive+Breifing+-+Week+31"/>
+    <updated>2012-07-31T06:52:20Z</updated>
+    <published>2012-07-31T06:52:20Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-07-31:Content and SKU Testing,Content+and+SKU+Weekly+Executive+Breifing+-+Week+31</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/published/Content+and+SKU+Weekly+Executive+Breifing+-+Week+31">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Tuesday July 24th 2012</strong> finished <strong>Monday July 30th 2012</strong></p>
+
+<p>Report for week 31, 2012.</p>
+
+<ul>
+<li>
+<p>Except for Red Hat Storage (RHS), package manifests of “DTS”, rhev-agent repos and JBoss products are now provided by RCM.</p>
+</li>
+
+<li>
+<p>In the past week, HSS QE focused on JBoss SKU bugs verification, content testing of DTS with package manifest offered by RCM and refactoring content and SKU automation scripts.</p>
+</li>
+
+<li>
+<p>This week, we will keep on verifying content of JBoss products and rhev-agent repos with packages manifest provided by RCM.</p>
+</li>
+</ul>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='RED' src='/ReportTool/public/contentandsku/files/RED.png'/> <strong><span>content testing</span></strong></p>
+
+<ul>
+<li>
+<p>Content testing of <strong>DTS</strong> against Production CDN by HSS QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there were a test blocker existed.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=844234'>Bug 844234</a> - Cert sizes of some SKU’s are too large <span>MODIFIED,high</span></li>
+
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=844242'>Bug 844242</a> - eng_products mapped to SKU of “DTS” mismatch between entitlement cert and Reference DOC-95917 <span>VERIFIED</span></li>
+
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=837188'>Bug 837188</a> - yum repolist raise error Errno 14 problem making ssl connection” <span>CLOSED DUPLICATE of bug 844234</span></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Content testing of <strong>rhev-agent</strong> repos against Production CDN by HSS QE: <strong>Conditional PASS</strong></p>
+
+<ul>
+<li>
+<p>Test result got Conditional PASS as content validation with package manifest is still under testing.</p>
+
+<ul>
+<li>
+<p>Content testing of rhev-agent repos over variant Server, Client and Workstation on arches x86_64 and i386 with RHEL6.3GA and RHEL5.8 GA.</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841754'>Bug 841754</a> - Packages of rhev-agent binary repos are pushed to incorrect directory on Production CDN <span>VERIFIED, waiting to be set to “ON_QA”</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Content testing of <strong>OpenShift</strong> against QA CDN by HSS QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there was a high severity bug found. Since the account stage_test_89 for OpenShift has no available subscriptions, the bug verification is pending.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=838405'>Bug 838405</a> - Product cert of Openshift could not been installed after installing packages <span>MODIFIED, high</span></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Content testing for <strong>JBoss</strong> products against QA CDN by HSS QE: <strong>FAIL</strong> (cached)</p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there was no available subscription for available accounts.</p>
+
+<ul>
+<li>
+<p>Accounts for JBoss subscriptions on Stage Candlepin:</p>
+
+<ul>
+<li>stage_test_68, stage_test_69, stage_test_71, stage_test_72, stage_test_73, stage_test_74, stage_test_76, stage_test_78, stage_test_79, stage_test_85, stage_test_87</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Content testing of <strong>Red Hat Storage</strong> against Production CDN by HSS QE: <strong>FAIL</strong> (cached)</p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there was a high severity bug found. Since due date of content testing of RHS is ASAP, however, the bug still has no progress, need RCM guys help to pay more attention to it.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=836469'>Bug 836469</a> - No repos for product “Red Hat Storage” <span>ASSIGNED, FailedQA, NEEDINFO</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='RED' src='/ReportTool/public/contentandsku/files/RED.png'/> <strong><span>SKU testing</span></strong></p>
+
+<ul>
+<li>
+<p>Verify cert size of SKUs (MCT2027 and RC0161757) by HSS QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as the cert size of the two SKUs don’t exceed the upper limit (139264 bytes). More detail information refer to ticket:<a href='https://engineering.redhat.com/rt/Ticket/Display.html?id=162337'>RT 162337</a>.</li>
+</ul>
+</li>
+
+<li>
+<p>SKU testing of JBoss products against Stage Candlepin by HSS QE: <strong>FAIL</strong> (cached)</p>
+
+<ul>
+<li>
+<p>Test result was FAIL as many attributes of these products listed in <a href='https://docspace.corp.redhat.com/docs/DOC-95917'>DOC-95917</a> are mismatched with that gotten from Stage Candlepin. We reported 8 bugs to trace all the mismatches, thanks to Amanda and Robbie, six of them have been repaired, however, still other two are waiting to be fixed.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841097'>Bug 841097</a> JBoss - sku attribute “jon_management” mismatch between stage Candlepin and Reference DOC-95917 <span>still waiting to be fixed</span></p>
+
+<ul>
+<li>Got Amanda’s reply for this bug: This is pending a release by IT</li>
+</ul>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841090'>Bug 841090</a> JBoss - sku attribute “arch” mismatch between stage Candlepin and Reference DOC-95917 <span>still waiting to be fixed</span></p>
+
+<ul>
+<li>Got Amanda’s reply for this bug: This is still pending confirmation.</li>
+</ul>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841101'>Bug 841101</a> JBoss - sku attribute “unlimited_product” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841100'>Bug 841100</a> JBoss - sku attribute “support_level” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841093'>Bug 841093</a> JBoss - sku attribute “sockets” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841094'>Bug 841094</a> JBoss - sku attribute “virt_limit” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841095'>Bug 841095</a> JBoss - sku attribute “variant” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841099'>Bug 841099</a> JBoss - sku attribute “product_family” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ul>
+<li>
+<p>Need RCM to provide package manifests for “Red Hat Storage” (RHS) and “Openshift”. Without them we can not do content testing for these products. The requested dates for completing content testing of theses products are: ASAP and 15th August 2012 respectively.</p>
+</li>
+
+<li>
+<p>Many accounts of Stage Candlepin still have no available subscriptions after refreshing Stage Candlepin on 10th July 2012.</p>
+
+<ul>
+<li>We expect IT to fix these issues ASAP. Otherwise SKU or content testing related to these accounts will be blocked.</li>
+
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=844403'>Bug 844403</a> - No available subscriptions for some accounts on stage candlepin <span>ASSIGNED, high</span></li>
+</ul>
+</li>
+
+<li>
+<p>Content testing for DTS products was blocked by <a href='https://bugzilla.redhat.com/show_bug.cgi?id=844234'>Bug 844234</a> - Cert sizes of some SKUs are too large <span>MODIFIED,high</span>.</p>
+</li>
+
+<li>
+<p>Content testing for RHS product was FAIL due to <a href='https://bugzilla.redhat.com/show_bug.cgi?id=844586'>Bug 844586</a> - No repomd&amp;content for repos rhsc-2.0-for-rhel-6-server-* on Production CDN <span>NEW, high</span></p>
+</li>
+</ul>
+
+<h2 id='work_completed_4'>Work completed</h2>
+
+<ul>
+<li>
+<p>Verified bug about content of rhev-agent repos over variant Server, Client and Workstation against Production CDN.</p>
+</li>
+
+<li>
+<p>Verified content of DTS products with package manifest provided by RCM against Production CDN.</p>
+</li>
+
+<li>
+<p>Verified two bugs of JBoss SKUs.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Verify mapping between eng-products and SKU.</p>
+</li>
+
+<li>
+<p>Verify content of rhev-agent repos with package manifest against Production CDN.</p>
+</li>
+
+<li>
+<p>Content testing for JBoss products against QA CDN.</p>
+</li>
+
+<li>
+<p>Verify content of “Red Hat Storage” on Production CDN.</p>
+</li>
+
+<li>
+<p>Verify content of “OpenShift” against Production CDN.</p>
+</li>
+
+<li>
+<p>Verify content of “DTS” on Production CDN.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>Content testing of DTS products against Production CDN by HSS QE: FAIL</strong></p>
+
+<pre><code>Summary:
+Content testing (with no package manifest) covers arch verification and packages consistency validation (between repomd and real directory on Production CDN). 
+
+1. Content testing was made against Production CDN with Stage Candlepin.
+
+Test Result:
+FAIL as there was a test blocker existed.
+
+RHEL Build:
+RHEL6.2-GA (6Server arch x86_64)
+
+New Bugs (2):
+[Bug 844234] - Cert sizes of some SKUs are too large [MODIFIED, high]
+[Bug 844242] - eng_products mapped to SKU of &quot;DTS&quot; mismatch between entitlement cert and Reference DOC-95917 [VERIFIED]
+
+Existing Bugs(0):
+N/A
+
+Test Blocker (1):
+[Bug 844234] - Cert sizes of some SKUs are too large [MODIFIED, high]
+
+===Automation Run===
+N/A
+
+===Manual Run===
+N/A</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/contentandsku/list/July'>July</a>, <a class='category_link' href='/ReportTool/public/contentandsku/list/Week+31'>Week 31</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">Content and SKU Weekly Executive Breifing - Week 30</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/published/Content+and+SKU+Weekly+Executive+Breifing+-+Week+30"/>
+    <updated>2012-07-25T07:01:45Z</updated>
+    <published>2012-07-25T07:01:45Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-07-25:Content and SKU Testing,Content+and+SKU+Weekly+Executive+Breifing+-+Week+30</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/published/Content+and+SKU+Weekly+Executive+Breifing+-+Week+30">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p> </p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Tuesday July 17th 2012</strong> finished <strong>Monday July 23rd 2012</strong></p>
+
+<p>Report for week 30, 2012.</p>
+
+<ul>
+<li>
+<p>RHEL5.8 and RHEL5.9 package manifests are now provided by RCM.</p>
+</li>
+
+<li>
+<p>Content testing of rhev-agent repos over variant Server, Client and Workstation on arches x86_64 and i386 with RHEL6.3GA and RHEL5.8 GA are Conditional PASS.</p>
+</li>
+
+<li>
+<p>Four bugs tracing JBoss SKU attributes are still waiting to be fixed.</p>
+</li>
+
+<li>
+<p>No available subscriptions for DTS products on Stage Candlepin.</p>
+</li>
+
+<li>
+<p>No available subscriptions for JBoss products on Stage Candlepin.</p>
+</li>
+</ul>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='redfail' src='/ReportTool/public/contentandsku/files/red.png'/> <strong><span>content testing</span></strong></p>
+
+<ul>
+<li>
+<p>Content testing of rhev-agent repos against Production CDN by Hosted QE: <strong>Conditional PASS</strong></p>
+
+<ul>
+<li>
+<p>Test result got Conditional PASS as there was one medium bug found.</p>
+
+<ul>
+<li>
+<p>Content testing of rhev-agent repos over variant Server, Client and Workstation on arches x86_64 and i386 with RHEL6.3GA and RHEL5.8 GA.</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841754'>Bug 841754</a> - Packages of rhev-agent binary repos are pushed to incorrect directory on Production CDN<span>NEW, medium</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Content testing for JBoss products against QA CDN by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there was no available subscription for available accounts.</p>
+
+<ul>
+<li>Accounts for JBoss subscriptions on Stage Candlepin: stage_test_{68-76}, stage_test_{78-85}, stage_test_87, stage_test_88.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Content testing of Red Hat Storage against Production CDN by Hosted QE: <strong>FAIL</strong> (cached)</p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there was a high severity bug found.</p>
+</li>
+
+<li>
+<p>Since due date of content testing of OpenShift is August 1st, however, the bug still has no progress, need RCM guys help to pay more attention to it.</p>
+
+<p>+ <a href='https://bugzilla.redhat.com/show_bug.cgi?id=838405'>Bug 838405</a> - Product cert of Openshift could not been installed after installing packages<span>NEW, high</span></p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Content testing of OpenShift against QA CDN by Hosted QE: <strong>FAIL</strong> (cached)</p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there was a high severity bug found.</p>
+</li>
+
+<li>
+<p>Since due date of content testing of OpenShift is August 1st, however, the bug still has no progress, need RCM guys help to pay more attention to it.</p>
+
+<p>+ <a href='https://bugzilla.redhat.com/show_bug.cgi?id=838405'>Bug 838405</a> - Product cert of Openshift could not been installed after installing packages<span>NEW, high</span></p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Content testing of “DTS” against Production CDN by Hosted QE: <strong>FAIL</strong> (cached)</p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there was a high severity bug found.</p>
+</li>
+
+<li>
+<p>Currently there is no subscription available for the specific accounts on Stage Candlepin, which is a blocker.</p>
+</li>
+
+<li>
+<p>Accounts for DTS subscriptions on Stage Candlepin: stage_test_59, stage_test_63, stage_test_65.</p>
+
+<p>+ <a href='https://bugzilla.redhat.com/show_bug.cgi?id=837188'>Bug 837188</a> - yum repolist raise error ”<span>Errno 14</span> problem making ssl connection” <span>NEW, high</span></p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redfail' src='/ReportTool/public/contentandsku/files/red.png'/> <strong><span>SKU testing</span></strong></p>
+
+<ul>
+<li>
+<p>SKU testing of JBoss products against Stage Candlepin by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as many attributes of these products listed in <a href='https://docspace.corp.redhat.com/docs/DOC-95917'>DOC-95917</a> are mismatched with that gotten from Stage Candlepin.</p>
+</li>
+
+<li>
+<p>We reported 8 bugs to trace all the mismatches, thanks to Amanda and Robbie, four of them have been repaired, however, there are still another four waiting to be fixed.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841097'>Bug-841097</a> JBoss - sku attribute “jon_management” mismatch between stage Candlepin and Reference DOC-95917 <span>still waiting to be fixed</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841100'>Bug-841100</a> JBoss - sku attribute “support_level” mismatch between stage Candlepin and Reference DOC-95917 <span>still waiting to be fixed</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841101'>Bug-841101</a> JBoss - sku attribute “unlimited_product” mismatch between stage Candlepin and Reference DOC-95917 <span>still waiting to be fixed</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841090'>Bug-841090</a> JBoss - sku attribute “arch” mismatch between stage Candlepin and Reference DOC-95917 <span>still waiting to be fixed</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841093'>Bug-841093</a> JBoss - sku attribute “sockets” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841094'>Bug-841094</a> JBoss - sku attribute “virt_limit” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841095'>Bug-841095</a> JBoss - sku attribute “variant” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841099'>Bug-841099</a> JBoss - sku attribute “product_family” mismatch between stage Candlepin and Reference DOC-95917 <span>VERIFIED</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ul>
+<li>
+<p>Need RCM to provide package manifests for “Red Hat Storage” (RHS), “Developer Toolset” (DTS), “Openshift” and “JBOSS”. Without them we can not do content testing for these products. The requested dates for completing content testing of theses products are:</p>
+
+<ul>
+<li>“Red Hat Storage” (RHS) - ASAP,</li>
+
+<li>“Developer Toolset” (DTS)- ASAP,</li>
+
+<li>“Openshift” - 01st August 2012 and</li>
+
+<li>“JBOSS” - 15th August 2012 respectively.</li>
+</ul>
+</li>
+
+<li>
+<p>Many accounts of Stage Candlepin still have no available subscriptions, and still many other accounts are invalid after refreshing Stage Candlepin on 10th July 2012.</p>
+
+<ul>
+<li>
+<p>We expect IT to fix these issues ASAP. Otherwise SKU or content testing related to these accounts will be blocked.</p>
+</li>
+
+<li>
+<p>Accounts still invalid</p>
+
+<p>stage_test_29, stage_test_36, stage_test_50, stage_test_60, stage_test_61, stage_test_62, stage_test_64, stage_test_67, stage_test_77, stage_test_86</p>
+</li>
+
+<li>
+<p>Accounts valid but with no available subscriptions</p>
+
+<p>stage_test_15, stage_test_16, stage_test_17, stage_test_18, stage_test_19, stage_test_21, stage_test_22, stage_test_23, stage_test_24, stage_test_26, stage_test_28, stage_test_30, stage_test_31, stage_test_33, stage_test_34, stage_test_35, stage_test_{39-49}, stage_test_{51-59}, stage_test_{63-66}, stage_test_{68-76}, stage_test_{78-85}, stage_test_87, stage_test_88</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2 id='work_completed_4'>Work completed</h2>
+
+<ul>
+<li>
+<p>Verified content of rhev-agent repos over variant Server, Client and Workstation against Production CDN.</p>
+</li>
+
+<li>
+<p>Verified four bugs of JBoss SKUs.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Content testing for JBoss products against QA CDN.</p>
+</li>
+
+<li>
+<p>Verify content of “Red Hat Storage” on Production CDN.</p>
+</li>
+
+<li>
+<p>Verify content of “OpenShift” against Production CDN.</p>
+</li>
+
+<li>
+<p>Verify content of “DTS” on Production CDN.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>Content testing of rhev-agent repos against Production CDN by Hosted QE: Conditional PASS</strong></p>
+
+<pre><code>Summary:
+Content testing (with no package manifest) covers arch verification and  packages consistency validation (between repomd and real directory on  Production CDN).
+1. Content testing was made against Production CDN with Stage Candlepin.
+2. No repo manifest or package manifest is provided
+
+Test Result:
+FAIL due to there was a medium bug found, which will not affect customer directly.
+
+RHEL Build:
+/RHEL5.8-GA (5Server arch x86_64 &amp; i386, 5Client arch x86_64 &amp;  i386, 5Workstation arch x86_64 &amp; i386[verify no rhev-agent repos  there])
+/RHEL6.3-GA (6Server arch x86_64 &amp; i386, 6Client arch x86_64 &amp; i386, 6Workstation arch x86_64 &amp; i386)
+
+New Bugs (1):
+[Bug 841754](https://bugzilla.redhat.com/show_bug.cgi?id=841754) - Packages of rhev-agent binary repos are pushed to incorrect directory on Production CDN[NEW, medium]
+
+Existing Bugs(0):
+N/A
+
+Test Blocker (0):
+N/A
+
+===Automation Run===
+N/A
+
+===Manual Run===
+https://hosted.englab.nay.redhat.com/attachments/805/rhev-agent_5Clienti386_ProdCDN.txt 
+https://hosted.englab.nay.redhat.com/attachments/806/rhev-agent_5Clientx86_64_ProdCDN.txt 
+https://hosted.englab.nay.redhat.com/attachments/807/rhev-agent_5Serveri386_ProdCDN.txt 
+https://hosted.englab.nay.redhat.com/attachments/808/rhev-agent_5Serverx86_64_ProdCDN.txt 
+https://hosted.englab.nay.redhat.com/attachments/816/RHEL6.3-Client-i386-CDN.txt 
+https://hosted.englab.nay.redhat.com/attachments/817/RHEL6.3-Client-x86_64-CDN.txt 
+https://hosted.englab.nay.redhat.com/attachments/818/RHEL6.3-Server-i386-CDN.txt 
+https://hosted.englab.nay.redhat.com/attachments/819/RHEL6.3-Server-x86_64-CDN.txt 
+https://hosted.englab.nay.redhat.com/attachments/820/RHEL6.3-Workstation-i386-CDN.txt  
+https://hosted.englab.nay.redhat.com/attachments/815/RHEL6.3-Workstation-x86_64-CDN.txt </code></pre>
+
+<p><strong>Content testing for JBoss products against QA CDN by Hosted QE: FAIL</strong></p>
+
+<pre><code>Summary:
+ Content testing (with no package manifest) covers arch verification  and  packages consistency validation (between repomd and real directory  on  QA CDN).
+1. Content testing was made against QA CDN with Stage Candlepin.
+2. No repo manifest or package manifest is provided
+
+Test Result:
+FAIL due to there was no available subscription for available accounts on Stage Candlepin.
+
+RHEL Build:
+/RHEL6.2-GA (6Server arch x86_64)
+
+New Bugs (0):
+N/A
+
+Existing Bugs(0):
+N/A
+
+Test Blocker (0):
+N/A
+
+===Automation Run===
+N/A
+
+===Manual Run===
+https://hosted.englab.nay.redhat.com/attachments/834/contenttest_log.txt</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/contentandsku/list/July'>July</a>, <a class='category_link' href='/ReportTool/public/contentandsku/list/Week+30'>Week 30</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">HomePage</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/published/HomePage"/>
+    <updated>2012-07-25T04:48:26Z</updated>
+    <published>2012-07-25T04:48:26Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-07-25:Content and SKU Testing,HomePage</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/published/HomePage">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<h4 id='you_have_landed_on_the_site_page_for_content_and_sku_testing_reporting_area_1'>You have landed on the site page for Content and SKU Testing reporting area.</h4>
+
+<p>To view the latest reports please click the ”<strong>Archive Reports</strong>” menu item.</p>
+
+<p>OR</p>
+
+<p>Click on the link below for a list of order reports by week.</p>
+
+<p><a href='https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/contentandsku/recently_revised'><strong>List of Reports for Docs QE</strong></a></p>
+
+<h2 id='need_help_2'>Need Help</h2>
+
+<pre><code>If you have any issues please contact the RAP team in BNE for assistance hss-rap-list@redhat.com</code></pre>      </div>
+    </content>
+  </entry>
+</feed>
+:ET

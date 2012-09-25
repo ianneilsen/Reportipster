@@ -1,0 +1,3388 @@
+I"��<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>SAM 1-1</title>
+  <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/HomePage"/>
+  <link rel="self" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/atom_with_content"/>
+  <updated>2012-06-25T23:19:38Z</updated>
+  <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-06-25:SAM+1-1</id>
+  <subtitle>A QE Report Tool</subtitle>
+  <entry>
+    <title type="html">SAM Weekly Executive Briefing - Week 26</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+26"/>
+    <updated>2012-06-25T23:19:38Z</updated>
+    <published>2012-06-25T23:19:38Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-06-25:SAM 1-1,SAM+Weekly+Executive+Briefing+-+Week+26</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+26">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday June 18th 2012</strong> finished <strong>Friday June 22th 2012</strong></p>
+
+<p>Report generated Week 26, 2012.</p>
+
+<ul>
+<li>
+<p>SAM 1.1 content was pushed to production CDN on the 20th June and validated by QE; test result was a PASS and SAM 1.1 went to GA with RHEL6.3 on 21st June.</p>
+</li>
+
+<li>
+<p>With SAM 1.2 and SAM 1.3 PRD’s having completed reviewe, QE now will focus on SAM 1.2 test planning and plans to send SAM 1.2 IEEE Test Plan draft to Devel/PM for review before the 10th August.</p>
+</li>
+</ul>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-11.1 and SAM-2012-06-14.1 smoke testing covering deployment by Hosted QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>The test result was PASS as the deployment of SAM was successful.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-11.1 and SAM-2012-06-14.1 headpin-cli smoke testing by Hosted QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-06-14.1 headpin-cli functional testing by Cloud QE: **** (cached)</p>
+
+<ul>
+<li>
+<p>Skipped the testing as there is no change in code from build SAM-2012-06-07.1 to SAM-2012-06-14.1.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>SAM-2012-06-14.1 functional testing was skipped as there is no change in code from build SAM-2012-06-07.1 to SAM-2012-06-14.1.</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-11.1 and SAM-2012-06-14.1 integration with RHSM smoke testing by Hosted QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-06-14.1 integration with RHSM testing was skipped as there is no change in code from build SAM-2012-06-07.1 to SAM-2012-06-14.1.</p>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>Host/guest association acceptance on RHEL-6.3-20120606.3(ESX/KVM) against SAM-2012-0611.1 by Host QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>Host/guest association acceptance on RHEV-H-6.3-20120606.3.0 against SAM-2012-0611.1 by Host QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Content testing</span></strong></p>
+
+<ul>
+<li>
+<p>SAM1.1 GA content testing on Production CDN by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>
+<p>Test result was PASS as there was no critical regression or test blockers found.</p>
+
+<ul>
+<li>This content testing validated SAM 1.1 GA content against Production CDN, including consistency checks between repo metadata and packages on CDN.</li>
+
+<li>Consistency check between repo metadata and <a href='http://download.lab.bos.redhat.com/rel-eng/CloudForms/SubscriptionAssetManager/1.1/2012-06-14.1/logs/SubscriptionAssetManager-1.1-manifest.log'>package manifest</a>, and full installation of SAM 1.1 packages.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<p>None to report this week.</p>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Reviewed SAM1.2 PRD.</p>
+</li>
+
+<li>
+<p>SAM 1.1 GA content testing.</p>
+</li>
+
+<li>
+<p>Created the SAM1.2 Test Plan draft.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Update SAM 1.2 IEEE Test Planning.</p>
+</li>
+
+<li>
+<p>Research SAM 1.2 new features.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM1.1 GA content testing against Production CDN by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+RHEL Build:
+RHEL6.3-20120613.2
+
+New Bugs (0):
+
+Test Blocker (0):
+
+===Automation Run===
+https://virtlab.englab.nay.redhat.com/job/51062/details/
+
+===Manual Run===
+https://tcms.engineering.redhat.com/run/41607/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/June'>June</a>, <a class='category_link' href='/ReportTool/public/sam11/list/Week+26'>Week 26</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">SAM Weekly Executive Briefing - Week 25</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+25"/>
+    <updated>2012-06-18T06:07:29Z</updated>
+    <published>2012-06-18T06:07:29Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-06-18:SAM 1-1,SAM+Weekly+Executive+Briefing+-+Week+25</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+25">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday Jun 11th 2012</strong> finished <strong>Friday Jun 15th 2012</strong></p>
+
+<p>Report generated Week 25, 2012.</p>
+
+<ul>
+<li>
+<p>Two RC builds were made and tested over the course of the week; all testing passed and SAM 1.1 errata was pushed to REL_PREP on 15th June without any major issues.</p>
+</li>
+
+<li>
+<p>Over the past month, SAM 1.1 QE status has been GREEN since SAM-2012-05-25.1. The Team will now focus on SAM 1.2 test planning and plan to send SAM 1.2 IEEE Test Plan draft to Devel/PM to review before 10th Aug.</p>
+</li>
+</ul>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-11.1 and SAM-2012-06-14.1 smoke testing covering deployment by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as the deployment of SAM was successful.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-11.1 and SAM-2012-06-14.1 headpin-cli smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-06-14.1 headpin-cli functional testing by Cloud QE: <strong>skipped</strong></p>
+
+<ul>
+<li>
+<p>Skipped the testing as there is no change in code from build SAM-2012-06-07.1 to SAM-2012-06-14.1.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='nostatus' src='/ReportTool/public/sam11/files/nostatus.png'/> <strong><span>katello-headpin</span></strong> - <em>No Status</em></p>
+
+<ul>
+<li>SAM-2012-06-14.1 functional testing was skipped as there is no change in code from build SAM-2012-06-07.1 to SAM-2012-06-14.1.</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-11.1 and SAM-2012-06-14.1 integration with RHSM smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-06-14.1 integration with RHSM testing was skipped as there is no change in code from build SAM-2012-06-07.1 to SAM-2012-06-14.1.</p>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>Host/guest association acceptance on RHEL-6.3-20120606.3(ESX/KVM) against SAM-2012-0611.1 by Host QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>Host/guest association acceptance on RHEV-H-6.3-20120606.3.0 against SAM-2012-0611.1 by Host QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Content testing</span></strong></p>
+
+<ul>
+<li>
+<p>SAM1.1 content testing on QA CDN by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>
+<p>Test result was PASS as there was no critical regression or test blockers found. The two content bugs found on QA CDN are all fixed now.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=830059'>Bug 830059</a> - Packages listed in repomd.xml and in real directory mismatch for SAM1.1 <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=830657'>Bug 830657</a> - Some packages for SAM1.1 are missing on QA CDN <span>VERIFIED</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<p>None to report this week.</p>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Smoke testing on SAM-2012-06-11.1 and SAM-2012-06-14.1.</p>
+</li>
+
+<li>
+<p>Host/guest association testing on RHEL-6.3-20120606.3(ESX/KVM) against SAM-2012-0611.1.</p>
+</li>
+
+<li>
+<p>Host/guest association acceptance on RHEV-H-6.3-20120606.3.0 against SAM-2012-0611.1.</p>
+</li>
+
+<li>
+<p>SAM1.1 content testing on QA CDN by Hosted QE.</p>
+</li>
+
+<li>
+<p>SAM1.1 errata RHEA-2012:13174-01 <a href='https://errata.devel.redhat.com/errata/stateview/13174'>Errata 13174</a> was pushed to REL_PREP status by Cloud QE on June 15th.</p>
+</li>
+
+<li>
+<p>Updated SAM1.1 test plan according the comments - <a href='https://vault-stage.englab.nay.redhat.com/Vault/showRequest/897'>Vault 897</a>.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>SAM 1.2 IEEE Test Planning.</p>
+</li>
+
+<li>
+<p>Create regression cases based on RHEL6.3 and SAM1.1.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-06-11.1 smoke test (deployment, headpin-cli and RHSM) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-configure-0.3.7-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-common-0.3.3-1.el6_2.noarch
+katello-cli-common-0.3.5-2.el6_2.noarch
+katello-headpin-0.2.13-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-headpin-all-0.2.13-1.el6_2.noarch
+katello-glue-candlepin-0.3.3-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Upgraded packages:
+N/A
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (2 NEW/ASSIGNED, 7 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (44 NEW/ASSIGNED, 2 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50777/details/
+https://virtlab.englab.nay.redhat.com/job/50800/details/</code></pre>
+
+<p><strong>SAM-2012-06-14.1 smoke test (deployment and RHSM) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-cli-common-0.3.5-2.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-common-0.3.3-1.el6_2.noarch
+katello-headpin-0.2.13-1.el6_2.noarch
+katello-headpin-all-0.2.13-1.el6_2.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-configure-0.3.7-1.el6_2.noarch
+katello-glue-candlepin-0.3.3-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (2 NEW/ASSIGNED, 7 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (44 NEW/ASSIGNED, 2 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50868/details/ (headpin-cli 46 cases)
+https://virtlab.englab.nay.redhat.com/job/50904/details/ (RHSM 40 cases)</code></pre>
+
+<p><strong>Host/guest association acceptance on RHEL-6.3-20120606.3(KVM) against SAM-2012-0611.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-0.2.13-1.el6_2.noarch
+katello-headpin-all-0.2.13-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50854/details/</code></pre>
+
+<p><strong>Host/guest association acceptance on RHEL-6.3-20120606.3(ESX) against SAM-2012-0611.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-0.2.13-1.el6_2.noarch
+katello-headpin-all-0.2.13-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/41136/</code></pre>
+
+<p><strong>Host/guest association acceptance on RHEV-H6.3-20120531.0 against SAM-2012-06-04.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-0.2.13-1.el6_2.noarch
+katello-headpin-all-0.2.13-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/40521/</code></pre>
+
+<p><strong>SAM1.1 content testing against QA CDN by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Build Tested:
+SubscriptionAssetManager/1.1/2012-06-11.1.
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50828/details/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/June'>June</a>, <a class='category_link' href='/ReportTool/public/sam11/list/Week+25'>Week 25</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">SAM Weekly Executive Briefing - Week 24</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+24"/>
+    <updated>2012-06-11T23:02:43Z</updated>
+    <published>2012-06-11T23:02:43Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-06-11:SAM 1-1,SAM+Weekly+Executive+Briefing+-+Week+24</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+24">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday Jun 4th 2012</strong> finished <strong>Friday Jun 8th 2012</strong></p>
+
+<p>Report generated Week 24, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-04.1 and SAM-2012-06-07.1 smoke testing covering deployment by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as the deployment of SAM was successful.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-04.1 headpin-cli smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-06-04.1 and SAM-1.1 20120607.1 headpin-cli functional testing by Cloud QE: <strong>PASS</strong></p>
+
+<ul>
+<li>
+<p>The test result was PASS as there was no critical regression or test blocker found.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-04.1 functional testing by Cloud QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-06-04.1 and SAM-2012-06-07.1 integration with RHSM smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-05-31.1, SAM-2012-06-04.1 and SAM-2012-06-07.1 integration with RHSM testing by RTT: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who functional testing on RHEL-6.3-Client/Workstation-20120531.0 against SAM-2012-05-31.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEV-H-6.3-20120531.0 against SAM-2012-05-31.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>Host/guest association acceptance on RHEL-6-20120531.0(KVM/ESX) against SAM-2012-0604.1 by Host QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>Host/guest association acceptance on RHEV-H-6.3-20120531.0 against SAM-2012-0604.1 by Host QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who smoke test on RHEL6.3-server-20120604.0 (kvm) against SAM-06-04.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>Content testing</span></strong></p>
+
+<ul>
+<li>
+<p>SAM1.1 content testing on QA CDN by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result got FAIL as there was one new bug found.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=830657'>Bug 830657</a> - Some packages for SAM1.1 are missing on QA CDN</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Need RCM to resolve asap <a href='https://bugzilla.redhat.com/show_bug.cgi?id=830657'>Bug 830657</a> - Some packages for SAM1.1 are missing on QA CDN <span>FailedQA</span></p>
+</li>
+
+<li>
+<p>Need Eric to push SAM1.1 errata <a href='https://errata.devel.redhat.com/errata/stateview/13174'>RHEA-2012:13174-01</a> to REL_PREP status. tps-rpmtest PASS, tps-srpmtest (for building source rpm packages) is failing due to a significant number of missing Build Requires dependencies.</p>
+</li>
+
+<li>
+<p>SAM 1.1 IEEE Test Plan was sent out for stakeholders to review on the 15th May and due date set for the sign off on the 21st May.</p>
+
+<ul>
+<li>
+<p>So far, we have got sign off from Jan Blazek, Bryan Kearney, Tom McKay and Jordan OMara. Thank you for your prompt feedback.</p>
+</li>
+
+<li>
+<p>Could the following stakeholders take a moment to review the corresponding features? Please sign off if you accept the content, or comment to let us know how it can be improved in <a href='https://vault-stage.englab.nay.redhat.com/Vault/showRequest/897'>Vault request #897</a></p>
+</li>
+</ul>
+
+<p><a href='http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/SAM/1.1/html/IEEE_Test_Plan/features-to-be-tested.html'>Feature test List</a></p>
+
+<ul>
+<li>
+<p>William Poteat</p>
+</li>
+
+<li>
+<p>Radek Novacek</p>
+</li>
+
+<li>
+<p>James Bowes</p>
+</li>
+
+<li>
+<p>Manuel Eduardo Ospina Sarmiento</p>
+</li>
+
+<li>
+<p>Tom McKay</p>
+</li>
+
+<li>
+<p>Ivan Necas</p>
+</li>
+
+<li>
+<p>Jordan OMara</p>
+</li>
+
+<li>
+<p>Tomas Strachota</p>
+</li>
+
+<li>
+<p>Chris Duryee</p>
+</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Acceptance testing on SAM-2012-06-04.1.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL-6.3-Client/Workstation-20120531.0 and RHEV-H-6.3-20120531.0 on against SAM-2012-05-31.1.</p>
+</li>
+
+<li>
+<p>Host/guest association testing on RHEL-6.3-20120531.0 (KVM/ESX) against SAM-2012-06-04.1.</p>
+</li>
+
+<li>
+<p>Host/guest association acceptance on RHEV-H-6.3-20120531.0 against SAM-2012-0604.1</p>
+</li>
+
+<li>
+<p>virt-who smoke test on RHEL6.3-server-20120604.0 (kvm) against SAM-06-04.1.</p>
+</li>
+
+<li>
+<p>SAM1.1 content testing on QA CDN by Hosted QE.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>SAM 1.2 IEEE Test Planning.</p>
+</li>
+
+<li>
+<p>Create regression cases based on RHEL6.3 and SAM1.1.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-06-04.1 smoke test (deployment, headpin-cli and RHSM) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-configure-0.3.7-1.el6_2.noarch
+katello-headpin-all-0.2.12-2.el6_2.noarch
+katello-common-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-headpin-0.2.12-2.el6_2.noarch
+katello-cli-common-0.3.5-2.el6_2.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (7 NEW/ASSIGNED, 9 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (39 NEW/ASSIGNED, 3 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50443/details/ (headpin-cli and deployment, 46 cases)
+https://virtlab.englab.nay.redhat.com/job/50447/details/ (RHSM, 37 cases)</code></pre>
+
+<p><strong>SAM-2012-06-07.1 smoke test (deployment and RHSM) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-cli-common-0.3.5-2.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-common-0.3.3-1.el6_2.noarch
+katello-headpin-0.2.13-1.el6_2.noarch
+katello-headpin-all-0.2.13-1.el6_2.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-configure-0.3.7-1.el6_2.noarch
+katello-glue-candlepin-0.3.3-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (3 NEW/ASSIGNED, 8 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (44 NEW/ASSIGNED, 1 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50710/details/(RHSM, 37 cases)</code></pre>
+
+<p><strong>SAM-2012-06-04.1 functional testing by Cloud QE: PASS</strong></p>
+
+<pre><code>Summary: Acceptance testing for CLI, WebUI, and API functionality of SAM-1.1 2012-06-04.1.
+
+Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-configure-0.3.7-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-headpin-0.2.12-2.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+katello-cli-common-0.3.5-2.el6_2.noarch
+katello-headpin-all-0.2.12-2.el6_2.noarch
+elasticsearch-0.18.4-11.el6.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+katello-common-0.3.2-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0)
+N/A
+
+Existing Bugs
+https://engineering.redhat.com/metrics/bugzilla-metrics.cgi?page=flag-bugs&amp;list=ACK&amp;update=sam-1.1.0&amp;listtype=ACK&amp;pm_ack=&amp;devel_ack=&amp;qa_ack=&amp;release_flag=&amp;blocker_flag=&amp;needinfo_flag=&amp;column=&amp;keyword=&amp;keyword_logic=any&amp;external_tracker=&amp;blocks=&amp;blocks_depth=1&amp;group=&amp;member=&amp;component=&amp;priorities=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=ON_DEV&amp;sort=0&amp;c_acks=1&amp;c_flag_blocker=1&amp;c_flag_needinfo=1&amp;c_blocked=1&amp;c_dependson=1&amp;c_bug_severity=1&amp;c_priority=1&amp;c_assigned_to=1&amp;c_bug_status=1&amp;c_component=1&amp;c_short_short_desc=1
+
+===Manual Run===
+https://tcms.engineering.redhat.com/run/40562/
+
+===Automated Run===
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/SAM.WebUI.Clojure_Automation/29/testngreports/
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/sam.WebUI.Python_Automation/289/testReport/</code></pre>
+
+<p><strong>SAM-2012-06-07.1 functional testing by Cloud QE: PASS</strong></p>
+
+<pre><code>Summary: Acceptance testing for CLI, WebUI, and API functionality of SAM-1.1 2012-06-07.1.
+
+Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-configure-0.3.7-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+elasticsearch-0.18.4-11.el6.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+katello-common-0.3.3-1.el6_2.noarch
+katello-cli-common-0.3.5-2.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-headpin-all-0.2.13-1.el6_2.noarch
+katello-glue-candlepin-0.3.3-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-headpin-0.2.13-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0)
+N/A
+
+Existing Bugs
+https://engineering.redhat.com/metrics/bugzilla-metrics.cgi?page=flag-bugs&amp;list=ACK&amp;update=sam-1.1.0&amp;listtype=ACK&amp;pm_ack=&amp;devel_ack=&amp;qa_ack=&amp;release_flag=&amp;blocker_flag=&amp;needinfo_flag=&amp;column=&amp;keyword=&amp;keyword_logic=any&amp;external_tracker=&amp;blocks=&amp;blocks_depth=1&amp;group=&amp;member=&amp;component=&amp;priorities=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=ON_DEV&amp;sort=0&amp;c_acks=1&amp;c_flag_blocker=1&amp;c_flag_needinfo=1&amp;c_blocked=1&amp;c_dependson=1&amp;c_bug_severity=1&amp;c_priority=1&amp;c_assigned_to=1&amp;c_bug_status=1&amp;c_component=1&amp;c_short_short_desc=1
+
+===Manual Run===
+https://tcms.engineering.redhat.com/run/40954/
+
+===Automated Run===
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/SAM.WebUI.Clojure_Automation/31/testngreports/
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/sam.WebUI.Python_Automation/290/testReport/</code></pre>
+
+<p><strong>SAM-2012-05-31.1 integration with RHSM testing by RTT: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+RHEL-5-Server/U8:
+subscription-manager-0.98.14-1.el5.x86_64.rpm
+subscription-manager-firstboot-0.98.14-1.el5.x86_64.rpm
+subscription-manager-gnome-0.98.14-1.el5.x86_64.rpm
+
+RHEL-6/6.2/Server
+subscription-manager-0.96.17-1.el6.x86_64.rpm
+subscription-manager-firstboot-0.96.17-1.el6.x86_64.rpm
+subscription-manager-gnome-0.96.17-1.el6.x86_64.rpm
+RHEL6.3-20120531.0/6.3/Server:
+subscription-manager-0.99.19-1.el6.x86_64.rpm
+subscription-manager-firstboot-0.99.19-1.el6.x86_64.rpm
+subscription-manager-gnome-0.99.19-1.el6.x86_64.rpm
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (3):
+Bug 795869 - katello-configure ignores --org-name option [MODIFIED]
+Bug 814092 - debuginfo packages in puddle [NEW]
+Bug 803744 - [RFE] Subscription Manager should support selection of a remote server at Registration Time [NEEDINFO]
+
+=== Automaiton Runs ===
+https://tcms.engineering.redhat.com/run/40547/report/
+https://tcms.engineering.redhat.com/run/40552/report/
+https://tcms.engineering.redhat.com/run/40548/report/
+https://tcms.engineering.redhat.com/run/40549/report/
+https://tcms.engineering.redhat.com/run/40550/report/</code></pre>
+
+<p><strong>SAM-2012-06-04.1 integration with RHSM testing by RTT: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+SAM-2012-06-04.1 on RHEL-6.2 GA / x86_64 / Server
+SAM-2012-06-04.1 on RHEL6.3-20120531.0 / x86_64 / Server
+SAM-2012-06-04.1 on RHEL6.3-20120604.0 / x86_64 / Server
+RHEL5-Server-U8 GA registered on SAM-2012-06-04.1 / x86_64
+RHEL-6.2 GA registered on SAM-2012-06-04.1 / x86_64
+RHEL-6.2 GA registered on SAM-2012-06-04.1 / i386
+RHEL-6.2 GA registered on SAM-2012-06-04.1 / ppc64
+RHEL-6.2 GA registered on SAM-2012-06-04.1 / s390x
+RHEL6.3-20120531.0 registered on SAM-2012-06-04.1 / x86_64
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (3):
+Bug 795869 - katello-configure ignores --org-name option [MODIFIED]
+Bug 814092 - debuginfo packages in puddle [NEW]
+Bug 803744 - [RFE] Subscription Manager should support selection of a remote server at Registration Time [NEEDINFO]
+
+=== Automaiton Runs ===
+https://tcms.engineering.redhat.com/run/40565/report/
+https://tcms.engineering.redhat.com/run/40566/report/
+https://tcms.engineering.redhat.com/run/40654/report/
+https://tcms.engineering.redhat.com/run/40567/report/
+https://tcms.engineering.redhat.com/run/40568/report/
+https://tcms.engineering.redhat.com/run/40569/report/
+https://tcms.engineering.redhat.com/run/40673/report/
+https://tcms.engineering.redhat.com/run/40674/report/
+https://tcms.engineering.redhat.com/run/40675/report/</code></pre>
+
+<p><strong>SAM-2012-06-07.1 integration with RHSM testing by RTT: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+SAM-2012-06-07.1 on RHEL-6.2 GA / x86_64 / Server
+SAM-2012-06-07.1 on RHEL6.3-20120606.3 / x86_64 / Server
+RHEL5-Server-U8 GA registered on SAM-2012-06-07.1 / x86_64
+RHEL-6.2 GA registered on SAM-2012-06-07.1 / x86_64
+RHEL6.3-20120606.3 registered on SAM-2012-06-07.1 / x86_64
+RHEL6.3-20120606.3 registered on SAM-2012-06-07.1 / i386
+RHEL6.3-20120606.3 registered on SAM-2012-06-07.1 / ppc64
+RHEL6.3-20120606.3 registered on SAM-2012-06-07.1 / s390x
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (3):
+Bug 795869 - katello-configure ignores --org-name option [MODIFIED]
+Bug 814092 - debuginfo packages in puddle [NEW]
+Bug 803744 - [RFE] Subscription Manager should support selection of a remote server at Registration Time [NEEDINFO]
+
+=== Automaiton Runs ===
+https://tcms.engineering.redhat.com/run/40940/report/
+https://tcms.engineering.redhat.com/run/40941/report/
+https://tcms.engineering.redhat.com/run/40942/report/
+https://tcms.engineering.redhat.com/run/40943/report/
+https://tcms.engineering.redhat.com/run/40944/report/
+https://tcms.engineering.redhat.com/run/40945/report/
+https://tcms.engineering.redhat.com/run/40946/report/
+https://tcms.engineering.redhat.com/run/40947/report/</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-Client/Workstation-201205031.0 against SAM-2012-05-31.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.11-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50462/details/ (host 6.3workstation_x86/guest 5.8Client_i386)
+https://virtlab.englab.nay.redhat.com/job/50489/details/ (host 6.3Client_x64/guest 5.8Client_i386)   </code></pre>
+
+<p><strong>virt-who-0.6-6 functional test on RHEV-H-6.3-20120531.0 against SAM-2012-05-31.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.11-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+===Manual Run ===
+https://tcms.engineering.redhat.com/run/40380/</code></pre>
+
+<p><strong>Host/guest association acceptance on RHEL-6.3-20120531.0 (KVM/ESX) against SAM-2012-06-04.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.12-2.el6_2.noarch
+katello-headpin-0.2.12-2.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50453/details/ (host 6.3Server_x64 / guest 6.3server_x84_64)
+https://virtlab.englab.nay.redhat.com/job/50479/details/ (host 6.3Workstation_x64 / guest 6.3client_i386)
+https://virtlab.englab.nay.redhat.com/job/50643/details/ (host 6.3Client_x64 / guest 6.3Client_64)
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/40520/</code></pre>
+
+<p><strong>Host/guest association acceptance on RHEV-H6.3-20120531.0 against SAM-2012-06-04.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.12-2.el6_2.noarch
+katello-headpin-0.2.12-2.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/40521/</code></pre>
+
+<p><strong>virt-who smoke testing on RHEL6.3-Server-20120604.0(KVM) against SAM-2012-06-04.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.12-2.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50548/details/ (host 6.3Server_x64 / guest 6.3server_x84)</code></pre>
+
+<p><strong>SAM1.1 content testing against QA CDN by Hosted QE: FAIL</strong></p>
+
+<pre><code>Test Result:
+Test result got FAIL as there was one urgent bug found.
+
+Build Tested:
+SubscriptionAssetManager/1.1/2012-06-07.1
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (1):
+[Bug 830059](https://bugzilla.redhat.com/show_bug.cgi?id=830059) - Packages listed in repomd.xml and in real directory mismatch for SAM1.1 [NEW, urgent]
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50700/details/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/June'>June</a>, <a class='category_link' href='/ReportTool/public/sam11/list/Week+24'>Week 24</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">SAM Weekly Executive Briefing - Week 23</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+23"/>
+    <updated>2012-06-04T08:20:31Z</updated>
+    <published>2012-06-04T08:20:31Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-06-04:SAM 1-1,SAM+Weekly+Executive+Briefing+-+Week+23</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+23">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday May 28th 2012</strong> finished <strong>Friday Jun 1st 2012</strong></p>
+
+<p>Report generated Week 23, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-25.1 and SAM-2012-05-31.1 smoke testing covering deployment by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as the deployment of SAM was successful.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-25.1 and SAM-2012-05-31.1 headpin-cli smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-05-25.1 and SAM-2012-05-31.1 headpin-cli functional testing by Cloud QE: <strong>PASS</strong></p>
+
+<ul>
+<li>
+<p>The test result was PASS as there was no critical regression or test blocker found.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-25.1 and SAM-2012-05-31.1 functional testing by Cloud QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-25.1 and SAM-2012-05-31.1 integration with RHSM smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-05-25.1 integration with RHSM testing by RTT: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who functional testing on RHEL-6.3-Server-20120531.0 (KVM) against SAM-2012-05-31.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL-6.3-20120531.0 with ESX5.0 against SAM-2012-05-31.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>Host/guest association acceptance on RHEL5.8GA(KVM and XEN) against SAM-2012-05-25.1.</p>
+
+<ul>
+<li>
+<p>Test result was PASS as there was no critical regression or test blockers found.</p>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>SAM 1.1 IEEE Test Plan was sent out for stakeholders to review on the 15th May and due date set for the sign off on the 21st May.</p>
+
+<ul>
+<li>
+<p>So far, we have got sign off from Jan Blazek. Thank you for your prompt feedback.</p>
+</li>
+
+<li>
+<p>Could the following stakeholders take a moment to review the corresponding features? Please sign off if you accept the content, or comment to let us know how it can be improved in <a href='https://vault-stage.englab.nay.redhat.com/Vault/showRequest/897'>Vault request #897</a></p>
+</li>
+</ul>
+
+<p><a href='http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/SAM/1.1/html/IEEE_Test_Plan/features-to-be-tested.html'>Feature test List</a></p>
+
+<ul>
+<li>
+<p>William Poteat</p>
+</li>
+
+<li>
+<p>Radek Novacek</p>
+</li>
+
+<li>
+<p>James Bowes</p>
+</li>
+
+<li>
+<p>Manuel Eduardo Ospina Sarmiento</p>
+</li>
+
+<li>
+<p>Tom McKay</p>
+</li>
+
+<li>
+<p>Ivan Necas</p>
+</li>
+
+<li>
+<p>Jordan OMara</p>
+</li>
+
+<li>
+<p>Tomas Strachota</p>
+</li>
+
+<li>
+<p>Chris Duryee</p>
+</li>
+
+<li>
+<p>Bryan Kearney</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Need Eric Sammons to update test scenarios in SAM 1.1 IEEE Test Plan for features:</p>
+
+<ul>
+<li>Server Side Deletes</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Acceptance testing on SAM-2012-05-25.1 and SAM-2012-05-31.1.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL-6.3-Server-20120531.0 (KVM/ESX) against SAM-2012-05-31.1.</p>
+</li>
+
+<li>
+<p>Host/guest association acceptance on RHEL5.8GA(KVM and XEN) against SAM-2012-05-25.1.</p>
+</li>
+
+<li>
+<p>Pushed virt-who ERRATA <a href='https://errata.devel.redhat.com/errata/stateview/12775'>2012:12275</a> to REL_PREP on June 1st.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Continue working on SAM 1.1 IEEE Test Plan and test case automation.</p>
+</li>
+
+<li>
+<p>Acceptance testing on SAM 1.1 RC.</p>
+</li>
+
+<li>
+<p>Host/guest association testing against SAM 1.1 RC on ESX5.0, RHEV-H, RHEL-5.8GA(Xen), RHEL-6.3.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEV-H-6.3-RC.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEV-6.3-Client/Workstation-RC on against SAM-2012-05-31.1.</p>
+</li>
+
+<li>
+<p>SAM1.1 content testing on QA CDN.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-05-25.1 smoke test (deployment, headpin-cli and RHSM) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-headpin-0.2.10-1.el6_2.noarch
+katello-configure-0.3.7-1.el6_2.noarch
+katello-headpin-all-0.2.10-1.el6_2.noarch
+katello-common-0.3.2-1.el6_2.noarch
+katello-cli-common-0.3.4-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (9 NEW/ASSIGNED, 10 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (36 NEW/ASSIGNED, 8 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50126/details/ (headpin-cli and deployment, 46 cases)
+https://virtlab.englab.nay.redhat.com/job/50154/details/ (RHSM, 37 cases)</code></pre>
+
+<p><strong>SAM-2012-05-31.1 smoke test (deployment, headpin-cli and RHSM) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-configure-0.3.7-1.el6_2.noarch
+katello-headpin-all-0.2.11-1.el6_2.noarch
+katello-cli-common-0.3.4-1.el6_2.noarch
+katello-common-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-headpin-0.2.11-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (5 NEW/ASSIGNED, 11 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (39 NEW/ASSIGNED, 8 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50345/details/ (headpin-cli and deployment, 46 cases)
+https://virtlab.englab.nay.redhat.com/job/50382/details/ (RHSM, 37 cases)</code></pre>
+
+<p><strong>SAM-2012-05-25.1 and SAM-2012-05-31.1 functional testing by Cloud QE: PASS</strong></p>
+
+<pre><code>Summary:Acceptance testing for SAM-1.1 functionality; including webui, cli, subscription, and consumption of content.
+
+Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-common-0.3.2-1.el6_2.noarch
+katello-cli-common-0.3.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+elasticsearch-0.18.4-11.el6.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-configure-0.3.7-1.el6_2.noarch
+katello-headpin-0.2.10-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-headpin-all-0.2.10-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (1)
+https://bugzilla.redhat.com/show_bug.cgi?id=826099
+
+Existing Bugs
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;classification=Red%20Hat&amp;columnlist=opendate%2Cproduct%2Ccomponent%2Cbug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc&amp;component=candlepin&amp;component=doc-Installation_Guide&amp;component=documentation&amp;component=katello&amp;component=katello-configure&amp;component=katello-repos&amp;component=thumbslug&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;order=bug_status%20DESC%2Cchangeddate%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=SAM_NOT_VERIFIED&amp;list_id=54907
+
+===Manual Run===
+https://tcms.engineering.redhat.com/run/40036/
+
+===Automated Run===
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/sam.WebUI.Python_Automation/284/testReport/
+
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/SAM.WebUI.Clojure_Automation/23/testReport/(root)/</code></pre>
+
+<p><strong>SAM-2012-05-31.1 and SAM-2012-05-31.1 functional testing by Cloud QE: PASS</strong></p>
+
+<pre><code>Summary:
+Acceptance testing for functionality of SAM 1.1 based on 2012-05-31.1 puddle.  Testing included Automated and Manual testing of the WebUI, API, and CLI.
+
+Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-cli-common-0.3.4-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+katello-configure-0.3.7-1.el6_2.noarch
+katello-headpin-all-0.2.11-1.el6_2.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+elasticsearch-0.18.4-11.el6.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-common-0.3.2-1.el6_2.noarch
+katello-headpin-0.2.11-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0)
+N/A
+
+Existing Bugs
+https://engineering.redhat.com/metrics/bugzilla-metrics.cgi?page=flag-bugs&amp;list=ACK&amp;update=sam-1.1.0&amp;listtype=ACK&amp;pm_ack=&amp;devel_ack=&amp;qa_ack=&amp;release_flag=&amp;blocker_flag=&amp;needinfo_flag=&amp;column=&amp;keyword=&amp;keyword_logic=any&amp;external_tracker=&amp;blocks=&amp;blocks_depth=1&amp;group=&amp;member=&amp;component=&amp;priorities=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=ON_DEV&amp;sort=0&amp;c_acks=1&amp;c_flag_blocker=1&amp;c_flag_needinfo=1&amp;c_blocked=1&amp;c_dependson=1&amp;c_bug_severity=1&amp;c_priority=1&amp;c_assigned_to=1&amp;c_bug_status=1&amp;c_component=1&amp;c_short_short_desc=1 [1]
+
+===Manual Tests===
+https://tcms.engineering.redhat.com/run/40458/
+
+===Automated Tests===
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/SAM.WebUI.Clojure_Automation/28/testngreports/ [2]
+
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/job/sam.WebUI.Python_Automation/lastCompletedBuild/testReport/ [2]</code></pre>
+
+<p><strong>SAM-2012-05-25.1 integration with RHSM testing by RTT: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+
+RHEL-5-Server/U8:
+subscription-manager-0.98.14-1.el5.x86_64.rpm
+subscription-manager-firstboot-0.98.14-1.el5.x86_64.rpm
+subscription-manager-gnome-0.98.14-1.el5.x86_64.rpm
+
+RHEL-6/6.2/Server:
+subscription-manager-0.96.17-1.el6.x86_64.rpm
+subscription-manager-firstboot-0.96.17-1.el6.x86_64.rpm
+subscription-manager-gnome-0.96.17-1.el6.x86_64.rpm
+
+RHEL6.3-20120523.1/6.3/Server:
+subscription-manager-0.99.19-1.el6.x86_64.rpm
+subscription-manager-firstboot-0.99.19-1.el6.x86_64.rpm
+subscription-manager-gnome-0.99.19-1.el6.x86_64.rpm
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (3):
+Bug 795869 - katello-configure ignores --org-name option [MODIFIED]
+Bug 814092 - debuginfo packages in puddle [NEW]
+Bug 803744 - [RFE] Subscription Manager should support selection of a remote server at Registration Time [NEEDINFO]
+
+=== Automation Runs ===
+https://tcms.engineering.redhat.com/run/39786/report/
+https://tcms.engineering.redhat.com/run/39872/report/
+https://tcms.engineering.redhat.com/run/39873/report/
+https://tcms.engineering.redhat.com/run/39874/report/</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-Server-20120531.0(KVM) against SAM-2012-05-31.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.11-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50369/details/(host 6.3Server_x64 / guest 5.8server_x84)
+https://virtlab.englab.nay.redhat.com/job/50385/details/(host 6.3Server_x64 / guest 6.3server_x84)</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-20120531.0(ESX5.0) against SAM-2012-05-31.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.11-1.el6_2.noarch
+candlepin-0.6.5-1.el6_2.noarch
+candlepin-tomcat6-0.6.5-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+ESX5.0
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A 
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/40363/</code></pre>
+
+<p><strong>Host/guest association acceptance on RHEL5.8GA(KVM and XEN) against SAM-2012-05-25.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+RHEL5.8GA
+SAM-2012005-25.1
+
+Regression (0):
+N/A 
+ 
+Test Blocker (0):
+N/A 
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+===Automation run===
+https://virtlab.englab.nay.redhat.com/job/50266/details/ (Entitlement_host5.8server64(xen_PV)_guest5.8server64_sam0525)
+https://virtlab.englab.nay.redhat.com/job/50252/details/ (Entitlement_host5.8server64(xen_FV)_guest5.8server64_sam0525)
+https://virtlab.englab.nay.redhat.com/job/50223/details/ (Entitlement_host5.8server64(kvm)_guest5.8server64_sam0525)
+https://virtlab.englab.nay.redhat.com/job/50216/details/ (Entitlement_host6.3Server64_guest5.8Server64_sam0525)</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/June'>June</a>, <a class='category_link' href='/ReportTool/public/sam11/list/Week+23'>Week 23</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">SAM Weekly Executive Briefing - Week 22</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+22"/>
+    <updated>2012-05-28T06:22:47Z</updated>
+    <published>2012-05-28T06:22:47Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-05-28:SAM 1-1,SAM+Weekly+Executive+Briefing+-+Week+22</id>
+    <author>
+      <name>mdoyle</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+22">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday May 21st 2012</strong> finished <strong>Friday May 25th 2012</strong></p>
+
+<p>Report generated Week 22, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/greendot.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-22.1 smoke testing covering deployment by Hosted QE: <strong>PASS</strong></p>
+
+<p>+ The test result was PASS as the deployment of SAM was successful.</p>
+</li>
+</ul>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/reddot.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-22.1 headpin-cli smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<p>+ The test result was PASS as there was no critical regression or test blocker found.</p>
+</li>
+
+<li>
+<p>SAM-2012-05-22.1 headpin-cli functional testing by Cloud QE: <strong>FAIL</strong></p>
+
+<p>+ Functionality testing on headpin-cli was not completed on 2012-05-22.1 as the “Upgrade” feature was not working at this time. On Wednesday (May 23), developers gave priority to addressing the issues with “Upgrades” and a new puddle was released. Cloud QE will complete functionality testing against this new puddle.</p>
+</li>
+</ul>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/reddot.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-22.1 functional testing by Cloud QE: <strong>FAIL</strong></p>
+
+<p>+ Functionality testing was not completed on 2012-05-22.1 as the “Upgrade” feature was not working at this time. On Wednesday (May 23), developers gave priority to addressing the issues with “Upgrades” and a new puddle was released. Cloud QE will complete functionality testing against this new puddle.</p>
+</li>
+</ul>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/reddot.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-22.1 integration with RHSM smoke testing by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as there was one high severity bug that FailedQA.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=822069'>Bug 822069</a> - Could not unsubscribe: “No JSON object could be decoded”.<span>ON_DEV,high</span> - We will verify the issue in the coming build ASAP.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-05-16.2 integration with RHSM testing by RTT: <strong>FAIL</strong></p>
+
+<ul>
+<li>The integration with RHSM acceptance testing was skipped as there was one high severity bug found in the smoke test.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/reddot.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-5 (KVM) against SAM-2012-05-22.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEV-H-6.3-Snapshot-5 against SAM-2012-05-22.1 by Hosted QE: <strong>PASS</strong></p>
+
+<p>+ Test result was PASS as there was no critical regression or test blockers found.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-5 with ESX5.0 against SAM-2012-05-22.1 by Hosted QE: <strong>PASS</strong></p>
+
+<p>+ Test result was PASS as there was no critical regression or test blockers found.</p>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>virt-who Errata (RHBA-2012:12775) is blocked by <a href='https://bugzilla.redhat.com/show_bug.cgi?id=824395'>Bug 824395</a> - Require python-suds errata for RHEL6.3 Server base channel <span>New, urgent</span>. When running RHBA-2012:12775 TPS testing, it failed as python-suds errata was missing on RHEL6.3 base channel which was required by virt-who-0.6-6.el6.noarch.</p>
+</li>
+
+<li>
+<p>SAM 1.1 IEEE Test Plan was sent out for stakeholders to review on the 15th May and due date set for the sign off on the 21st May.</p>
+
+<ul>
+<li>
+<p>So far, we have got sign off from Jan Blazek. Thank you for your prompt feedback.</p>
+</li>
+
+<li>
+<p>Could the following stakeholders take a moment to review the corresponding features? Please sign off if you accept the content, or comment to let us know how it can be improved in <a href='https://vault-stage.englab.nay.redhat.com/Vault/showRequest/897'>Vault request #897</a></p>
+</li>
+</ul>
+
+<p><a href='http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/SAM/1.1/html/IEEE_Test_Plan/features-to-be-tested.html'>Feature test List</a></p>
+
+<ul>
+<li>
+<p>William Poteat</p>
+</li>
+
+<li>
+<p>Radek Novacek</p>
+</li>
+
+<li>
+<p>James Bowes</p>
+</li>
+
+<li>
+<p>Manuel Eduardo Ospina Sarmiento</p>
+</li>
+
+<li>
+<p>Tom McKay</p>
+</li>
+
+<li>
+<p>Ivan Necas</p>
+</li>
+
+<li>
+<p>Jordan OMara</p>
+</li>
+
+<li>
+<p>Tomas Strachota</p>
+</li>
+
+<li>
+<p>Chris Duryee</p>
+</li>
+
+<li>
+<p>Bryan Kearney</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Need Eric Sammons to update test scenarios in SAM 1.1 IEEE Test Plan for features:</p>
+
+<ul>
+<li>Server Side Deletes</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Acceptance testing on SAM-2012-05-22.1.</p>
+</li>
+
+<li>
+<p>Updated in SAM 1.1 IEEE Test Plan “Y Stream Selection”.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEV-H-Snapshot-5 against SAM-2012-05-22.1.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-5 (KVM/ESX) against SAM-2012-05-22.1.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Continue working on SAM 1.1 IEEE Test Plan and test case automation.</p>
+</li>
+
+<li>
+<p>Acceptance testing on SAM 1.1 beta 5 snapshot.</p>
+</li>
+
+<li>
+<p>Host/guest association testing against SAM 1.1 beta 5 snapshot on ESX5.0, RHEV-H, RHEL-5.8GA(Xen), RHEL-6.3.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL6.3-RC.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-05-22.1 smoke test (deployment) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-common-0.3.2-1.el6_2.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-headpin-0.2.9-1.el6_2.noarch
+katello-configure-0.3.6-1.el6_2.noarch
+katello-cli-common-0.3.4-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (9 NEW/ASSIGNED, 14 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (35 NEW/ASSIGNED, 10 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49972/details/ (headpin-cli and deployment; 46 cases)</code></pre>
+
+<p><strong>SAM-2012-05-22.1 integration with RHSM smoke testing by Hosted QE: FAIL</strong></p>
+
+<pre><code>Test Result:
+FAIL as there was one high severity bug found.
+
+Test Result:
+FAIL as there was one high severity bug about unsubscribe.
+
+Packages Tested:
+katello-common-0.3.2-1.el6_2.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-headpin-0.2.9-1.el6_2.noarch
+katello-configure-0.3.6-1.el6_2.noarch
+katello-cli-common-0.3.4-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (10 NEW/ASSIGNED, 13 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (35 NEW/ASSIGNED, 10 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49990/details/ (RHSM, 37cases)</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-Snapshot5.0(KVM) against SAM-2012-05-22.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50076/details/ (host 6.3Server_x64 / guest 5.8server_x84)
+https://virtlab.englab.nay.redhat.com/job/50129/details/ (host 6.3Client_x64 / guest 5.8server_x84)</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-Snapshot5(ESX) against SAM-2012-05-22.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+ESX5.0
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/39678/</code></pre>
+
+<p><strong>virt-who functional testing on RHEV-H-snapshot5 against SAM-2012-05-22.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A 
+ 
+Test Blocker (0):
+N/A 
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+===Manual run===
+https://tcms.engineering.redhat.com/run/39679/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/May'>May</a>, <a class='category_link' href='/ReportTool/public/sam11/list/Week+22'>Week 22</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">SAM Weekly Executive Briefing - Week 21</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+21"/>
+    <updated>2012-05-21T08:38:39Z</updated>
+    <published>2012-05-21T08:38:39Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-05-21:SAM 1-1,SAM+Weekly+Executive+Briefing+-+Week+21</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+21">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday May 14th 2012</strong> finished <strong>Friday May 18th 2012</strong></p>
+
+<p>Report generated Week 21, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-16.2 smoke testing covered deployment by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as the deployment of SAM was successful.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-16.2 headpin-cli smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>The test result was PASS as there was no critical regression or test blocker found.</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-05-16.2 headpin-cli functional testing by Cloud QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>The test result was FAIL as there was one high severity bug found.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=822665'>Bug 822665</a> - Test case failure: SAM: headpin cli provider list.<span>NEW, high</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-16.2 functional testing by Cloud QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>The functional testing was FAIL as there were two high severity bugs.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=822672'>Bug 822672</a> - Test case failure: katello-reset-dbs, re-configure SAM.<span>NEW, high</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=822671'>Bug 822671</a> - Test case failure: katello-configure Attempt to reconfigure SAM.<span>MODIFIED, high</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-16.2 integration with RHSM smoke testing by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as there were two high severity bugs found.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=822069'>Bug 822069</a> - Could not unsubscribe: “No JSON object could be decoded”.<span>ON_QA,high</span> - We will verify the issue in the coming build ASAP.</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=822057'>Bug 822057</a> - Can’t list what OS release to use.<span>NEW, high</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-05-16.2 functional testing by RTT QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>The integration with RHSM acceptance testing was skipped as there were two high severity bugs found in the smoke test.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-3 (KVM) against SAM-2012-05-16.2 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who smoke testing on RHEL-6.3-Snapshot-4 (KVM) against SAM-2012-05-16.2 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who acceptance testing on RHEL-6.3-Snapshot-4 with ESX5.0 against SAM-2012-05-16.2 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Need Eric Sammons to update test scenarios in SAM 1.1 IEEE Test Plan for features:</p>
+
+<ul>
+<li>Y Stream Selection</li>
+
+<li>Server Side Deletes</li>
+</ul>
+</li>
+
+<li>
+<p>SAM 1.1 IEEE Test Plan was sent out for stakeholders to review on the 15th May and due date set for the sign off on the 21th May.</p>
+
+<ul>
+<li>
+<p>So far, we have got sign off from Jan Blazek. Thank you for your prompt feedback.</p>
+</li>
+
+<li>
+<p>Could following stakeholders take a moment to review the corresponding features? Please sign off if you accept the content, or comment to let us know how it can be improved? in [[Vault request #897](https://vault-stage.englab.nay.redhat.com/Vault/showRequest/897)</p>
+</li>
+</ul>
+
+<p><a href='http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/SAM/1.1/html/IEEE_Test_Plan/features-to-be-tested.html'>Feature test List</a></p>
+
+<ul>
+<li>William Poteat</li>
+
+<li>Radek Novacek</li>
+
+<li>James Bowes</li>
+
+<li>Manuel Eduardo Ospina Sarmiento</li>
+
+<li>Tom McKay</li>
+
+<li>Ivan Necas</li>
+
+<li>Jordan OMara</li>
+
+<li>Tomas Strachota</li>
+
+<li>Chris Duryee</li>
+
+<li>Bryan Kearney</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Acceptance testing on SAM-2012-05-16.2.</p>
+</li>
+
+<li>
+<p>Sent SAM 1.1 IEEE Test Plan to stakeholders to review and sign off.</p>
+</li>
+
+<li>
+<p>virt-who testing on rhel6.3-server-Snapshot-3 and rhel6.3-server-Snapshot-4.</p>
+</li>
+
+<li>
+<p>virt-who acceptance testing on RHEL-6.3-Snapshot-4 with ESX5.0 against SAM-2012-05-16.2.</p>
+</li>
+
+<li>
+<p>Updated RHEV-M from 2.2 to 3.0.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Continue working on SAM 1.1 IEEE Test Plan and test case automation.</p>
+</li>
+
+<li>
+<p>Acceptance testing on SAM1.1 beta 4 snapshot.</p>
+</li>
+
+<li>
+<p>Host/guest association testing against SAM1.1 beta 4 snapshot on ESX5.0, RHEV-H, RHEL-5.8GA(Xen), RHEL-6.3.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on rhel6.3-Snapshot-5.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-05-16.2 smoke test (deployment) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-configure-0.3.3-2.el6_2.noarch
+katello-headpin-all-0.2.6-4.el6_2.noarch
+katello-common-0.3.1-1.el6_2.noarch
+katello-cli-common-0.3.2-3.el6_2.noarch
+katello-headpin-0.2.6-4.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+katello-cli-headpin-0.2.0-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+candlepin-0.6.2-1.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+candlepin-tomcat6-0.6.2-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (14 NEW/ASSIGNED, 12 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (28 NEW/ASSIGNED, 13 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Manual Run ====
+https://tcms.engineering.redhat.com/run/39175/(Deployment)</code></pre>
+
+<p><strong>SAM-2012-05-16.2 integration with RHSM smoke testing by Hosted QE: FAIL</strong></p>
+
+<pre><code>Test Result:
+FAIL as there was one regression bug and one high severity bug found.
+
+Packages Tested:
+katello-configure-0.3.3-2.el6_2.noarch
+katello-headpin-all-0.2.6-4.el6_2.noarch
+katello-common-0.3.1-1.el6_2.noarch
+katello-cli-common-0.3.2-3.el6_2.noarch
+katello-headpin-0.2.6-4.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+katello-cli-headpin-0.2.0-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+candlepin-0.6.2-1.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+candlepin-tomcat6-0.6.2-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (1):
+Bug 822069 -Could not unsubscribe: &quot;No JSON object could be decoded&quot;
+
+Test Blocker (0):
+N/A
+
+New Bugs (2):
+Bug 822057 - Can&#39;t list what os release to use.
+Bug 822069 - Could not unsubscribe: &quot;No JSON object could be decoded&quot;
+
+Existing Bugs:
+sam1.1-tracker bugs (13 NEW/ASSIGNED, 12 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (29 NEW/ASSIGNED, 12 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49704/details/ (RHSM; 33 cases)</code></pre>
+
+<p><strong>SAM-2012-05-16.2 smoke test (headpin-cli) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-configure-0.3.3-2.el6_2.noarch
+katello-headpin-all-0.2.6-4.el6_2.noarch
+katello-common-0.3.1-1.el6_2.noarch
+katello-cli-common-0.3.2-3.el6_2.noarch
+katello-headpin-0.2.6-4.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+katello-cli-headpin-0.2.0-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+candlepin-0.6.2-1.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+candlepin-tomcat6-0.6.2-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (1):
+Bug 822365 - Can&#39;t update the registered system&#39;s name: headpin: error: no such option: --new-name.
+
+Existing Bugs:
+sam1.1-tracker bugs (14 NEW/ASSIGNED, 12 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (28 NEW/ASSIGNED, 13 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49763/details/ (headpin-cli; 46 cases)</code></pre>
+
+<p><strong>SAM-2012-05-16.2 functional testing by Cloud QE: FAIL</strong></p>
+
+<pre><code>Test Result
+FAIL as there were two high severity bugs and one high regression bug found.
+
+Packages Tested:
+katello-configure-0.3.3-2.el6_2.noarch
+katello-headpin-all-0.2.6-4.el6_2.noarch
+katello-common-0.3.1-1.el6_2.noarch
+katello-cli-common-0.3.2-3.el6_2.noarch
+katello-headpin-0.2.6-4.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+katello-cli-headpin-0.2.0-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+candlepin-0.6.2-1.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+candlepin-tomcat6-0.6.2-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (1):
+Bug 822665 - Test case failure: SAM: headpin cli provider list.[NEW, high]
+
+Test Blocker (0):
+N/A
+
+New Bugs (3):
+Bug 822672 - Test case failure: katello-reset-dbs, re-configure SAM.
+Bug 822671 - Test case failure: katello-configure Attempt to reconfigure SAM.
+Bug 822665 - Test case failure: SAM: headpin cli provider list.
+
+Existing Bugs:
+
+https://bugzilla.redhat.com/buglist.cgi?columnlist=opendate%2Cproduct%2Ccomponent%2Cbug_severity%2Cpriority%2Cop_sys%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc&amp;classification=Red%20Hat&amp;query_based_on=SAM_ALL&amp;emailtype1=substring&amp;query_format=advanced&amp;emailqa_contact1=1&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=ON_DEV&amp;email1=sam-qe-list%40redhat.com&amp;component=candlepin&amp;component=katello&amp;component=katello-configure&amp;component=katello-repos&amp;component=rel-eng&amp;component=thumbslug&amp;product=Subscription%20Asset%20Manager&amp;known_name=SAM_ALL
+
+=======Manual Run========
+https://tcms.engineering.redhat.com/run/39258/
+
+========Automated Run==========    
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/job/sam.WebUI.Python_Automation/lastCompletedBuild/testReport/</code></pre>
+
+<p><strong>virt-who functional test on RHEL6.3-Client-Snapshot3.0 against SAM-2012-05-16.2 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+ubscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+libvirt-0.9.10-18.el6.x86_6
+katello-headpin-all-0.2.6-4.el6_2.noarch
+candlepin-tomcat6-0.6.2-1.el6_2.noarch
+candlepin-0.6.2-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarc
+
+Regression (0):
+N/A
+Test Blocker (0):
+New Bugs (0):
+Existing Bugs (0):
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49707/details/ (host 6.3Client_x64 / guest 5.8server_x84)</code></pre>
+
+<p><strong>virt-who smoke test on RHEL6.3-Snapshot4 against SAM-2012-05-16.2 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.11-1.el6.noarch
+katello-headpin-all-0.2.6-4.el6_2.noarch
+candlepin-tomcat6-0.6.2-1.el6_2.noarch
+candlepin-0.6.2-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarc
+
+Regression (0):
+N/A
+Test Blocker (0):
+N/A
+New Bugs (0):
+N/A
+Existing Bugs (0):
+N/A
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/39232/</code></pre>
+
+<p><strong>Host/guest association acceptance testing on RHEL6.3-Snapshot4 with ESX5.0 and SAM-2012-05-16.2 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.11-1.el6.noarch
+katello-headpin-all-0.2.6-4.el6_2.noarch
+candlepin-tomcat6-0.6.2-1.el6_2.noarch
+candlepin-0.6.2-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarc
+
+Regression (0):
+N/A
+Test Blocker (0):
+N/A
+New Bugs (0):
+N/A
+Existing Bugs (0):
+N/A
+
+Manual run
+https://tcms.engineering.redhat.com/run/39274/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/May'>May</a>, <a class='category_link' href='/ReportTool/public/sam11/list/Week+21'>Week 21</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">SAM Weekly Executive Briefing - Week 20</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+20"/>
+    <updated>2012-05-14T07:23:24Z</updated>
+    <published>2012-05-14T07:23:24Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-05-14:SAM 1-1,SAM+Weekly+Executive+Briefing+-+Week+20</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+20">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday May 7th 2012</strong> finished <strong>Friday May 11th 2012</strong></p>
+
+<p>Report generated Week 20, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-09.1 and SAM-2012-05-10.1 smoke testing covering deployment by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820172'>Bug 820172</a> - Deploy SAM 1.1 beta (2012-05-09.1) build fail.<span>ASSIGNED,urgent</span></li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-09.1 and SAM-2012-05.10.1 headpin-cli smoke testing by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as there was a test blocker found in sam deployment.</p>
+</li>
+
+<li>
+<p>This smoke test covers deployment of SAM, import of manifest, headpin-cli and integration test with RHSM. We did not run smoke testing for headpin cli and RHSM, because there was one test blocker found in sam deployment.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820172'>Bug 820172</a> - Deploy SAM 1.1 beta (2012-05-09.1) build fail.<span>ASSIGNED,urgent</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-09.1 functional testing by Cloud QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>The functional testing was skipped as there was a test blocker found in sam deployment.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820172'>Bug 820172</a> - Deploy SAM 1.1 beta (2012-05-09.1) build fail.<span>ASSIGNED,urgent</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-09.1 integration testing by RTT: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>The integration testing was skipped as there was a test blocker found in sam deployment.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820172'>Bug 820172</a> - Deploy SAM 1.1 beta (2012-05-09.1) build fail.<span>ASSIGNED,urgent</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-3 (KVM) against SAM-2012-04-12.2 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who smoke testing on RHEL-6.3-Snapshot-3 in ESX(5.0) mode against SAM-2012-04-12.2 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Need Eric Sammons to update test scenarios in SAM 1.1 IEEE Test Plan for features:</p>
+
+<ul>
+<li>Y Stream Selection</li>
+
+<li>Server Side Deletes</li>
+</ul>
+</li>
+
+<li>
+<p>RHSM integration testing against SAM 1.1 and SAM functional testing was blocked by <a href='https://bugzilla.redhat.com/show_bug.cgi?id=820172'>Bug 820172</a> - Deploy SAM 1.1 beta (2012-05-09.1) build fail.</p>
+
+<ul>
+<li>Please resolve ASAP.</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Smoke testing on SAM-2012-05-09.1 and SAM-2012-05-10.1.</p>
+</li>
+
+<li>
+<p>Updated RHSM and SAM CLI automation cases and added regression cases to virt-who and RHSM.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on rhel6.3-server-Snapshot-3.</p>
+</li>
+
+<li>
+<p>virt-who smoke testing on RHEL-6.3-Snapshot-3 in ESX(5.0) mode against SAM-2012-04-12.2.</p>
+</li>
+
+<li>
+<p>Updated to SAM1.1 IEEE Test Plan feature developer owners.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Continue working on SAM 1.1 IEEE Test Plan and test case automation.</p>
+</li>
+
+<li>
+<p>Send SAM 1.1 IEEE Test Plan to stakeholders to review and sign off.</p>
+</li>
+
+<li>
+<p>Acceptance testing on SAM1.1 beta 3 snapshot.</p>
+</li>
+
+<li>
+<p>Host/guest association testing against SAM1.1 beta 3 snapshot on ESX5.0, RHEV-H, RHEL-5.8GA(Xen), RHEL-6.3.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on rhel6.3-Snapshot-4.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-05-09.1 smoke test (deployment) by Hosted QE: FAIL</strong></p>
+
+<pre><code>Test Result:
+FAIL as there was one test blocker found.
+
+Packages Tested:
+SAM-2012-05-09.1 build.
+
+Regression (0):
+N/A
+
+Test Blocker (1):
+Bug 820172-Deploy SAM 1.1 beta (2012-05-09.1) build fail. [ASSIGNED,urgent]
+
+New Bugs (1):
+Bug 820172-Deploy SAM 1.1 beta (2012-05-09.1) build fail. [ASSIGNED,urgent]
+
+Existing Bugs (0):
+N/A
+
+sam1.1-tracker bugs (11 NEW/ASSIGNED, 13 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (34 NEW/ASSIGNED, 9 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/38471/</code></pre>
+
+<p><strong>SAM-2012-05-10.1 smoke test (deployment) by Hosted QE: FAIL</strong></p>
+
+<pre><code>Test Result:
+FAIL as there was one existing test blocker.
+
+Packages Tested:
+SAM-2012-05-10.1 build.
+
+Regression (0):
+N/A
+
+Test Blocker (1):
+Bug 820172-Deploy SAM 1.1 beta (2012-05-09.1) build fail. [ASSIGNED,urgent]
+
+New Bugs (0):
+N/A
+
+Existing Bugs (1):
+Bug 820172-Deploy SAM 1.1 beta (2012-05-09.1) build fail. [ASSIGNED,urgent]
+
+sam1.1-tracker bugs (9 NEW/ASSIGNED, 18 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (33 NEW/ASSIGNED, 11 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/38655/</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-snapshot3(kvm) against SAM-2012-0412.2 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+ubscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+libvirt-0.9.10-18.el6.x86_6
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49457/details/ (host 6.3Server_x64; guest 5.8server_x84)</code></pre>
+
+<p><strong>virt-who smoke testing on RHEL-6.3-Snapshot-3 in ESX(5.0) mode against SAM-2012-0412.2 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+ubscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+libvirt-0.9.10-18.el6.x86_6
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+ESX5.0
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Manul Run ===
+https://tcms.engineering.redhat.com/run/38718/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/Week+19'>Week 19</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">SAM Weekly Executive Briefing - Week 19</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+19"/>
+    <updated>2012-05-07T23:23:18Z</updated>
+    <published>2012-05-07T23:23:18Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-05-07:SAM 1-1,SAM+Weekly+Executive+Briefing+-+Week+19</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/SAM+Weekly+Executive+Briefing+-+Week+19">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday April 28th 2012</strong> finished <strong>Thursday May 4th 2012</strong></p>
+
+<p>Report generated Week 19, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>SAM-2012-05-03.1 smoke testing covering deployment by Hosted QE: <strong>PASS</strong></li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-03.1 headpin-cli smoke testing by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as there was a test blocker found in RHSM.</p>
+</li>
+
+<li>
+<p>This smoke test covers deployment of SAM, import of manifest, headpin-cli and integration test with RHSM. We did not run smoke testing by automation for headpin cli and RHSM, because we met issues against the new manifests we created and the new test cases we added. We will update our test suite this week to solve these issues.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=819013'>Bug 819013</a> can not register using SAM.<span>NEW,urgent</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-03.1 functional testing by Cloud QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>The test result FAIL due to known issue with Candlepin &lt; 0.5.32.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=819013'>Bug 819013</a>- can not register using SAM.<span>NEW,urgent</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/sam11/files/red.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-03.1 integration testing by RTT: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as there was one critical test blocker.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=819013'>Bug 819013</a>- can not register using SAM.<span>NEW,urgent</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/sam11/files/green.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-2 (KVM) against SAM-2012-04-12.2 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who acceptance Testing on rhev-hypervisor6-6.3-20120426.2.el6 against SAM-2012-04-12.2 by Virt QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Need Eric Sammons to update test scenarios in SAM 1.1 IEEE Test Plan for features:</p>
+
+<ul>
+<li>Y Stream Selection</li>
+
+<li>Server Side Deletes</li>
+</ul>
+</li>
+
+<li>
+<p>RHSM integration testing against SAM 1.1 was blocked by <a href='https://bugzilla.redhat.com/show_bug.cgi?id=819013'>Bug 819013</a> - can not register using SAM.</p>
+
+<ul>
+<li>Please resolve asap.</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Acceptance testing on SAM-2012-05-03.1.</p>
+</li>
+
+<li>
+<p>Update RHSM and Host/guest association automation cases.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on rhel6.3-server-Snapshot-2</p>
+</li>
+
+<li>
+<p>virt-who acceptance testing on rhev-hypervisor6-6.3-20120426.2.el6 against SAM-2012-04-12.2.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Continue working on SAM 1.1 IEEE Test Plan and test case automation.</p>
+</li>
+
+<li>
+<p>Send SAM 1.1 IEEE Test Plan to stakeholders to review and sign off.</p>
+</li>
+
+<li>
+<p>Acceptance testing on SAM1.1 beta 2 snapshot.</p>
+</li>
+
+<li>
+<p>Host/guest association testing against SAM1.1 beta 2 snapshot on ESX5.0, RHEV-H, RHEL-5.8GA(Xen), RHEL-6.3.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on rhel6.3-Snapshot-3.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-05-03.1 smoke test (deployment, headpin-cli, RHSM) by Hosted QE: FAIL</strong></p>
+
+<pre><code>Test Result:
+FAIL as there was one test blocker found.
+
+This smoke test covers deployment of SAM, import of manifest, headpin-cli and integration test with RHSM. We have not run smoke testing by automation against headpin cli and RHSM to cover the more features. Because we have been made some new manifests and added some new cases to automation set that need to be updated.  
+katello-heapin (WebUI) is explicitly not covered.
+ 
+Packages Tested:
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-cli-headpin-0.2.0-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-cli-common-0.3.1-3.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+katello-configure-0.3.2-4.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-common-0.3.1-1.el6_2.noarch
+katello-headpin-all-0.2.6-1.el6_2.noarch
+katello-headpin-0.2.6-1.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+candlepin-0.5.31-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+candlepin-tomcat6-0.5.31-1.el6_2.noarch
+thumbslug-0.0.23-1.el6_2.noarch   
+
+Regression (0):
+N/A
+
+Test Blocker (1):
+Bug 819013-can not register using SAM.[NEW,urgent]
+
+New Bugs (0):
+Bug 819013-can not register using SAM.[NEW,urgent]
+
+Existing Bugs (0):
+sam1.1-tracker bugs (12 NEW/ASSIGNED, 9 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (34 NEW/ASSIGNED, 8 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/38231/ (deployment, headpin-cli)
+https://tcms.engineering.redhat.com/run/38233/ (RHSM)</code></pre>
+
+<p><strong>SAM-2012-05-03.1 functinal testing by Cloud QE: FAIL</strong></p>
+
+<pre><code>Test Result 
+FAIL due to known issue with Candlepin &lt; 0.5.32.
+
+Packages Tested
+katello-cli-headpin-0.2.0-1.el6_2.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-common-0.3.1-1.el6_2.noarch
+candlepin-0.5.31-1.el6_2.noarch
+katello-cli-common-0.3.1-3.el6_2.noarch
+katello-glue-candlepin-0.3.1-1.el6_2.noarch
+katello-headpin-0.2.6-1.el6_2.noarch
+katello-headpin-all-0.2.6-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-configure-0.3.2-4.el6_2.noarch
+candlepin-tomcat6-0.5.31-1.el6_2.noarch
+thumbslug-0.0.23-1.el6_2.noarch
+
+Regressions
+https://bugzilla.redhat.com/show_bug.cgi?id=818564
+
+New Bugs
+https://bugzilla.redhat.com/buglist.cgi?classification=Red%20Hat&amp;emailtype1=substring&amp;chfieldto=2012-05-04&amp;query_format=advanced&amp;emailqa_contact1=1&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;email1=sam-qe-list%40redhat.com&amp;component=candlepin&amp;component=doc-Installation_Guide&amp;component=doc-Release_Notes&amp;component=documentation&amp;component=katello&amp;component=katello-configure&amp;component=katello-repos&amp;component=rel-eng&amp;component=thumbslug&amp;product=Subscription%20Asset%20Manager
+
+Existing Bugs
+https://bugzilla.redhat.com/buglist.cgi?classification=Red%20Hat&amp;emailtype1=substring&amp;query_format=advanced&amp;emailqa_contact1=1&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;email1=sam-qe-list%40redhat.com&amp;component=candlepin&amp;component=doc-Installation_Guide&amp;component=doc-Release_Notes&amp;component=documentation&amp;component=katello&amp;component=katello-configure&amp;component=katello-repos&amp;component=rel-eng&amp;component=thumbslug&amp;product=Subscription%20Asset%20Manager
+
+=== Manual Test Run ===
+https://tcms.engineering.redhat.com/run/38384/ [1]
+
+=== Automated Test Runs ===
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/headpin-webui_automation/256/HTML_Report/
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/headpin-cli_automation/lastCompletedBuild/testReport/tests.test_cli_systems/TestSystem/
+
+[1] Many tests were waived due to the known candlepin issue that prevented systems from registering.</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-snapshot2(kvm) against SAM-2012-0412.2 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-0.99.16-1.el6.x86_64
+subscription-manager-gnome-0.99.16-1.el6.x86_64
+subscription-manager-firstboot-0.99.16-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+libvirt-0.9.10-16.el6.x86_64
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+
+New Bugs (0):
+
+Existing Bugs (0):
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49060/details/ 
+(host 6.3Server_x64; guest 5.8server_x84)</code></pre>
+
+<p><strong>virt-who acceptance testing on rhev-hypervisor6-6.3-20120426.2.el6 against SAM-2012-0412.2 by Virt QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-5.el6.noarch
+subscription-manager-0.99.15-1.el6.x86_64
+rhev-hypervisor6-6.3-20120426.2.el6
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+
+Regression (0): 
+N/A
+
+Test Blocker (0):
+
+New Bugs (0):
+
+Existing Bugs (0):
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/37766/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/Week+19'>Week 19</a></div></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">HomePage</title>
+    <link rel="alternate" type="application/xhtml+xml" href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/HomePage"/>
+    <updated>2012-01-01T06:47:12Z</updated>
+    <published>2012-01-01T06:47:12Z</published>
+    <id>tag:dart.qe.lab.eng.bne.redhat.com,2012-01-01:SAM 1-1,HomePage</id>
+    <author>
+      <name>IanNeilsen</name>
+    </author>
+    <content type="xhtml" xml:base="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/published/HomePage">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p>SAM 1.1 Home page</p>
+
+<p>To view a list of reports sorted by Month choose</p>
+
+<p><a href='https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/recently_revised'>Monthly Report List</a>.</p>
+
+<p>The reports are sorted by testing week.</p>      </div>
+    </content>
+  </entry>
+</feed>
+:ET

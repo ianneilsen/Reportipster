@@ -1,0 +1,136 @@
+I"�<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Tools
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/tools/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/tools/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/tools/web_list" title="List of Report Areas">Web List</a> |
+    <b class="navOn" title="Home, Sweet Home">Home Page</b> | 
+    <a href="/ReportTool/public/tools/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/tools/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Tools</span><br />
+      HomePage
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<h4 id='you_have_landed_on_the_site_page_for_hss_tools_reporting_area_1'>You have landed on the site page for HSS Tools reporting area.</h4>
+
+<p>The Tools reports will cover what is hot and what is not on internal, external and managed tools used by Red Hat Divisions.</p>
+
+<p>To view the latest reports please click the ”<strong>Archive Reports List</strong>” menu item above.</p>
+
+<p>OR</p>
+
+<p>Click on the link below for a list of ordered reports by week.</p>
+
+<p><a href='https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/tools/recently_revised'><strong>List of Reports for Docs QE</strong></a></p>
+
+<h2 id='need_help_2'>Need Help</h2>
+
+<pre><code>If you have any issues please contact the RAP team in BNE for assistance hss-rap-list@redhat.com</code></pre>
+
+<div class="byline">
+  Revised on July 26, 2012 19:49:49 
+  by
+  <span class="newWikiWord">Ian Neilsen</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

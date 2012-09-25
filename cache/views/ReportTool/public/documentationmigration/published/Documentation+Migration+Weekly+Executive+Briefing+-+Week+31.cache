@@ -1,0 +1,189 @@
+I"S#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Documentation Migration Weekly Executive Briefing - Week 31 in Documentation Migration
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/documentationmigration/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/documentationmigration/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/documentationmigration/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/documentationmigration/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/documentationmigration/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/documentationmigration/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Documentation Migration</span><br />
+      Documentation Migration Weekly Executive Briefing - Week 31
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Report generated in week 31, 2012.</p>
+
+<p>HSS has a Publican 3.0 production ready documentation server that was created by Eng-Ops and the link to this was provided to GSS on 2012-07-26. http://documentation-01.app.eng.bos.redhat.com/docs/en-US/index.html</p>
+
+<p>If IT pull content from documentation-01.app.eng.bos.redhat.com to docs.stage.redhat.com then content will be automatically pushed LIVE on docs.redhat.com within the hour.</p>
+
+<p>IT manages the following servers: docs.redhat.com, docs.stage.redhat.com, docs.qa.redhat.com</p>
+
+<p>HSS manages: documentation-01.app.eng.bos.redhat.com</p>
+
+<p><img alt='Docs infrastructure' src='/ReportTool/public/documentationmigration/files/infra.png'/></p>
+
+<p>To be ready to meet the new 2012-08-07 release date, the following actions need to be done:</p>
+
+<h3 id='gss_2'>GSS</h3>
+
+<ol>
+<li>
+<p>HSS provided GSS with development (cranium.usersys.redhat.com/docs) and production ready (documentation-01.app.eng.bos.redhat.com) URLs, however, currently access.qa.redhat.com/docs is still pulling content from docs.redhat.com and not either of the HSS provided URLs. HSS would like to see the official test results from the portal testers to ensure that if there are any action items for HSS, they can be resolved promptly without further schedule delay.</p>
+
+<p><strong>Update</strong></p>
+
+<ul>
+<li>
+<p>Jul 31 - GSS contacted HSS about the scheduled release for 10am EST Tue, August 7th. GSS also requested that HSS makes sure the code gets pushed live at the same time. HSS replied to GSS explaining that there is no code only static web content and that we do not push content but rather IT pulls it from us (see image in online report).</p>
+
+<p>HSS sent another email to GSS asking if they needed any further clarification on how the content works and requested an update from GSS on their testing and if a testing report is available stating that it might help us identify any additional risks.</p>
+</li>
+
+<li>
+<p>Aug 01 - GSS requested a contact for the project in Raleigh. HSS replied stating that we did not have a ‘usual contact’ for docs.redhat.com we just use the service-desk. However, HSS provided GSS with contact details for Kevin Baker (HSS) and Seth Shevach (IT) as they have had experience in Eng-Ops &lt;-&gt; IT co-ordination.</p>
+
+<p>HSS emailed GSS trying to obtain confirmation on the tasks that are remaining to get the staging environment setup. HSS also requested an update on whether testing was complete or if the plan was to test once the staging environment was setup. GSS provided Seth Shevach with the task list and stated that they would keep HSS informed on the progress of the stage setup.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Once GSS inform HSS that their testing is successful, HSS will inform Corporate IT that they can start pulling data from documentation-01.app.eng.bos.redhat.com.</p>
+</li>
+
+<li>
+<p>GSS will then need to align with Corporate IT for the redirection of docs.redhat.com to the customer portal domain.</p>
+</li>
+</ol>
+
+<p>HSS will continue to keep in touch with GSS testing everyday from today to ensure we are in-sync.</p>
+
+<h3 id='rcm_3'>RCM</h3>
+
+<ol>
+<li>When GSS are ready, and in coordination wtih Corporate IT, RCM will need to ensure that Publican 3.0 is promoted to the eng-rhel-6 repo and documentation brew tags are updated to incorporate only the new Publican 3.0 builds.</li>
+</ol>
+
+<p>Although not critical to the release, other actions items that need to be completed and will be monitored by HSS are:</p>
+
+<h3 id='ecs_4'>ECS</h3>
+
+<ol>
+<li>
+<p>ECS need to communicate their policy to Content Authors and Product Owners on communicating outbound links (any existing references to docs.redhat.com/docs in the current books will need to be updated to access.redhat.com/knowledge/docs).</p>
+
+<p><strong>Update</strong></p>
+
+<ul>
+<li>Jul 30 - ECS communicated via docs mailing lists that when Content Authors are asked to provide a URL for content that they use the access.redhat.com/knowledge equivalent URL and that docs.redhat.com will begin redirecting to access.redhat.com/knowledge shortly. Both sites will be duplicated until they have full/file level redirection in place. This does not alter their publishing process in any way.</li>
+</ul>
+</li>
+
+<li>
+<p>ECS need to define a date for fixing the 40 non critical books that failed to build in Publican 3.0. <strong>(No further update received this week.)</strong></p>
+</li>
+</ol>
+
+<div class="byline">
+  Created on August  2, 2012 16:55:42 
+  by
+  <span class="newWikiWord">mdoyle</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

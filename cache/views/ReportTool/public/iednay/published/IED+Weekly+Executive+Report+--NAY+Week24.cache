@@ -1,0 +1,503 @@
+I"UF<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      IED Weekly Executive Report --NAY Week24 in IED NAY
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    ...
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/iednay/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/iednay/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/iednay/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/iednay/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/iednay/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/iednay/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">IED NAY</span><br />
+      IED Weekly Executive Report --NAY Week24
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h2 id='1_people_1'>1. People</h2>
+<hr/>
+<ul>
+<li>
+<p>Usability Testing Training to UX Section –junzhang</p>
+</li>
+
+<li>
+<p>ltian attends NHO Training</p>
+</li>
+
+<li>
+<p>ztang attends NHO Training</p>
+</li>
+
+<li>
+<p>hlin attends NHO Training</p>
+</li>
+
+<li>
+<p>qduanmu attends NHO Training</p>
+</li>
+</ul>
+
+<h2 id='2_process_2'>2. Process</h2>
+<hr/>
+<ul>
+<li>
+<p>Create the deployment guide (Python/Perl Section)</p>
+</li>
+
+<li>
+<p>Review and provide feedback on the deployment guide (Java/Ruby Section, and dxiao, etc.)</p>
+</li>
+</ul>
+
+<h2 id='3_projects_3'>3. Projects</h2>
+<hr/>
+<h3 id='section_bidb_4'>Section BI/DB</h3>
+<table>
+<tr>
+<th></th>
+<th>Beacon(P360) V1.1</th>
+<th>Newspaper </th>
+<th>Conflux 1.0</th>
+</tr>
+<tr>
+<td>Summary</td>
+<td valign='top'>
+<ul style='padding-left: 15px;'><li>ETL service have deployed on production server.</li>
+<li>Backend warehouse deployed on prodction server.</li></ul>
+</td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>conflux technical research</li></ul></td>
+</tr>
+<tr>
+<td> ztang </td>
+<td valign='top'> 
+<ul style='padding-left: 15px;'><li>Product 360 deployment db support</li>
+<li>Fixed the booking table issue</li>
+<li>Updated the db deployment guide and db hotfix guide</li>
+<li>Helped BI team with SQL modification </li></ul>
+</td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Investigate IBM congnos report based on Bugzilla bug counts.</li></ul></td>
+</tr>
+<tr>
+<td> nhong </td>
+<td valign='top'> 
+<ul style='padding-left: 15px;'>
+<li>Product 360 deployment db support</li>
+<li>Fixed the open bug trend unstable issue</li>
+<li>Updated the db deployment guide</li>
+<li>Updated tech db hotfix guide 1 and hotfix guide 2</li>
+</ul>
+</td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Deliver a slide on greenplum research.</li></ul></td>
+</tr>
+<tr>
+<td> dxiao </td>
+<td valign='top'> 
+</td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Deliver a technical document on teiid vs conflux technical comparison.</li></ul></td>
+</tr>
+<tr>
+<td> gsong </td>
+<td valign='top'> 
+</td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Set up a hadoop cluster based on conflux technical requirement.</li></ul></td>
+</tr>
+<tr>
+<td> zhren </td>
+<td valign='top'> 
+</td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Deliver TCMS module backend db support.</li></ul></td>
+<td valign='top'></td>
+</tr>
+
+</table>
+<h3 id='section_pythonperl_5'>Section Python/Perl</h3>
+<table>
+<tr>
+<th></th>
+<th>Authenticity</th>
+<th>Portal </th>
+<th>Treasury</th>
+<th>TCMS</th>
+</tr>
+<tr>
+<td>Summary</td>
+<td valign='top'>
+<ul style='padding-left: 15px;'><li>v1.1 requirements collection.</li>
+<li>new feature(diff for trees and diff over diff) research.</li>
+<li>Pad we use during discussion: <a href='hss.pad.engineering.redhat.com/235'>hss.pad.engineering.redhat.com/235</a></li>
+</ul>
+</td>
+<td valign='top'>
+<ul style='padding-left: 15px;'><li>Enable markdown syntax, migrating reports from dart.qe. </li>
+<li>Stage/Prod server upgrade request.</li></ul> </td>
+<td valign='top'><ul style='padding-left: 15px;'>
+<li>Writing Treasury 1.0 PRD</li>
+<li>Treasury 1.0 PRD is sent to DOC Team</li>
+<li>Requirement confirmation among team</li>
+<li>Technical research and implement prototype in code </li>
+<li>Preparing team development environment 
+    <ul>
+    <li>Create code repository in gerrit </li>
+    <li>Initialize project code including basic layout, dependencies,  and packaging</li>
+    </ul>
+</li>
+<li>Discuss technical solution for some key feature</li>
+</ul></td>
+<td valign='top'>Fixing bugs. Fosucs on 14 bugs this week.</td>
+</tr>
+<tr>
+<td> yuwang </td>
+<td valign='top'> 
+<ul style='padding-left: 15px;'><li>Working on Authenticity 1.1 requirment and tech research. Helping  finalize User Case list. </li>
+</ul>
+</td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Working on portal bug fix, veryfiy. Send portal stage and production  upgrade ticket.</li>
+</ul></td>
+<td valign='top'></td>
+<td valign='top'></td>
+</tr>
+<tr>
+<td> hlin </td>
+<td valign='top'> 
+<ul style='padding-left: 15px;'>
+<li>Working on Authenticity 1.1 provide solution for customers review. </li>
+<li>Working on Authenticity 1.1 requirement settle down and tech research. </li>
+</ul>
+</td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'></td>
+</tr>
+<tr>
+<td> weitao </td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Join  in our team this week. Working on setup working environment and   familiar project Authenticity by setup a local testing instant. </li></ul>
+</td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'></td>
+</tr>
+<tr>
+<td> qduanmu </td>
+<td valign='top'> </td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Working on portal plugin zinnia. Helping on support markdown style  report. </li></ul></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Working Treasury 1.1 chat part research. </li></ul></td>
+<td valign='top'></td>
+</tr>
+<tr>
+<td> cqi </td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Working on draft Trearsury prd. Finalize prd v1 and pushed to doc team. </li><li>
+Working on Treasury development feature research and task assign.</li></ul></td>
+<td valign='top'></td>
+</tr>
+<tr>
+<td> ctang </td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Working Treasury tech solution. Resolve different tech point.</li></ul></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>He also working on review tcms 3.8 bug fix patches. </li></ul></td>
+</tr>
+<tr>
+<td> docai </td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Join in our team this week. Working on setup working environment and  familier with treasury. </li></ul></td>
+<td valign='top'></td>
+</tr>
+<tr>
+<td> xchu </td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Working on tcms 3.8 bug fix. Working on 4 bugs.  They are <a href='https://bugzilla.redhat.com/show_bug.cgi?id=585631'>585631</a>,<a href='https://bugzilla.redhat.com/show_bug.cgi?id=604206'>604206</a>,<a href='https://bugzilla.redhat.com/show_bug.cgi?id=644356'>644356</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=615296'>615296</a>  </li></ul></td>
+</tr>
+<tr>
+<td> jianchen </td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Working on tcms 3.8 bug fix. Working on 6 bugs.  They are <a href='https://bugzilla.redhat.com/show_bug.cgi?id=731982'>731982</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=729233'>729233</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=723830'>723830</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=681431'>681431</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=661973'>661973</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=654134'>654134</a></li></ul></td>
+</tr>
+<tr>
+<td> zheliu </td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Working on tcms 3.8 bug fix. Working on 4 bugs.  They are <a href='https://bugzilla.redhat.com/show_bug.cgi?id=723952'>723952</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=681282'>681282</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=701897'>701897</a>, <a href='https://bugzilla.redhat.com/show_bug.cgi?id=578723'>578723</a></li></ul></td>
+</tr>
+</table>
+<h3 id='section_javaruby_6'>Section Java/Ruby</h3>
+<table>
+<tr>
+<th></th>
+<th>Beacon(P360) V1.1</th>
+<th>Newspaper </th>
+<th><strong>Redmine</strong></th>
+<th><strong>Harvest</strong></th>
+</tr>
+<tr>
+<td>Summary</td>
+<td valign='top'>
+<ul style='padding-left: 15px;'><li>
+ Finished deployment on Jun 15 
+</li>
+  <li>Fixed one bug on web data rendering side. </li>
+<li> Update Java code to match the changes on DB side.</li>
+<li>Coordinate with nli to finish the refine to the web UI style.</li>
+</ul>
+</td>
+<td valign='top'>
+<ul style='padding-left: 15px;'><li>
+Continuing the work on Newspaper v1.1 development</li>
+<li>Test summary report migration from riddler to dart</li>
+<li>Feat to add a severity bug trend in to newspaper on_qa bug trend</li>
+<li>Test Blocker module enhancement.</li></ul>
+
+</td>
+<td valign='top'><ul style='padding-left: 15px;'>
+  <li>Test result is Pass. Will release to <a href='https://hosted.englab.nay.redhat.com/'>https://hosted.englab.nay.redhat.com/</a> on week 25.</li>
+</ul></td>
+<td valign='top'><ul style='padding-left: 15px;'>
+  <li>Target to replace the DB connection to Teiid. The development environment is set up.</li></ul></td>
+</tr>
+<tr>
+<td> xuliu</td>
+<td valign='top'> 
+<ul style='padding-left: 15px;'><li>Follow up with ticket 152112 for the Beacon deployment issues.</li>
+<li>Bug shooting to the product list displaying problems.</li>
+<li>Bug shooting to the bug trend displaying problem (on the product detailed page).</li>
+<li>Work with nli to refine the web UI style.</li></ul>
+</td>
+<td valign='top'></td>
+<td valign='top'> </td>
+<td valign='top'> </td>
+</tr>
+<tr>
+<td>gli</td>
+<td valign='top'> 
+<ul style='padding-left: 15px;'>
+<li>Bug fixing to the BU Level three Bug Trend forecast problem.</li>
+<li>Change the content and style to the error message.</li>
+</ul>
+</td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Code review work for the modules done in this week.</li>
+<li>Design and technical discussion with sheyang on Test Blocker module enhancement.</li></ul></td>
+<td valign='top'></td>
+<td valign='top'></td>
+</tr>
+<tr>
+<td>ltian</td>
+<td valign='top'> 
+</td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Front-end data rendering working for feat to add a severity bug trend in to newspaper on_qa bug trend, done. But without teiid back-end data support, unit-testing not done.</li>
+<li>optimization work on on_qa open bug trend: use partly loading for front-end data by split it to weekly, daily and monthly.</li></ul></td>
+<td valign='top'> </td>
+<td valign='top'> </td>
+</tr>
+<tr>
+<td> sheyang </td>
+
+
+<td valign='top'> 
+</td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Development work for Test summary report migration from riddler to dart, and done.</li><li>
+Development work for Test Blocker module enhancement, 20% done.</li></ul>
+</td>
+<td valign='top'> </td>
+<td valign='top'> </td>
+</tr>
+<tr>
+<td>wezhao</td>
+<td valign='top'> 
+</td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Redeploy a new repository of git for Redmine. (100% finished)</li><li>
+Fix the bug 832256 commited by chu xiang yang (Redmine will be updated on Jun 15 night to fix this bug. The development work is 100% finished)</li><li>
+Review bugs verification status of Redmine v1.2. (100% finished)</li><li>
+RPM Packaging (60% finished)</li></ul></td>
+<td valign='top'></td>
+</tr>
+<tr>
+<td>yma</td>
+<td valign='top'> 
+</td>
+<td valign='top'></td>
+<td valign='top'></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Study the Harvest code and set up development environment. (Done)</li><li>
+Move to Teiid connection. (In progress)</li></ul></td>
+</tr>
+
+</table>
+<h3 id='section_ux_7'>Section UX</h3>
+<table>
+<tr>
+<th></th>
+<th>ESO theme V1.1</th>
+<th>Treasury </th>
+<th><strong>TCMS 3.8</strong></th>
+<th><strong>Art Work</strong></th>
+</tr>
+<tr>
+<td>Summary</td>
+<td valign='top'>
+<ul style='padding-left: 15px;'><li>
+ Week24, as requirement has changed to brand eso theme and highligt HSS, ux team has redesign 2 visual designs, and finished developing static page demo.</li>
+</ul>
+</td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Update Treasury prototype and static page</li></ul></td>
+<td valign='top'> </td>
+<td valign='top'> </td>
+</tr>
+<tr>
+<td>junzhang</td>
+<td valign='top'> 
+<ul style='padding-left: 15px;'>
+  <li>Update static page demo</li>
+</ul></td>
+<td valign='top'></td>
+<td valign='top'> </td>
+<td valign='top'> </td>
+</tr>
+<tr>
+<td>nli</td>
+<td valign='top'> 
+<ul style='padding-left: 15px;'>
+<li>Implement new theme design to html page [ theme home page, example page, about page]</li>
+</ul>
+</td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Update treasury prototype---del &quot;report customize&quot; and &quot;get quotation&quot;, add &quot;add opex cost&quot;, modify &quot; admin/poles and permissions &quot;
+  Currency Unit, add capex request</li></ul></td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=799487'>799487</a>- In test plan -&gt; cases, change width of &quot;Automated&quot; column to 160px</li><li>
+ Bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=820853'>820853</a>- TCMS User guide should be found easily.</li></ul></td>
+<td valign='top'>HSS logo designing</td>
+</tr>
+<tr>
+<td>hcao</td>
+<td valign='top'> 
+</td>
+<td valign='top'><ul style='padding-left: 15px;'><li>Developed treasury html page</li></ul></td>
+<td valign='top'> </td>
+<td valign='top'><ul style='padding-left: 15px;'><li>HSS logo designing</li></ul></td>
+</tr>
+<tr>
+<td> xiazhang </td>
+
+
+<td valign='top'> 
+</td>
+<td valign='top'> </td>
+<td valign='top'> </td>
+<td valign='top'><ul style='padding-left: 15px;'><li>L10n QA Event Flow Chart</li></ul>
+ <ul style='padding-left: 15px;'><li>HSS logo desinging</li></ul></td>
+</tr>
+
+</table>
+
+<div class="byline">
+  Revised on July  4, 2012 16:23:36 
+  by
+  <a class="existingWikiWord" href="/ReportTool/public/iednay/published/IED+Weekly+Executive+Report+--NAY+Week30">junzhang</a>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

@@ -1,0 +1,185 @@
+I"™<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Engineering Operations Weekly Executive Briefing - Week 28 in Operations
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/operations/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/operations/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/operations/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/operations/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/operations/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/operations/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Operations</span><br />
+      Engineering Operations Weekly Executive Briefing - Week 28
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Week starting <strong>Saturday June 30 2012</strong> ending <strong>Friday July 6 2012</strong></p>
+
+<p>Report generated in week 28, 2012.</p>
+<hr/>
+<h1 id='apac_2'>APAC</h1>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Deployment of Beacon and Newspaper is currently blocked. The hardware has arrived, yet an audit of the existing infrastructure revealed that it was under utilized. ggillies is currently formulating a plan to reorganize the environment so that all hardware can be fully utilized. This review and recommendations are expected to be finished early this week.</p>
+</li>
+
+<li>
+<p>The NAY facility requires cabling and cable settings for five (5) cages worth of hardware (for FY13 purchasing which is onging). Currently, quotes and planning are being organized. Failure to resolve this will impact the roll out of systems for Beaker (Kernel QE and Virt QE) as well as tools development work in NAY.</p>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work completed</h2>
+
+<ul>
+<li>
+<p>Redmine devel was destroyed and reprovisioned. This was done at the request of IED-NAY in order to reset the development environment to the same standard as production for further development and testing. This was undertaken without issue.</p>
+</li>
+
+<li>
+<p>Eng-Ops was requested to upgrade tanslate.jboss.org and translate.zanata.org to zanata 1.6.1. No issues were encountered.</p>
+</li>
+
+<li>
+<p>Globalsync stage was updated after falling two (2) weeks behind schedule due to issues discovered during a test deployment; it is now ready for testing. This will allow QE to start testing globalsync 3.0 this week.</p>
+</li>
+
+<li>
+<p>NAY Associate Administrators were trained in the use of Eng-Ops configuration management toolchain. This now allows them to start taking on tickets related to system level work. This will ease the workload on the Eng-Ops APAC team and allowing them to focus on higher level tasks.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Start Eng-Ops project pipeline. In particular, work on the Mirror Manager project will begin by mgrigull.</p>
+</li>
+
+<li>
+<p>Deployment of Gerrit staging environment. This will be done by ggillies and once completed will allow En-Ops to move ahead with a production deployment.</p>
+</li>
+
+<li>
+<p>Evaluation of Jenkins as a continuous integration tool. This work will be completed by ggillies, weizhang, zdou and huili. Once the evaluation is complete it will allow Eng-Ops to move ahead with a production deployment.</p>
+</li>
+
+<li>
+<p>Treasury devel and staging environment setup. This will allow work on the Treasury project by IED-NAY to commence.</p>
+</li>
+</ul>
+<hr/>
+<h1 id='emea_6'>EMEA</h1>
+
+<p>No update this week due to holidays.</p>
+<hr/>
+<h1 id='na_7'>NA</h1>
+
+<p>No update this week due to holidays.</p>
+
+<div class="byline">
+  Created on July  9, 2012 16:42:48 
+  by
+  <span class="newWikiWord">mdoyle</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:EF

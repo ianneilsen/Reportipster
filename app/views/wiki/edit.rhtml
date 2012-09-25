@@ -1,0 +1,125 @@
+<%- 
+  @title = "Editing #{@page.name.escapeHTML}".html_safe
+  @content_width = 800
+  @hide_navigation = true #hides nav when in new and edit mode
+-%>
+
+	<% form_tag({ :action => 'save', :web => @web.address, :id => @page.name },
+	             { 'id' => 'editForm', 'method' => 'post', 'onsubmit' => 'cleanAuthorName()',
+	               'accept-charset' => 'utf-8' }) do %>
+	   
+	   <div>
+	   	<% if @page_name != 'HomePage' -%>
+	   <p style="display: inline; float: left; margin-top: 5px; margin-right: 20px;">
+	      <%= check_box_tag :alter_title, value = "1", checked=false,
+	         'onchange' => "toggleVisibility();" %> <label for="alter_title">Change report name.</label><br/>
+	      <span id="title_change" style="display:none; position: absolute; top: 3px; margin-left: 200px;"><label for="new_name">Report name:</label>
+	      <%= text_field_tag :new_name, h(@page.name.purify), :onblur => "addRedirect();"  %></span>
+	   </p>	
+	   <% else -%>
+       <%= hidden_field_tag 'new_name', @page_name %>
+<% end%> 
+
+		<textarea name="content" id="content" rows="24" cols="60"><%= h(flash[:content] || 
+                         (params['content'] ?  params['content'] : @page.content).purify) %></textarea>
+
+
+
+
+		<div id="editFormButtons">
+			<input type="submit" value="Submit" accesskey="s"/> as 
+			<%= text_field_tag :author, h(@author.purify), 
+			        :onfocus => "this.value == 'QEBrisbane' ? this.value = '' : true;",
+			        :onblur  => "this.value == '' ? this.value = 'QEBrisbane' : true" %>
+			| 
+			<span>
+				<%= link_to('Cancel', {:web => @web.address, :action => 'cancel_edit', :id => @page.name},
+				      {:accesskey => 'c'}) %> 
+                <span class="unlock">(unlocks page)</span>
+			</span>
+		</div>
+	   </div>
+	<%- end -%>
+
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function toggleVisibility() {
+  var span = document.getElementById('title_change');
+  if (span.style.display =='inline') {
+     span.style.display ='none';
+     document.getElementById('new_name').value = "<%= escape_javascript(@page.name) %>";
+     var content = document.getElementById('content').value
+     document.getElementById('content').value = content.replace(/\[\[!redirects <%= Regexp.escape(@page.name).gsub('/', '\\/') %>\]\]\n/, '')
+     }
+  else
+     span.style.display ='inline'
+}
+
+function addRedirect(){
+  var e = document.getElementById('new_name').value;
+  if ( e != "<%= escape_javascript(@page.name) %>" && e != '') {
+    var content = document.getElementById('content');
+    content.value = '[[!redirects <%= escape_javascript(@page.name) %>]]\n' + content.value
+    }
+}
+
+function cleanAuthorName() {
+  if (document.getElementById('authorName').value == "") {
+    document.getElementById('authorName').value = 'QEBrisbane';
+  }
+}
+
+document.forms["editForm"].elements["content"].focus();
+<%- if [:markdown].include?(@web.markup) -%>
+
+<%- end -%>
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.getElementById("content").onkeydown = function(e) {
+  if (!e && event.keyCode == 9)
+  {
+    event.returnValue = false;
+    insertAtCursor(document.getElementById("content"), "    ");
+  }
+  else if (e.keyCode == 9)
+  {
+    e.preventDefault();
+    insertAtCursor(document.getElementById("content"), "    ");
+  }
+};
+
+//http://alexking.org/blog/2003/06/02/inserting-at-the-cursor-using-javascript#comment-3817
+function insertAtCursor(myField, myValue) {
+  //IE support
+  if (document.selection) {
+    var temp;
+    myField.focus();
+    sel = document.selection.createRange();
+    temp = sel.text.length;
+    sel.text = myValue;
+    if (myValue.length == 0) {
+      sel.moveStart('character', myValue.length);
+      sel.moveEnd('character', myValue.length);
+    } else {
+      sel.moveStart('character', -myValue.length + temp);
+    }
+    sel.select();
+  }
+  //MOZILLA/NETSCAPE support
+  else if (myField.selectionStart || myField.selectionStart == '0') {
+    var startPos = myField.selectionStart;
+    var endPos = myField.selectionEnd;
+    myField.value = myField.value.substring(0, startPos) + myValue + myField.value.substring(endPos, myField.value.length);
+    myField.selectionStart = startPos + myValue.length;
+    myField.selectionEnd = startPos + myValue.length;
+  } else {
+    myField.value += myValue;
+  }
+}
+//--><!]]>
+</script>
+

@@ -1,0 +1,258 @@
+I"�&<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      SAM 1-2 Weekly Executive Briefing - Week 29 in SAM 1-2
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    ...
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam12/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam12/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/sam12/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/sam12/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/sam12/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/sam12/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">SAM 1-2</span><br />
+      SAM 1-2 Weekly Executive Briefing - Week 29
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday July 9th 2012</strong> finished <strong>Friday July 13th 2012</strong></p>
+
+<p>Report generated Week 29, 2012.</p>
+
+<ul>
+<li>
+<p>In past week, HSS QE have been working on improving the RHSM integration cases with SAM and will create more integration cases in the following weeks.</p>
+</li>
+
+<li>
+<p>Cloud QE have been working on researching new features and reviewing and updating IEEE Test Plan. In the next week, Cloud QE will continue to research new features and review and update IEEE Test Plan.</p>
+</li>
+
+<li>
+<p>Cloud QE finished the new feature “Two-Pane subscriptions” on SAM web UI, and updated entire section on content tab and delete tabs that no longer exist. In the process, Cloud QE filed 6 new bugs - see test result detail section.</p>
+</li>
+
+<li>
+<p>No test result data until the 10th of August.</p>
+</li>
+</ul>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='nostatus' src='/ReportTool/public/sam12/files/nostatus.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>No test status for SAM 1.2, since we are in test planning phase.</li>
+</ul>
+
+<p><img alt='nostatus' src='/ReportTool/public/sam12/files/nostatus.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>No test status for SAM 1.2, since we are in test planning phase.</p>
+</li>
+</ul>
+
+<p><img alt='nostatus' src='/ReportTool/public/sam12/files/nostatus.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>No test status for SAM 1.2, since we are in test planning phase.</li>
+</ul>
+
+<p><img alt='nostatus' src='/ReportTool/public/sam12/files/nostatus.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>No test status for SAM 1.2, since we are in test planning phase.</li>
+</ul>
+
+<p><img alt='nostatus' src='/ReportTool/public/sam12/files/nostatus.png'/> <strong><span>Content testing</span></strong></p>
+
+<ul>
+<li>
+<p>No test status for SAM 1.2, since we are in test planning phase.</p>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+</li>
+</ul>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>Need Eric Sammons to send a summary of weekly status to HSS QE, so that it can be included in the QE Weekly Executive Briefing</li>
+</ol>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>HSS QE finished “Activation key, Release, List, import certificate, multi-org” integration test cases for SAM 1.2. The TCMS plan link: <a href='https://tcms.engineering.redhat.com/plan/6583/'>https://tcms.engineering.redhat.com/plan/6583/</a> .</p>
+</li>
+
+<li>
+<p>Cloud QE finished “Two-pane subscriptions” new feature research and updated “content tab” and deleted some tabs that no longer exist on SAM web UI, and then updated the scenarios in IEEE Test Plan.</p>
+
+<ul>
+<li>Git repo: <a href='mailto:git@git.qe.lab.eng.bne.redhat.com:~/repo/IEEE_Test_Plans/SAM.git'>git@git.qe.lab.eng.bne.redhat.com:~/repo/IEEE_Test_Plans/SAM.git</a>.</li>
+</ul>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Create more RHSM integration test cases for SAM.</p>
+
+<ul>
+<li>The TCMS plan link: <a href='https://tcms.engineering.redhat.com/plan/6583/'>https://tcms.engineering.redhat.com/plan/6583/</a> .</li>
+</ul>
+</li>
+
+<li>
+<p>Continue to update the SAM1.2 IEEE Test Plan.</p>
+
+<ul>
+<li>The test plan link:<a href='http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/SAM/1.2/html-single/IEEE_Test_Plan/index.html'>http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/SAM/1.2/html-single/IEEE_Test_Plan/index.html</a></li>
+</ul>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<ul>
+<li>
+<p>Cloud QE finished the new feature “Two-Pane subscriptions” on SAM web UI, and updated entire section on content tab and delete tabs that no longer exist. In the process, Cloud QE filed 6 new bugs:</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=840478'>Bug 840478</a> As a Sysadmin of SAM I would like to have documentation for Backing up and Recovering a SAM installation. <span>New urgent</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=840609'>Bug 840609</a> katello-headpin displays system groups under activation key when headpin will not support system groups. <span>New urgent</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=840603'>Bug 840603</a> Post ‘import manifest’ subscriptions return row:NotFound. <span>New urgent</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=840600'>Bug 840600</a> Post creating new environment in headpin, webui returns row:NotFound error. <span>New, urgent</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=840595'>Bug 840595</a> katello-configure –help optparse.rb:395:in <code>+&#39;: can&#39;t convert nil into String (TypeError).  [New urgent]</code></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=839500'>Bug 839500</a> Should not generate the virtual “Available subscriptions” to Activation key. <span>New, urgent</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam12/list/June'>June</a>, <a class='category_link' href='/ReportTool/public/sam12/list/Week+29'>Week 29</a></div></p>
+
+<div class="byline">
+  Revised on July 17, 2012 17:48:53 
+  by
+  <span class="newWikiWord">Ian Neilsen</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

@@ -1,0 +1,537 @@
+I"1Z<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Entitlement Weekly Executive Briefing - Week 20 in Entitlement 6-3
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement63/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement63/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/entitlement63/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/entitlement63/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/entitlement63/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/entitlement63/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Entitlement 6-3</span><br />
+      Entitlement Weekly Executive Briefing - Week 20
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Tuesday May 8th 2012</strong> finished <strong>Monday May 14th 2012</strong></p>
+
+<p>Report for week 20, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='redlight' src='/ReportTool/public/entitlement63/files/red.png'/> <strong><span>subscription-manager</span></strong></p>
+
+<ul>
+<li>
+<p>RHEL6.3-Snapshot-3 subscription-manager smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>RHEL6.3-Snapshot-3 subscription-manager i18n/l10n testing by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL due to 2 high severity i18n bugs and 5 translation related bugs.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820080'>Bug 820080</a> - <span>en_US</span> Missed letter ‘i’ in Manual Configuration Required page <span>MODIFIED, blocker+ Severity-HIGH</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820040'>Bug 820040</a> - <span>ja_JP</span> repos module –help message_some strings displayed as question mark <span>MODIFIED, blocker+ Severity-HIGH</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820027'>Bug 820027</a> - <span>ALL LANG</span> Unlocalized string ‘if supplied then list shows only …’ in list module help message <span>MODIFIED, blocker+</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=819828'>Bug 819828</a> - <span>ALL LANG</span> Unlocalized string ‘This system does not support environments’ in environments module. <span>MODIFIED, blocker+</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=819808'>Bug 819808</a> - <span>ALL_LANG</span> Unlocalized string ‘No service levels …’ in Manual Configuration Required page when system registration without selecting ‘Skip automatic subscription selection for this system’. <span>MODIFIED, blocker+</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820047'>Bug 820047</a> - <span>zh_CN</span> Unlocalized string ‘Section: Name:’ in config module. <span>MODIFIED, blocker+</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820042'>Bug 820042</a> - <span>zh_CN</span> ‘Stacking ID’ unlocalized in Subscription Manager Main Page. <span>MODIFIED, blocker+</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>RHEL6.3-Snapshot-3 subscription-manager acceptance testing by Cloud QE: <strong>Conditional PASS</strong></p>
+
+<ul>
+<li>
+<p>Test result got Conditional PASS as there were two known high severity functional bugs and four translation related bugs.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820639'>Bug 820639</a> - subscription-manager release –list should exclude listings from disabled repos.<span>MODIFIED</span></li>
+
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=821024'>Bug 821024</a> - Opening preferences dialog after closing with ESC fails.<span>MODIFIED</span></li>
+
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820080'>Bug 820080</a> - <span>en_US</span> Missed letter ‘i’ in Manual Configuration Required page <span>MODIFIED</span></li>
+
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820040'>Bug 820040</a> - <span>ja_JP</span> repos module –help message_some strings displayed as question mark <span>MODIFIED</span></li>
+
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820743'>Bug 820743</a> - some multiline strings extracted into string catalog incorrectly <span>MODIFIED</span></li>
+
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820671'>Bug 820671</a> - glade strings on manual_subscription screen in firstboot not translated <span>MODIFIED</span></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>RHEL6.3-Snapshot-3 subscription-manager acceptance testing by RTT: <strong>PASS</strong></p>
+
+<ul>
+<li>
+<p>Test result should be PASS as the only high severity bug found was a temporary stage environment issue which was closed as NOTABUG.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=821452'>Bug 821452</a> - Unable to unsubscribe <span>NOTABUG</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/> <strong><span>subscription-manager-migration-data</span></strong></p>
+
+<ul>
+<li>
+<p>subscription-manager-migration-data-1.12.1.8-1.el6.noarch was tested by Cloud QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/> <strong><span>virt-who</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-3 against SAM-2012-04-12.2 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/entitlement63/files/red.png'/> <strong><span>content testing</span></strong></p>
+
+<ul>
+<li>
+<p>Hosted QE focused on PACKAGE_MANIFEST validation, however, there was one test blocker.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=820152'>Bug 820152</a> - Repos in entitlement cert and repo manifest are mismatched. NEW, blocker+gregor)</li>
+</ul>
+</li>
+
+<li>
+<p>Workflow is under discussion in entitlement-team-list on how to review and sign off package manifest in Authenticity. The expected time to get a solution is Friday May 18th.</p>
+</li>
+</ul>
+
+<p><img alt='yellowlight' src='/ReportTool/public/entitlement63/files/yellow.png'/> <strong><span>SKU testing</span></strong></p>
+
+<ul>
+<li>A vault request was created for reviewing and signing off SKU matrix on May 9th. So far, we have not received any comment in that vault request. See Risks/Actions for more details.</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Need Dennis to review the proposal (sign off only GA package manifest) QE proposed in entitlement-team-list for signing off RHEL6.3 Package manifest in Authenticity.</p>
+</li>
+
+<li>
+<p>The <a href='https://vault-stage.englab.nay.redhat.com/Vault/showRequest/895'>vault request</a> was created on the 9th May for stakeholders to review the SKU test matrix and due date set for the sign off on Friday the 18th May.</p>
+
+<ul>
+<li>Could following stakeholders take a moment to review the SKU matrix and expected results within? Please sign off if you accept the content, or comment to let us know how it can be updated?</li>
+
+<li>Amanda Carter</li>
+
+<li>Robbie Riggs</li>
+</ul>
+</li>
+
+<li>
+<p>RHEL6.3 Entitlement IEEE Test Plan was sent out for stakeholders to review on the 1st March and due date set for the sign off on the 26th March.</p>
+
+<ul>
+<li>
+<p>So far, we have got sign off from Devan Goodwin, Marian Ganisin, Alex Wood, Radek Novacek, Amanda Carter, John Selfer, Bryan Kearney, Christopher Duryee and Siddharth Nagar. We also received feedback from William Poteat, Dennis Gregorovic and Ron Pacheco. Thank you for your prompt feedback.</p>
+</li>
+
+<li>
+<p>Could following stakeholders take a moment to review the corresponding features? Please sign off if you accept the content, or comment to let us know how it can be improved? in <a href='https://vault-stage.englab.nay.redhat.com/authsec/portal/vault/Vault/VaultWindow0.1?action=1&amp;operation=showrequest&amp;requestid=709'>Vault request #557</a></p>
+</li>
+</ul>
+
+<p><a href='https://riddler.bne.redhat.com/IEEE_Test_Plans/en-US/RHEL/6.3/html/Entitlement-Subscription_IEEE_Test_Plan/features-to-be-tested.html'>Feature test List</a></p>
+
+<ul>
+<li>Will Poteat</li>
+
+<li>Ron Pacheco</li>
+
+<li>Dennis Gregorovic</li>
+
+<li>Adrian Likins</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work completed</h2>
+
+<ul>
+<li>virt-who functional testing against with rhel6.3-server-Snapshot-3.</li>
+
+<li>subscription-manager acceptance testing of RHEL6.3-Snapshot-3.</li>
+
+<li>create vault request to get the SKU matrix and expected results signed off.</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ul>
+<li>subscription-manager acceptance testing of RHEL6.3-Snapshot-4.</li>
+
+<li>Do PACKAGE_MANIFEST validation of all variants on all architectures.</li>
+
+<li>Update RHEL6.3 Entitlement IEEE Test Plan according to feedback.</li>
+
+<li>Update SKU matrix and expected results according to feedback.</li>
+</ul>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>subscription-manager smoke testing of RHEL6.3-Snapshot-3 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+Smoke testing got PASS as there was no test blocker or critical regression found.
+
+RHEL Build:
+RHEL6.3-20120509.1
+
+Package Tested (4):
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+
+New Bugs (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+rhsm-rhel63 Bugs: (2 NEW/ASSIGNED, 7 MODIFIED/ON_QA)
+https://bugzilla.redhat.com/buglist.cgi?field0-0-0=blocked&amp;classification=Red%20Hat&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;version=6.3&amp;type0-0-0=anywordssubstr&amp;value0-0-0=738066&amp;component=python-rhsm&amp;component=subscription-manager&amp;product=Red%20Hat%20Enterprise%20Linux%206
+
+Other RHSM Bugs: (23 NEW/ASSIGNED,7 MODIFIED/ON_QA)
+https://bugzilla.redhat.com/buglist.cgi?field0-0-0=blocked&amp;classification=Red%20Hat&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;version=6.3&amp;type0-0-0=notsubstring&amp;value0-0-0=738066&amp;component=python-rhsm&amp;component=subscription-manager&amp;product=Red%20Hat%20Enterprise%20Linux%206
+
+=== Manual Run ===
+|6Server x86_64|https://tcms.engineering.redhat.com/run/38454/|
+|6Server i386  |https://tcms.engineering.redhat.com/run/38455/|
+
+=== Automation Run ===
+|6Server x86_64|https://virtlab.englab.nay.redhat.com/job/49467/details/|
+|6Server i386  |https://virtlab.englab.nay.redhat.com/job/49441/details/|</code></pre>
+
+<p><strong>RHEL6.3-Snapshot-3 subscription-manager i18n/l10n testing by Hosted QE: FAIL</strong></p>
+
+<pre><code>Test Result:
+i18n/l10n testing got FAIL as there were three i18n bugs and eight l10n bugs proposed for RHEL6.3 blockers.
+
+Package Tested:
+subscription-manager-0.99.16-1.el6.x86_64
+
+New Bugs (11):
+Bug 820040 - [ja_JP] [RHSM CLI] repos module --help message_some strings displayed as question mark. [MODIFIED, blocker+, i18n]
+Bug 820037 - [ja_JP] [RHSM CLI] Import module - --help message some strings displayed as question mark. [MODIFIED, blocker+, i18n]
+Bug 820030 - [ja_JP] [RHSM CLI] config module --help message some strings displayed as question mark. [MODIFIED, blocker+, i18n]
+
+Bug 820027 - [ALL LANG][RHSM CLI] Unlocalized string &#39;if supplied then list shows only ...&#39; in list module help message [MODIFIED, blocker+]
+Bug 819828 - [ALL LANG][RHSM CLI] Unlocalized string &#39;This system does not support environments&#39; in environments module. [MODIFIED, blocker+]
+Bug  819808 - [ALL_LANG] [RHSM FirstBoot] Unlocalized string &#39;No service  levels ...&#39; in Manual Configuration Required page when system  registration without selecting &#39;Skip automatic subscription selection  for this system&#39;. [MODIFIED, blocker+]
+Bug 820047 - [zh_CN][RHSM CLI] Unlocalized string &#39;Section: Name:&#39; in config module. [MODIFIED, blocker+]
+Bug 820042 - [zh_CN][RHSM GUI] &#39;Stacking ID&#39; unlocalized in Subscription Manager Main Page. [MODIFIED, blocker+]
+Bug 820080 - [en_US] [RHSM FirstBoot] Missed letter &#39;i&#39; in Manual Configuration Required page. [MODIFIED, blocker+]
+Bug 819818 - [ALL LANG] [RHSM CLI] Unlocalized string &#39;Service level xx is not available ... &#39; in register module. [NEW, NEEDINFO]
+Bug 819783 - [ALL LANG] Subscription Manager Manual unlocalized. [NEW, blocker?]
+ 
+Test Blocker (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Manual Run ===
+zh_CN : https://tcms.engineering.redhat.com/run/37294/report/
+zh_TW : https://tcms.engineering.redhat.com/run/37295/report/
+ja_JP : https://tcms.engineering.redhat.com/run/37293/report/
+ko_KR : https://tcms.engineering.redhat.com/run/37296/report/
+pt_BR : https://tcms.engineering.redhat.com/run/37298/report/
+ru_RU : https://tcms.engineering.redhat.com/run/37299/report/
+fr_FR : https://tcms.engineering.redhat.com/run/37297/report/</code></pre>
+
+<p><strong>subscription-manager acceptance testing of RHEL6.3-Snapshot-3 by Cloud QE: Conditional PASS</strong></p>
+
+<pre><code>Test Result:
+Acceptance testing got Conditional PASS due to several known high severity functional bugs.
+
+RHEL Build:
+RHEL6.3-20120509.1
+
+Package Tested (4):
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+
+New Bugs (2):
+Bug 820639 - subscription-manager release --list should exclude listings from disabled repos
+Bug 821024 - Opening preferences dialog after closing with ESC fails
+
+Test Blocker (0):
+N/A
+
+rhsm-rhel63 Bugs: (2 NEW/ASSIGNED, 7 MODIFIED/ON_QA)
+https://bugzilla.redhat.com/buglist.cgi?field0-0-0=blocked&amp;classification=Red%20Hat&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;version=6.3&amp;type0-0-0=anywordssubstr&amp;value0-0-0=738066&amp;component=python-rhsm&amp;component=subscription-manager&amp;product=Red%20Hat%20Enterprise%20Linux%206
+
+Other RHSM Bugs: (23 NEW/ASSIGNED, 7 MODIFIED/ON_QA)
+https://bugzilla.redhat.com/buglist.cgi?field0-0-0=blocked&amp;classification=Red%20Hat&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;version=6.3&amp;type0-0-0=notsubstring&amp;value0-0-0=738066&amp;component=python-rhsm&amp;component=subscription-manager&amp;product=Red%20Hat%20Enterprise%20Linux%206
+
+=== Manual Run ===
+N/A
+
+=== Automation Run ===
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/Entitlement/job/subscription-manager%20RHEL6.3%20Acceptance%20%28Stage%29/112/TestNG_Report/</code></pre>
+
+<p><strong>subscription-manager acceptance testing of RHEL6.3-Snapshot-3 by RTT: FAIL</strong></p>
+
+<pre><code>Test Result:
+Acceptance testing got FAIL as there was one high severity bug found.
+
+RHEL Build:
+RHEL6.3-20120509.1
+
+Package Tested (4):
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+
+New Bugs (1):
+Bug 821452 - Unable to unsubscribe [NEW]
+
+Test Blocker (0):
+N/A
+
+rhsm-rhel63 Bugs: (2 NEW/ASSIGNED, 7 MODIFIED/ON_QA)
+https://bugzilla.redhat.com/buglist.cgi?field0-0-0=blocked&amp;classification=Red%20Hat&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;version=6.3&amp;type0-0-0=anywordssubstr&amp;value0-0-0=738066&amp;component=python-rhsm&amp;component=subscription-manager&amp;product=Red%20Hat%20Enterprise%20Linux%206
+
+Other RHSM Bugs: (23 NEW/ASSIGNED, 7 MODIFIED/ON_QA)
+https://bugzilla.redhat.com/buglist.cgi?field0-0-0=blocked&amp;classification=Red%20Hat&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;version=6.3&amp;type0-0-0=notsubstring&amp;value0-0-0=738066&amp;component=python-rhsm&amp;component=subscription-manager&amp;product=Red%20Hat%20Enterprise%20Linux%206
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/runs/?action=search&amp;plan=5482&amp;summary=RHEL6.3-20120509.1
+
+=== Automation Run ===
+N/A</code></pre>
+
+<p><strong>subscription-manager-migration-data-1.12.1.8-1.el6.noarch testing by Cloud QE: PASS</strong></p>
+
+<pre><code>Test Result:
+Test result got PASS as there was no critical regression or test blockers found.
+
+RHEL Build:
+RHEL6.3-20120509.1
+
+Package Tested (4):
+subscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-migration-data-1.12.1.8-1.el6.noarch
+subscription-manager-migration-0.99.17-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+
+New Bugs (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+subscription-manager-migration-rhel63 Bugs:  (0 NEW/ASSIGNED, 0 MODIFIED/ON_QA)
+https://bugzilla.redhat.com/buglist.cgi?field0-0-0=blocked&amp;classification=Red%20Hat&amp;query_format=advanced&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;version=6.3&amp;type0-0-0=anywordssubstr&amp;component=subscription-manager-migration-data&amp;product=Red%20Hat%20Enterprise%20Linux%206
+
+=== Manual Run ===
+N/A
+
+=== Automation Run ===
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/Entitlement/job/subscription-manager%20RHEL6.3%20MigrationTests%20on%20AllDistros%20%28Stage%29/34/</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-snapshot3(kvm) against SAM-2012-0412.2 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested(10):
+virt-who-0.6-6.el6.noarch
+subscription-manager-0.99.17-1.el6.x86_64
+subscription-manager-gnome-0.99.17-1.el6.x86_64
+subscription-manager-firstboot-0.99.17-1.el6.x86_64
+python-rhsm-0.99.10-1.el6.noarch
+libvirt-0.9.10-18.el6.x86_6
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+
+New Bugs (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+|host/guest 6.3Server_x64/5.8server_x84|https://virtlab.englab.nay.redhat.com/job/49457/details/|
+|host/guest 6.3Client_x64/5.8server_x84|https://virtlab.englab.nay.redhat.com/job/49571/details/|</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/entitlement63/list/Week+20'>Week 20</a>, <a class='category_link' href='/ReportTool/public/entitlement63/list/May'>May</a></div></p>
+
+<div class="byline">
+  Revised on May 17, 2012 17:06:06 
+  by
+  <span class="newWikiWord">Ian Neilsen</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

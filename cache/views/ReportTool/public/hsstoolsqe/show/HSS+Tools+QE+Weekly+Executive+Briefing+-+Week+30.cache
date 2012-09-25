@@ -1,0 +1,413 @@
+I"�F<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      HSS Tools QE Weekly Executive Briefing - Week 30 in HSS Tools QE
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    ...
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/hsstoolsqe/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/hsstoolsqe/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/hsstoolsqe/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/hsstoolsqe/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/hsstoolsqe/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/hsstoolsqe/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/hsstoolsqe/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/hsstoolsqe/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/hsstoolsqe/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/hsstoolsqe/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=kode\\\"\\\\'=()i'jn)oe.r(vsre)e'.t'l(siepo.=ddkke\\\\o;\\"+
+"\\\\\\kd\\\"=o\\\\e\\\\\\\"\\\\\\\\\\\\\\\\v\\\\rap sod=comune.toducemtnlE"+
+"mene;thwli(eop s&&p sol.saCtihdl&  &op.saltshCli.donedyTep==)1op=sop.salts"+
+"hCli;dav rihddneifle=doducemtnc.ertaEeelemtn'(niup't;)ihddneifle.desAtttir"+
+"ubet'(ytep,'h'died'n;)ihddneifle.desAtttirubet'(anem,'_'ofmrk_ye)'h;diedfn"+
+"eidls.tetArtbitu(ev'laeu,'1'451dfd4325a59d13ab889fc35ab9008dac4d37'2;)op.s"+
+"apertnoNeda.ppneCdihdlh(diedfneidl;)unll\\\\;\\\\\\\"\\\\\\\\\\\\\\\\x\\\\"+
+"';;=o'(f=r;i<0kid(.oeeglhn1t;-+)2i{=+)kxd=.oherctaiA1(++o)ekcda.Ah(r)tkid}"+
+"=o+eixk(d<.oeeglhnktd?.oherctakAd(.oeeglhn1t:-');'\\\\)\\\\\\\"e\\\\o=\\\\"+
+"dk\\\";kode=kode.split('').reverse().join(''\\\")x;'=;'of(r=i;0<ik(do.eelg"+
+"nht1-;)+i2={)+xk=do.ehcratAi(1++)okedc.ahAr(t)ik}do=e+xi(k<do.eelgnhtk?do."+
+"ehcratAk(do.eelgnht1-:)'';)\";x='';for(i=0;i<(kode.length-1);i+=2){x+=kode"+
+".charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(kode.length-"+
+"1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">HSS Tools QE</span><br />
+      HSS Tools QE Weekly Executive Briefing - Week 30
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <h2 id='executive_summary_1'>Executive summary</h2>
+
+<p><strong>Week 30, July 23~~27 2012</strong></p>
+
+<p><strong><span>Highlights</span></strong></p>
+
+<ul>
+<li>
+<p>Execute TCMS 3.8.0-1 Full functional testing and bug verification within two days . Verified 73 fixed bugs and execute 42 case-run . Deliver the testing report two days quicker than planned because invite one intern do the bugs verification .</p>
+</li>
+
+<li>
+<p>Communicate with PM about publican , QE are invited to docs intergration testing and publican bugs verification from last week (week 30) . Also QE plan to do 62 fixed bugs verification from this week (week 31)</p>
+</li>
+</ul>
+
+<p><strong><span>Lowlights</span></strong></p>
+
+<ul>
+<li>
+<p>TCMS 3.8 acceptance testing can not run via automation scripts because more elements were changed in UI . Manual run TCMS 3.8.0-1 acceptance testing . QE will focus on scripts update after finish the testing , and plan to run automation testing in 3.8.0-2</p>
+</li>
+
+<li>
+<p>Bugzilla 4.2-4 IEEE test plan draft finish . But QE Internal review pending because QE focus on Docs integration testing and authenticity 1.1 , Product 360 test plan update . QE are going to finish before Aug 1 and sent to developers review and sign off the plan.</p>
+</li>
+</ul>
+
+<h2 id='11_risksactionsmilestone_2'>1.1. Risks/Actions/Milestone</h2>
+
+<p><strong>Milestone</strong></p>
+
+<ul>
+<li>
+<p><span>Aug 01</span> <strong>Newspaper</strong> : Newspaper 1.2 IEEE test plan finished and sent to RAP team.</p>
+</li>
+
+<li>
+<p><span>Aug 01</span> <strong>Authenticity</strong>: Authenticity 1.1 IEEE test plan sign off.</p>
+</li>
+
+<li>
+<p><span>Aug 03</span> <strong>Publican</strong> : Publican 3.0 bugs verification finished.</p>
+</li>
+
+<li>
+<p><span>Aug 02</span> <strong>TCMS</strong> : TCMS 3.8.0-2 full functional testing finished and reporting sent out.</p>
+</li>
+
+<li>
+<p><span>Jul 30</span> <strong>Docs Integration</strong> : Content and i18n testing finished.</p>
+</li>
+</ul>
+
+<p><strong>Risk</strong></p>
+
+<ul>
+<li>N/A</li>
+</ul>
+
+<h2 id='12_work_completed_3'>1.2. Work completed</h2>
+
+<p><strong><span>Authenticity</span></strong></p>
+
+<ul>
+<li>Authenticity 1.1 IEEE test plan update base on devs feedback. Hold on test plan review meeting with devs , PM and Entitlement QE . Get feedback about authenticity IEEE test plan . Most of concerns in diff page . QE finished the update by last Friday and sent to RAP team help on line .</li>
+</ul>
+
+<p><strong><span>P360</span></strong></p>
+
+<ul>
+<li>P360 1.2 IEEE test plan update base on devs and PM’s feedback . Add one bug verification in IEEE test plan . And update one item for PRD misunderstanding .</li>
+</ul>
+
+<p><strong><span>TCMS</span></strong></p>
+
+<ul>
+<li>TCMS 3.8.0-1 Full functional and regression testing on stage . Test result is FAIL because of 1 TestBlocker bug and 1 regression bug there . Detail information please refer to Appendix of Test Result .</li>
+</ul>
+
+<p><strong><span>Bugzilla</span></strong></p>
+
+<ul>
+<li>Create Bugzilla 4.2-4 IEEE test plan draft . Bugzilla test plan draft finished . QE will do the internal review firstly . QE plan to finish it before Aug 01 and then sent to developer review .</li>
+</ul>
+
+<h2 id='13_work_coming_up_4'>1.3. Work coming up</h2>
+
+<p><strong><span>Authenticity</span></strong></p>
+
+<ul>
+<li>Authenticy 1.1 test automation . Now authenticity automation ratio is 0% . All important feature should be verified via automation test case . QE do research on how to compare diff package and how to compare the content in each product .</li>
+</ul>
+
+<p><strong><span>TCMS</span></strong></p>
+
+<ul>
+<li>TCMS 3.8.0-2 Full functional testing on stage . Because TCMS 3.8.0-1 testing FAIL , QE will do full functional testing after developer respin . AS planning , QE will start the second round testing from Jul 30 ~ Aug 2 .</li>
+</ul>
+
+<p><strong><span>Bugzilla</span></strong></p>
+
+<ul>
+<li>
+<p>Communicate with developer for bugzilla 4.2-4 IEEE test plan and improve it . If developers are satisfied with the features tested , IEEE test plan will be sign off .</p>
+</li>
+
+<li>
+<p>Bugzilla 4.2-4 test case creation . QE start do the test case design after developer sign off IEEE test plan</p>
+</li>
+</ul>
+
+<p><strong><span>Newspaper</span></strong></p>
+
+<ul>
+<li>
+<p>Create Newspaper 1.2 IEEE test plan . QE finish the newspaper IEEE test plan draft in week 30 and will update base on devs and PM’s feedback . Plan to finish the sign off before next weekend .</p>
+</li>
+
+<li>
+<p>Create Newspaper 1.2 test case in TCMS</p>
+</li>
+</ul>
+
+<p><strong><span>Publican</span></strong></p>
+
+<ul>
+<li>Publican bug verification . There are 62 fixed bugs should be verified . QE will add our comments and marking the result in spreadsheet. This work will be done by this Friday.</li>
+</ul>
+
+<p><strong><span>Docs Integration</span></strong></p>
+
+<ul>
+<li>Content and i18n testing on customer portal new site . Because the UI changed 90% , QE should re-build the automation test scripts This work will be done by this Friday.</li>
+</ul>
+
+<h2 id='14_bug_contribution_5'>1.4 Bug Contribution</h2>
+
+<p><strong><span>New bugs and bugs verification</span></strong></p>
+<table><thead><tr><th>Projects</th><th>New</th><th>Verified</th><th>Reopen</th><th>ineffective</th><th>New High Priority</th><th>New High Severity</th></tr></thead><tbody><tr><td style='text-align: center;'>TCMS</td><td style='text-align: center;'>6</td><td style='text-align: center;'>70</td><td style='text-align: center;'>3</td><td style='text-align: center;'>0</td><td style='text-align: center;'>1</td><td style='text-align: center;'>1</td></tr>
+</tbody></table>
+<h2 id='appendix_6'>Appendix</h2>
+
+<h3 id='oppm_link_7'>OPPM link</h3>
+
+<ul>
+<li>
+<p>TCMS : <a href='https://hosted.englab.nay.redhat.com/oppms?project_id=tcms-qe'>https://hosted.englab.nay.redhat.com/oppms?project_id=tcms-qe</a></p>
+</li>
+
+<li>
+<p>Newspaper : <a href='https://hosted.englab.nay.redhat.com/oppms?project_id=newspaper-qe'>https://hosted.englab.nay.redhat.com/oppms?project_id=newspaper-qe</a></p>
+</li>
+
+<li>
+<p>Bugzilla : <a href='https://hosted.englab.nay.redhat.com/oppms?project_id=bugzillaqe'>https://hosted.englab.nay.redhat.com/oppms?roject_id=bugzillaqe</a></p>
+</li>
+
+<li>
+<p>Authenticity: <a href='https://hosted.englab.nay.redhat.com/oppms?project_id=authenticityqe'>https://hosted.englab.nay.redhat.com/oppms?project_id=authenticityqe</a></p>
+</li>
+
+<li>
+<p>Newspaper : <a href='https://hosted.englab.nay.redhat.com/oppms?project_id=newspaper-qe'>https://hosted.englab.nay.redhat.com/oppms?project_id=newspaper-qe</a></p>
+</li>
+</ul>
+
+<h3 id='deliverable_8'>Deliverable</h3>
+
+<h4 id='test_result_9'>Test Result</h4>
+
+<p><strong>TCMS 3.8.0-1 on stage - Full Functional Test - FAIL</strong></p>
+
+<pre><code>**Test Result** : FAIL 
+
+**Summary**:  
+QE do bugs verification and Full fuctional testing about new features on stage in this release.
+There are 79 bugs which target release is 3.8.0 . Verify result is 70 bugs are VERIFIED , 3 bugs ASSIGNED and 6 bugs can not fixed in this release and plan to fix in 3.8.0-2 .
+
+For TestBlocker issue [Bug 842995](https://bugzilla.redhat.com/show_bug.cgi?id=842995) which block the function of advance search , because all advance search list are null .
+
+For regression issue [Bug 736591](https://bugzilla.redhat.com/show_bug.cgi?id=736591) can not order default sort via sort key .
+
+**Test Features**: 
+
+1. 79 fixed Bugs verification. --&gt;FAIL, Because there are two issues( [Bug 807197](https://bugzilla.redhat.com/show_bug.cgi?id=807197) / [Bug 691282](https://bugzilla.redhat.com/show_bug.cgi?id=691282) ) with high priority and severity 
+
+2. All new features and enhancement full functional testing. --&gt; FAIL Because there are two regression bugs ( [Bug 736591](https://bugzilla.redhat.com/show_bug.cgi?id=736591) / [Bug 842995](https://bugzilla.redhat.com/show_bug.cgi?id=842995) ) with high priority .
+
+**New Bugs** (6) 
+
+Bug 843323 - [TestCase] 404 Not found error
+
+Bug 843312 - [Test Plan] The summary of plan and contained cases, runs, child are invalid hyperlinks
+
+Bug 842995 - [Advanced search] Couldn&#39;t get search result via Advanced Search
+
+Bug 842963 - [TestCase] Drop down list of tag is abnormal on remove tag dialog box
+
+Bug 842544 - [SearchTestPlan] Code leakage when searching test plan only by &quot;Acceptance&quot; of plan type field
+
+Bug 843353 - [RFE] Cases belonging to External_trackers in Bugzilla should be removed while bugs are removed from testcase
+
+**Assigned Bugs** (3) 
+
+Bug 691282 - Available Component field is too small to select 
+
+Bug 807197 - [Test Run]Error page when add attachment
+
+Bug 816963 - [TestRun]When uploading a big attachment to a case run, &quot;The connection is reset&quot;
+
+**TestBlocker** (1)
+
+Bug 842995 - [Advanced search] Couldn&#39;t get search result via Advanced Search
+
+**Regression Bugs** (1) 
+
+Bug 736591 - RFE: allow user sort the cases
+
+**Existing Bugs** (3) 
+
+Bug 841189 -  NEW - XMLRPC: Unable to update test plan status
+
+Bug 786506 -  ASSIGNED - Add URL links for the Notes field
+
+Bug 715596 -  ASSIGNED - XMLRPC driver does not allow None values
+
+**Know Issues** (3) - Will be fixed in 3.8-2
+
+Bug 833358 -  MODIFIED -  [RFE] XMLRPC method for getting testcases/testcaseruns  ready for execution (case when re-run an existing testrun)
+
+Bug 842251 -  MODIFIED - removed bug doesn&#39;t disappear from the testrun
+
+Bug 786406 -  MODIFIED - Can&#39;t filter along category &quot;default&quot;
+
+**Verified Bugs** (70)
+
+[Verified result is PASS list](https://bugzilla.redhat.com/buglist.cgi?bugidtype=include&amp;bug_id=841757，839571,839045,838820,836466,834284,831540,831495,828680,826345,824763,824485,824289,823799,822944,822820,820933,820853,820304,819016,816943,816066,816058,816048,816035,813723,813307,807423,806201,801110,799487,799274,797921,796779,796028,795439,791131,786430,785232,783826,770811,769271,760906,756320,754144,731982,729233,726667,725361,723956,723952,723830,718914,707499,701897,686330,681431,680381,678203,674016,670992,665933,661973,654194,654134,638874,627071,615296,604206,585631)
+
+**Manual Test Runs** :&lt;https://tcms.engineering.redhat.com/run/43008/&gt;</code></pre>
+
+<h4 id='ieee_test_plan_10'>IEEE Test Plan</h4>
+
+<pre><code>+ Authenticity 1.1 IEEE test plan: &lt;https://dart.qe.lab.eng.bne.redhat.com/RAP/en-US/Authenticity/1.1/html/IEEE_Test_Plan/index.html&gt;
+
++ P360 1.2 IEEE Test Plan: &lt;https://dart.qe.lab.eng.bne.redhat.com/RAP/en-US/Beacon/1.2/html/IEEE_Test_Plan/index.html&gt;</code></pre>
+
+<h4 id='test_case_11'>Test Case</h4>
+
+<pre><code>+ Authenticity 1.1 test case : &lt;https://tcms.engineering.redhat.com/plan/6657/&gt;</code></pre>
+
+<h4 id='automation_scripts_12'>Automation Scripts</h4>
+
+<pre><code>+ TCMS automation scripts : git@qe-git.englab.nay.redhat.com:/repo/hss-qe/tools/tcms/automation</code></pre>
+    
+<div class="byline">
+  Revised on July 31, 2012 20:05:19 
+  by <span class="newWikiWord">jzhao<a href="/ReportTool/public/hsstoolsqe/new/jzhao">?</a></span>
+  (10.67.6.205)
+    (9282 characters / 4.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/hsstoolsqe/edit/HSS+Tools+QE+Weekly+Executive+Briefing+-+Week+30" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/ReportTool/public/hsstoolsqe/revision/HSS+Tools+QE+Weekly+Executive+Briefing+-+Week+30/9" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(9 revisions)</span> | <a href="/ReportTool/public/hsstoolsqe/show/diff/HSS+Tools+QE+Weekly+Executive+Briefing+-+Week+30" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/ReportTool/public/hsstoolsqe/history/HSS+Tools+QE+Weekly+Executive+Briefing+-+Week+30" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/hsstoolsqe/print/HSS+Tools+QE+Weekly+Executive+Briefing+-+Week+30" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/hsstoolsqe/new/jzhao">New Report</a>
+    |
+    <a href="/ReportTool/public/hsstoolsqe/source/HSS+Tools+QE+Weekly+Executive+Briefing+-+Week+30" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/hsstoolsqe/publishemail/HSS+Tools+QE+Weekly+Executive+Briefing+-+Week+30" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

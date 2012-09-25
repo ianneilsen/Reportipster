@@ -1,0 +1,287 @@
+I"�)<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Entitlement Weekly Executive Briefing - Week 08 in Entitlement 5-8
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement58/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement58/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/entitlement58/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/entitlement58/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/entitlement58/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/entitlement58/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Entitlement 5-8</span><br />
+      Entitlement Weekly Executive Briefing - Week 08
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Tuesday February 14th 2012</strong> finished <strong>Monday February 20th 2012</strong></p>
+
+<p>Report for week 08, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenentitle' src='/ReportTool/public/entitlement58/files/green.png'/> <strong><span>subscription-manager</span></strong></p>
+
+<ul>
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12204'>RHBA-2011:12204-02</a> - subscription-manager bug fix update <span>SHIPPED_LIVE</span></p>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12205'>RHBA-2011:12205-03</a> - python-rhsm bug fix update <span>SHIPPED_LIVE</span></p>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12587'>RHBA-2012:0148-06</a> - subscription-manager bug fix update <span>PUSH_READY</span></p>
+</li>
+</ul>
+
+<p><img alt='greenentitle' src='/ReportTool/public/entitlement58/files/green.png'/> <strong><span>subscription-manager-migration-data</span></strong></p>
+
+<ul>
+<li><a href='https://errata.devel.redhat.com/errata/stateview/12284'>RHEA-2011:12284-02</a> - new package: subscription-manager-migration-data <span>SHIPPED_LIVE</span></li>
+</ul>
+
+<p><img alt='greenentitle' src='/ReportTool/public/entitlement58/files/green.png'/> <strong><span>virt-who on RHEL</span></strong></p>
+
+<ul>
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12093'>RHEA-2011:12093-07</a> - new package: virt-who <span>SHIPPED_LIVE</span></p>
+</li>
+
+<li>
+<p>Host/guest association testing against SAM can be found in <a href='https://riddler.bne.redhat.com/IEEE_Test_Plans/Weekly_Executive_Briefing/SAM/latest/tmp/en-US/html-single/index.html'>SAM Weekly Executive Briefing</a>.</p>
+</li>
+</ul>
+
+<p><img alt='redentitle' src='/ReportTool/public/entitlement58/files/red.png'/> <strong><span>content testing</span></strong></p>
+
+<ul>
+<li>
+<p>QA CDN content testing: <strong>PASS</strong></p>
+
+<ul>
+<li>
+<p>Content testing has been taken continuously from RHEL5.8-RC-1.0 through RC-3.0 on QA CDN. Testblockers and high severity bugs were verified PASS on QA CDN; some medium/low severity bugs still exist. However, because we are almost RHEL5.8 GA (Feb 21st), QE has decided to stop doing content testing on QA CDN, and move onto Prod CDN.</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=785999'>Bug 785999</a> - Packages listed in repomd.xml and in real directory mismatch <span>VERIFIED, SanityOnly</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=787095'>Bug 787095</a> - yum install an available package failed： <span>Errno 14</span> HTTP Error 404: Not Found <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=789320'>Bug 789320</a> - Public key for some packages were not installed <span>VERIFIED, SanityOnly</span></p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Repo manifest and package manifest is still unavailable so far. This is tracked in <a href='https://bugzilla.redhat.com/show_bug.cgi?id=766864'>Bug 766864</a> - RFE: include package manifest and repo manifest for each product.</p>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>QE needs RCM to provide for content testing:</p>
+
+<p>a. package manifest</p>
+
+<p>b. repo manifest</p>
+
+<ul>
+<li>Both are tracked in <a href='https://bugzilla.redhat.com/show_bug.cgi?id=766864'>Bug 766864</a> - RFE: include package manifest and repo manifest for each product. QE has set needinfo flag for its status.</li>
+</ul>
+</li>
+
+<li>
+<p>QE needs Mike Khusid to select “representative accounts” for different types of users and then replicate in stage environment (post-6.2 release). This has also been an issue since RHEL6.2.</p>
+
+<ul>
+<li>
+<p>Action was needed before RHEL5.8 beta, without it, we could not prioritize our test efforts or cover typical subscription consumption of customers.</p>
+</li>
+
+<li>
+<p>Amanda is to find larger, more complex user accounts as representative data until someone provides greater detailed/user types.</p>
+</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work completed</h2>
+
+<ul>
+<li>
+<p>subscription-manager smoke testing on RHEL-5.8-Server-RC-2.0 (cached).</p>
+</li>
+
+<li>
+<p>subscription-manager acceptance testing on RHEL-5.8-Server-RC-1.1 and RHEL-5.8-Client-RC-1.0 (cached).</p>
+</li>
+
+<li>
+<p>subscription-manager-migration-data-1.11-1.el5 testing by Cloud QE (cached)</p>
+</li>
+
+<li>
+<p>RHEL-5.8-RC content testing and bug verification.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ul>
+<li>
+<p>RHEL-5.8 GA content testing.</p>
+</li>
+
+<li>
+<p>Write RHEL6.3 Entitlement IEEE Test plan</p>
+</li>
+</ul>
+
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>RHEL5.8 content testing on QA CDN: PASS</strong></p>
+
+<pre><code>Content testing PASS as all testblockers and high severity bugs have been verified.
+
+RHEL Build:
+ RHEL-5.8-RC-3.0
+
+TestBlockers (2):
+ Bug 785999 - Packages listed in repomd.xml and in real directory mismatch [VERIFIED, SanityOnly]
+ Bug 787095 - yum install an available package failed： [Errno 14] HTTP Error 404: Not Found [VERIFIED]
+
+High Severiy Bugs (1):
+ Bug 789320 - Public key for some packages were not installed [VERIFIED, SanityOnly]
+ 
+Existing Bugs (2):    
+ Bug 787931 -- Accounts for add-on products of ppc64 and ia64 don&#39;t have available pools [MODIFIED]
+ Bug 789325 -- curl: (52) SSL read: error:140940E5:SSL routines:SSL3_READ_BYTES:ssl handshake failure, errno 0  [ASSIGNED]
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/45222/details/
+https://virtlab.englab.nay.redhat.com/job/45218/details/
+https://virtlab.englab.nay.redhat.com/job/45219/details/
+https://virtlab.englab.nay.redhat.com/job/45221/details/
+https://virtlab.englab.nay.redhat.com/job/45259/details/
+https://virtlab.englab.nay.redhat.com/job/45261/details/</code></pre>
+
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/entitlement58/list/Entitlement5-9'>Entitlement5-9</a></div></p>
+
+<div class="byline">
+  Revised on June  6, 2012 10:10:02 
+  by
+  <span class="newWikiWord">Ian Neilsen</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

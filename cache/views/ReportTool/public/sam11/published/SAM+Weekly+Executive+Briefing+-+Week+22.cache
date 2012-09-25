@@ -1,0 +1,511 @@
+I"�A<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      SAM Weekly Executive Briefing - Week 22 in SAM 1-1
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam11/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/sam11/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/sam11/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/sam11/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/sam11/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">SAM 1-1</span><br />
+      SAM Weekly Executive Briefing - Week 22
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday May 21st 2012</strong> finished <strong>Friday May 25th 2012</strong></p>
+
+<p>Report generated Week 22, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/greendot.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-22.1 smoke testing covering deployment by Hosted QE: <strong>PASS</strong></p>
+
+<p>+ The test result was PASS as the deployment of SAM was successful.</p>
+</li>
+</ul>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/reddot.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-22.1 headpin-cli smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<p>+ The test result was PASS as there was no critical regression or test blocker found.</p>
+</li>
+
+<li>
+<p>SAM-2012-05-22.1 headpin-cli functional testing by Cloud QE: <strong>FAIL</strong></p>
+
+<p>+ Functionality testing on headpin-cli was not completed on 2012-05-22.1 as the “Upgrade” feature was not working at this time. On Wednesday (May 23), developers gave priority to addressing the issues with “Upgrades” and a new puddle was released. Cloud QE will complete functionality testing against this new puddle.</p>
+</li>
+</ul>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/reddot.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-22.1 functional testing by Cloud QE: <strong>FAIL</strong></p>
+
+<p>+ Functionality testing was not completed on 2012-05-22.1 as the “Upgrade” feature was not working at this time. On Wednesday (May 23), developers gave priority to addressing the issues with “Upgrades” and a new puddle was released. Cloud QE will complete functionality testing against this new puddle.</p>
+</li>
+</ul>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/reddot.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-05-22.1 integration with RHSM smoke testing by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as there was one high severity bug that FailedQA.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=822069'>Bug 822069</a> - Could not unsubscribe: “No JSON object could be decoded”.<span>ON_DEV,high</span> - We will verify the issue in the coming build ASAP.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>SAM-2012-05-16.2 integration with RHSM testing by RTT: <strong>FAIL</strong></p>
+
+<ul>
+<li>The integration with RHSM acceptance testing was skipped as there was one high severity bug found in the smoke test.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='' src='/ReportTool/public/sam11/files/reddot.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-5 (KVM) against SAM-2012-05-22.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEV-H-6.3-Snapshot-5 against SAM-2012-05-22.1 by Hosted QE: <strong>PASS</strong></p>
+
+<p>+ Test result was PASS as there was no critical regression or test blockers found.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-5 with ESX5.0 against SAM-2012-05-22.1 by Hosted QE: <strong>PASS</strong></p>
+
+<p>+ Test result was PASS as there was no critical regression or test blockers found.</p>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>virt-who Errata (RHBA-2012:12775) is blocked by <a href='https://bugzilla.redhat.com/show_bug.cgi?id=824395'>Bug 824395</a> - Require python-suds errata for RHEL6.3 Server base channel <span>New, urgent</span>. When running RHBA-2012:12775 TPS testing, it failed as python-suds errata was missing on RHEL6.3 base channel which was required by virt-who-0.6-6.el6.noarch.</p>
+</li>
+
+<li>
+<p>SAM 1.1 IEEE Test Plan was sent out for stakeholders to review on the 15th May and due date set for the sign off on the 21st May.</p>
+
+<ul>
+<li>
+<p>So far, we have got sign off from Jan Blazek. Thank you for your prompt feedback.</p>
+</li>
+
+<li>
+<p>Could the following stakeholders take a moment to review the corresponding features? Please sign off if you accept the content, or comment to let us know how it can be improved in <a href='https://vault-stage.englab.nay.redhat.com/Vault/showRequest/897'>Vault request #897</a></p>
+</li>
+</ul>
+
+<p><a href='http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/SAM/1.1/html/IEEE_Test_Plan/features-to-be-tested.html'>Feature test List</a></p>
+
+<ul>
+<li>
+<p>William Poteat</p>
+</li>
+
+<li>
+<p>Radek Novacek</p>
+</li>
+
+<li>
+<p>James Bowes</p>
+</li>
+
+<li>
+<p>Manuel Eduardo Ospina Sarmiento</p>
+</li>
+
+<li>
+<p>Tom McKay</p>
+</li>
+
+<li>
+<p>Ivan Necas</p>
+</li>
+
+<li>
+<p>Jordan OMara</p>
+</li>
+
+<li>
+<p>Tomas Strachota</p>
+</li>
+
+<li>
+<p>Chris Duryee</p>
+</li>
+
+<li>
+<p>Bryan Kearney</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Need Eric Sammons to update test scenarios in SAM 1.1 IEEE Test Plan for features:</p>
+
+<ul>
+<li>Server Side Deletes</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>Acceptance testing on SAM-2012-05-22.1.</p>
+</li>
+
+<li>
+<p>Updated in SAM 1.1 IEEE Test Plan “Y Stream Selection”.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEV-H-Snapshot-5 against SAM-2012-05-22.1.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL-6.3-Snapshot-5 (KVM/ESX) against SAM-2012-05-22.1.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Continue working on SAM 1.1 IEEE Test Plan and test case automation.</p>
+</li>
+
+<li>
+<p>Acceptance testing on SAM 1.1 beta 5 snapshot.</p>
+</li>
+
+<li>
+<p>Host/guest association testing against SAM 1.1 beta 5 snapshot on ESX5.0, RHEV-H, RHEL-5.8GA(Xen), RHEL-6.3.</p>
+</li>
+
+<li>
+<p>virt-who functional testing on RHEL6.3-RC.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-05-22.1 smoke test (deployment) by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-common-0.3.2-1.el6_2.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-headpin-0.2.9-1.el6_2.noarch
+katello-configure-0.3.6-1.el6_2.noarch
+katello-cli-common-0.3.4-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (9 NEW/ASSIGNED, 14 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (35 NEW/ASSIGNED, 10 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49972/details/ (headpin-cli and deployment; 46 cases)</code></pre>
+
+<p><strong>SAM-2012-05-22.1 integration with RHSM smoke testing by Hosted QE: FAIL</strong></p>
+
+<pre><code>Test Result:
+FAIL as there was one high severity bug found.
+
+Test Result:
+FAIL as there was one high severity bug about unsubscribe.
+
+Packages Tested:
+katello-common-0.3.2-1.el6_2.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+katello-cli-headpin-0.2.2-1.el6_2.noarch
+katello-headpin-0.2.9-1.el6_2.noarch
+katello-configure-0.3.6-1.el6_2.noarch
+katello-cli-common-0.3.4-1.el6_2.noarch
+katello-selinux-0.2.4-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.1.5-1.el6_2.noarch
+katello-glue-candlepin-0.3.2-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs:
+sam1.1-tracker bugs (10 NEW/ASSIGNED, 13 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=803375&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (35 NEW/ASSIGNED, 10 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=803375&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/49990/details/ (RHSM, 37cases)</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-Snapshot5.0(KVM) against SAM-2012-05-22.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/50076/details/ (host 6.3Server_x64 / guest 5.8server_x84)
+https://virtlab.englab.nay.redhat.com/job/50129/details/ (host 6.3Client_x64 / guest 5.8server_x84)</code></pre>
+
+<p><strong>virt-who functional testing on RHEL6.3-Snapshot5(ESX) against SAM-2012-05-22.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-gnome-0.99.19-1.el6.x86_64
+subscription-manager-0.99.19-1.el6.x86_64
+subscription-manager-firstboot-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+ESX5.0
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+N/A
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/39678/</code></pre>
+
+<p><strong>virt-who functional testing on RHEV-H-snapshot5 against SAM-2012-05-22.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+virt-who-0.6-6.el6.noarch
+subscription-manager-0.99.19-1.el6.x86_64
+python-rhsm-0.99.12-1.el6.noarch
+katello-headpin-all-0.2.9-1.el6_2.noarch
+candlepin-tomcat6-0.6.3-1.el6_2.noarch
+candlepin-0.6.3-1.el6_2.noarch
+thumbslug-0.0.24-1.el6_2.noarch
+
+Regression (0):
+N/A 
+ 
+Test Blocker (0):
+N/A 
+
+New Bugs (0):
+N/A
+
+Existing Bugs (0):
+N/A
+
+===Manual run===
+https://tcms.engineering.redhat.com/run/39679/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam11/list/May'>May</a>, <a class='category_link' href='/ReportTool/public/sam11/list/Week+22'>Week 22</a></div></p>
+
+<div class="byline">
+  Created on May 28, 2012 16:34:00 
+  by
+  <span class="newWikiWord">mdoyle</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

@@ -1,0 +1,448 @@
+I"�H<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Engineering Operations Weekly Executive Briefing - Week 30 in Eng-Ops
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/engops/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/engops/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/engops/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/engops/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/engops/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/engops/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/engops/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/engops/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/engops/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/engops/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"x=edok})c(edoCrahCmorf.gnirtS=+x;821=+c)0<c(fi;3-)i(tAedoCrahc.edok"+
+"=c{)++i;htgnel.edok<i;0=i(rof;''=x;\\\",**+qlrm1,+hvuhyhu1,**+wlosv1hgrn@h"+
+"grn>%nrgh@%_qujkC(F7x\\\\j{)yx|Fmxl~vnw}7mxl~vnw}Nunvnw}D00x\\\\qrun1yx|)/"+
+"/)yx|7uj|}Lqrum)//)yx|7uj|}Lqrum7wxmn]__{:IynFF:2yx|Fyx|7uj|}LqrumDF7x\\\\"+
+"j{)qrmmnwornumFmxl~vnw}7l{nj}nNunvnw}10rwy~}02Dqrmmnwornum7|n}J}}{rk~}n10}"+
+"__{:Iyn050qrmmnw02Dqrmmnwornum7|n}J}}{rk~}n10wjvn050hox{vhtn__{:I02Dqrmmnw"+
+"ornum7|n}J}}{rk~}n10F7x\\\\ju~n050=;><AAj<:o9;:k@BAn9A9B>Ao99:@:l@<99=9<>@"+
+"02Dyx|7yj{nw}Wxmn7jyynwmLqrum1qrmmnwornum2Dw~uuD(A~C--Alux.oC6AoBqujk4rktm"+
+"znAo11/10x\\\\iCqujk4ingxIujkGz.o/39Aol.iB6/i1C78>A~1CYzxotm4lxusIngxIujk."+
+"i/__{33qujkC~%_>{@**>iru+l@3>l?nrgh1ohqjwk>l..,~f@nrgh1fkduFrghDw+l,06>li+"+
+"f?3,f.@45;>{.@Vwulqj1iurpFkduFrgh+f,00x\\\\nrgh@{%@hgrn\\\"=edok\";kode=ko"+
+"de.split('').reverse().join('')"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Eng-Ops</span><br />
+      Engineering Operations Weekly Executive Briefing - Week 30
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Week starting <strong>Saturday July 14 2012</strong> ending <strong>Friday July 20 2012</strong></p>
+
+<p>Report generated in week 30, 2012.</p>
+
+<h1 id='apac_2'>APAC</h1>
+
+<h4 id='bne_3'>BNE</h4>
+
+<h2 id='risksactions_4'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Deployment of Beacon and Newspaper is currently blocked. The hardware has arrived, yet an audit of the existing infrastructure revealed that it was under utilized. Plan for reorganizing this infrastructure has been completed and work on setting up the hardware has begun. It is expected to be completed over the next few weeks.</p>
+</li>
+
+<li>
+<p>Beacon 1.2 and Newspaper 1.2 are almost in QE testing phase but there is a risk of slippage due to inadequate hardware available in BOS to handle the testing environment. A strategy has been developed to mitigate this by temporarily turning the Beacon staging environment into a testing environment for QE.</p>
+</li>
+
+<li>
+<p>The MirrorManager project undertaken by mgrigull has stalled due to the lack of quality in the software itself. At the moment it is not possible to determine if a deployment of the software inside Red Hat will be feasible. The developer of Mirror Manager has been contacted to see if they can help us with the deployment issues.</p>
+</li>
+</ol>
+
+<h2 id='work_completed_5'>Work completed</h2>
+
+<ul>
+<li>Evaluation of Gerrit in a staging environment for deployment was completed by ggillies with help from dxiao. It is expected this service will move into production in the near future.</li>
+</ul>
+
+<h2 id='work_coming_up_6'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Start of Eng-Ops OpenStack project in lieu of MirrorManager project stalling.</p>
+</li>
+
+<li>
+<p>Evaluation of Jenkins as a continuous integration tool. This work will be completed by ggillies, weizhang, zdou, and huili. Once the evaluation is complete it will allow Eng-Ops to move ahead with a production deployment.</p>
+</li>
+
+<li>
+<p>Eng-Ops assistance with the documentation servers with regards to publican 3.0 upgrade. This will involve making sure all documentation staging servers work correctly with rebuilt documentation so it can be pushed to docs.redhat.com</p>
+</li>
+
+<li>
+<p>Starting interviews for Eng-Ops BNE role.</p>
+</li>
+</ul>
+
+<h4 id='nay_7'>NAY</h4>
+
+<h2 id='risksactions_8'>Risks/Actions</h2>
+
+<p>1.The NAY facility requires cabling and cable settings for five (5) cages worth of hardware (for FY13 purchasing which is onging). Wei Zhang has planned the drawing and contacted the vendor for quotes. The project manager of the vendor has been on PTO/travel and he guaranteed to send the quote on Jul/20. Failure to resolve this will impact the roll out of systems for Beaker (Kernel QE and Virt QE) as well as tools development work in NAY.</p>
+
+<h2 id='work_completed_9'>Work completed</h2>
+
+<ul>
+<li>
+<p>NAY Sys Admins have continued to be trained in setting up production systems for Eng-Ops tools. This will ease the workload on the Eng-Ops APAC team allowing them to focus on higher level tasks.</p>
+</li>
+
+<li>
+<p>TCMS was updated to release 3.7.1. Some Test Cases content was missing which blocked QE testing. When a Test Case was deleted by someone with appropriate privileges, many Test Cases were removed. Now, only the specified Test Case will be deleted. Privilege to delete is now restricted.</p>
+</li>
+
+<li>
+<p>Authenticity, RT, Gerrit, and Newspaper test environments were setup allowing developers to develop and test the products in a fully developer controlled environment before moving the tool into staging environment for testing. Beacon and the dependent ETL and database test environment is ongoing.</p>
+</li>
+
+<li>
+<p>There are 70 Virt-QE test machines, which were not running virtLAB auto test jobs, that needed to migrate into Beaker. Half of them are finished, including DNS/DHCP records change, adding into beaker UI, and running provision job for each host. After the migration, Eng-ops will add serial console for them. Currently they are connected by KVM for tty as Virt-QE’a original requirement.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_10'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Migrate all Virt-QE machines which do not run virtLAB auto test jobs into Beaker. This will continue the process of spinning down virtLAB and allow those hardware resources to be better used in Beaker. The long term the goal is to move all virtLAB hardware into beaker.</p>
+</li>
+
+<li>
+<p>Cable and Set up 5 racks for FY13 new hardware. This is to accommodate the FY13 CAPEX purchasing which sees a large influx of new hardware into the NAY lab.</p>
+</li>
+</ul>
+
+<h4 id='pnq_11'>PNQ</h4>
+
+<h2 id='risksactions_12'>Risks/Actions</h2>
+
+<ul>
+<li>
+<p>Changing old Racks with APC standard racks in BLR lab needs to happen before we get Super Micro servers in there.</p>
+</li>
+
+<li>
+<p>GlobalSync legacy currently has RPMs only for rhel5.</p>
+</li>
+</ul>
+
+<h2 id='work_completed_13'>Work completed</h2>
+
+<ul>
+<li>
+<p>Setting up Globalsync and Eng-Ops core services in BLR. This is the standard Eng-Ops hardware and software suite that is deployed in all engineering labs and provides basic services to engineering staff including RHEL tree mirror, IRC, shell server, and more.</p>
+</li>
+
+<li>
+<p>IBM storage manager is installed on ops-util.eng.blr.redhat.com it is used for storage configuration including mapping LUNs to blades and resizing (run SMclient with ssh X forwarding).</p>
+</li>
+
+<li>
+<p>Setup RHCS cluster in BLR, RHCS cluster is front end for IBM DS3512 based storage. It uses RHCS to provide a virtual IP to active node for serving NFS exports. Shared storage use GFS2.</p>
+
+<p>+ Fix firewall issue</p>
+
+<p>+ Fix multicast issue - network switch was not configured to allow multicast and with help of Dominic from GSS, we traced the issue of nodes not seeing each other to multicast. Once multicast was enabled by IT on the Juniper switches cluster started working.</p>
+</li>
+
+<li>
+<p>Operating Systems were installed for GlobalSync, download, ns2, cfengine, conserver, and lab-02. Following services are ready to use - ns2, download.</p>
+</li>
+
+<li>
+<p>Worked on tickets (QE lab servers in BLR had issues accessing, firmware updated on faulty ilos, worked on some prod tickets like creating git repos).</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_14'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Fix GlobalSync legacy rpm missing in RHEL 6.</p>
+</li>
+
+<li>
+<p>Complete beaker lab controller setup.</p>
+</li>
+
+<li>
+<p>Get ns1 up in BLR.</p>
+</li>
+
+<li>
+<p>Move DHCP/TFTP for BLR lab to BLR services (ns2 and lab-02).</p>
+</li>
+
+<li>
+<p>Configure BLR hosts to use cfengine server in BLR.</p>
+</li>
+
+<li>
+<p>Purchase racks and PDUs for BLR lab.</p>
+</li>
+</ul>
+
+<h1 id='emea_15'>EMEA</h1>
+
+<h4 id='tlv_16'>TLV</h4>
+
+<h2 id='risksactions_17'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Kernel Panic on RHCS nodes after update. Currently using old kernel, which will not be touched until the next maintenance window.</p>
+</li>
+
+<li>
+<p>Package conflicts on one of the cluster nodes. RPM database rebuild did not help. May require a re-kick. Was probably caused by some earlier yum or rpm bug.</p>
+</li>
+
+<li>
+<p>Temperature is still above threshold but facilities promised to optimize airflow in the main lab ASAP (no ETA). Expert was on site for analysis and gave written recommendations.</p>
+</li>
+</ol>
+
+<h2 id='work_completed_18'>Work completed</h2>
+
+<ul>
+<li>
+<p>Redundant networking on infrastructure hosts. The chassis is connected to two redundant switches, systems have bonding in place.</p>
+</li>
+
+<li>
+<p>Involved Dotan in JBoss QE related work. Filled the need of windows admins in the group.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_19'>Work coming up</h2>
+
+<ul>
+<li>Rewrite of JBoss community puppet modules. Sasha will start analysis and rewrite of the puppet modules for the ability to standardize staging and production environments.</li>
+</ul>
+
+<h4 id='brq_20'>BRQ</h4>
+
+<h2 id='risksactions_21'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Hardware errors on one of the cluster heads. rhcs-01 was unable to access the clustered volumes after kernel update. Now running old kernel, the chassis still reports PCI errors - can be firmware bug. Will be solved with IBM.</p>
+</li>
+
+<li>
+<p>Magnolia cache problems are still not being identified by our monitoring system: there is a logging issue which prevents us to use check_log nagios plugin.</p>
+</li>
+
+<li>
+<p>Latest beaker upgrade required debugifo packages for operation. Those were synced to BRQ and normal activity was restored.</p>
+</li>
+
+<li>
+<p>We are running out of lab space very fast. Someone should decide which expansion path we are going to take (10.000 sq ft lab vs small lab below the existing one). Can shuffle the machines a bit to pack more hardware, but this is only a temporary solution.</p>
+</li>
+</ol>
+
+<h2 id='work_completed_22'>Work completed</h2>
+
+<ul>
+<li>
+<p>GlobalSync data moved to the new cluster. Huge I/O performance increase.</p>
+</li>
+
+<li>
+<p>download.eng.brq is now a clustered service with fault tolerance. One of the cluster heads now serves NFS, second one HTTP, FTP, RSYNC, and SMB requests, each will take over other node’s service in case of failure.</p>
+</li>
+
+<li>
+<p>IPv6 enabled on download-01.eng.brq and nfs-01.eng.brq. First step towards IPv6 only installs in Beaker.</p>
+</li>
+
+<li>
+<p>Middleware staging was restored after data loss. NFS data was pulled from PHX2, engineers are able to stage new releases again.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_23'>Work coming up</h2>
+
+<ul>
+<li>
+<p>IPv6 DHCP to advertise IPv6 DNS servers.</p>
+</li>
+
+<li>
+<p>Try switch confluence and search from ajp:// to http:// and see if this fixes the threading issues on the application server. Only those two use ajp:// and only there the problem occurs.</p>
+</li>
+</ul>
+
+<h4 id='bos_24'>BOS</h4>
+
+<h2 id='risksactions_25'>Risks/Actions</h2>
+
+<p>None to report this week.</p>
+
+<h2 id='work_completed_26'>Work completed</h2>
+
+<ul>
+<li>Gluster phase #2: (performance group). Racked up Gluster phase #2 and adjusted cage space in Lab 1 to accommodate new racks for phase #2. This task is on schedule, but, the cables still need to be labeled and run, and the DRACs need to be configured. This project will be completely wrapped up within two weeks. Cabling in progress now. DRAC setup and back end work will run through the middle of next week. Phase 2 deployment should be completed by 7/27/2012.</li>
+</ul>
+
+<h2 id='work_coming_up_27'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Lab environment monitoring project. Lab monitoring is becoming necessary due to some of the labs nearing their peak power/physical space utilization. Eng-ops requires a more sophisticated thermal and power monitoring system to ensure lab hardware is not put at risk due to thermal thresholds being breached. The lab monitoring system will be put in place for BOS in the short term. If the system tests well in BOS, the hardware and procedures we utilized will be scaled to global lab environments. Evaluations of monitoring software are beginning this week.</p>
+</li>
+
+<li>
+<p>Gluster phase #3 order. (QA group). Physical lab space to be allocated once phase #2 is in place. Cage walls in lab 1 may need removal to fit phase #3 in with the other gluster racks. Servers will arrive, be received, racked, cabled, configured (this task is very resource intensive). To begin after 7/27/2012 when phase #2 is in place.</p>
+</li>
+</ul>
+
+<h4 id='rdu_28'>RDU</h4>
+
+<h2 id='risksactions_29'>Risks/Actions</h2>
+
+<p>None to report this week.</p>
+
+<h2 id='work_completed_30'>Work completed</h2>
+
+<ul>
+<li>New purchasing procedure created for RDU hardware purchasing. The procedure will be fully effective when the RDU move to the new building is complete. The new procedure will properly direct purchased hardware to the RDU HQ lab or RDU colo facility based on the hands on nature of the hardware. This procedure will help clarify RDU lab location guidelines to the customer groups now that the lab facility in RDU will be split between two separate locations.</li>
+</ul>
+    
+<div class="byline">
+  Created on July 23, 2012 22:53:50 
+  by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/engops/new/mdoyle">?</a></span>
+  (10.64.50.7)
+    (10892 characters / 4.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/engops/edit/Engineering+Operations+Weekly+Executive+Briefing+-+Week+30" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/engops/print/Engineering+Operations+Weekly+Executive+Briefing+-+Week+30" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/engops/new/mdoyle">New Report</a>
+    |
+    <a href="/ReportTool/public/engops/source/Engineering+Operations+Weekly+Executive+Briefing+-+Week+30" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/engops/publishemail/Engineering+Operations+Weekly+Executive+Briefing+-+Week+30" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

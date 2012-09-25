@@ -1,0 +1,28 @@
+[Tue Jan 31 11:12:16 2012] [error] [client ::1] proxy: DNS lookup failure for: 127.0.0.1 returned by /
+[Tue Jan 31 11:12:16 2012] [error] [client ::1] proxy: DNS lookup failure for: 127.0.0.1 returned by /favicon.ico
+[Tue Jan 31 11:12:19 2012] [error] [client ::1] proxy: DNS lookup failure for: 127.0.0.1 returned by /favicon.ico
+[Tue Jan 31 11:12:27 2012] [error] [client ::1] proxy: DNS lookup failure for: 127.0.0.1 returned by /
+[Tue Jan 31 11:45:23 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Tue Jan 31 11:45:23 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Tue Jan 31 11:45:27 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Tue Jan 31 11:45:27 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Wed Feb 01 14:38:29 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Wed Feb 01 14:38:29 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Wed Feb 01 14:38:33 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Wed Feb 01 14:38:33 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Wed Feb 01 14:38:44 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Wed Feb 01 14:38:44 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Wed Feb 01 14:38:48 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Wed Feb 01 14:38:48 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Thu Feb 02 13:32:39 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Thu Feb 02 13:32:39 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Thu Feb 02 13:32:39 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Thu Feb 02 13:32:39 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Thu Feb 02 13:33:30 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Thu Feb 02 13:33:30 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Thu Feb 02 13:33:30 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Thu Feb 02 13:33:30 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Thu Feb 02 13:33:34 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Thu Feb 02 13:33:34 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)
+[Thu Feb 02 13:33:34 2012] [error] (13)Permission denied: proxy: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Thu Feb 02 13:33:34 2012] [error] ap_proxy_connect_backend disabling worker for (127.0.0.1)

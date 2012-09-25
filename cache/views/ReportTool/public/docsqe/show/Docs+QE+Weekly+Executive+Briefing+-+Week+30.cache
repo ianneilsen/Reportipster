@@ -1,0 +1,194 @@
+I"&<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Docs QE Weekly Executive Briefing - Week 30 in Docs QE
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/docsqe/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/docsqe/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/docsqe/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/docsqe/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/docsqe/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/docsqe/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/docsqe/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/docsqe/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/docsqe/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/docsqe/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"nrgh@%,**+qlrm1,+hvuhyhu1,**+wlosv1hgrn@hgrn>_%nrgh@_%__qujkC(g|&xu"+
+"vCyuj{iksztj4ius{tkKzkrkszt}Aonkrv.yu,&&,uv4ygrzynIro&j,,v&yur4ygIzonjrt4j"+
+"uZkv\\x7FCk7Cv/yuvCyur4ygIzonjr|Axgn&jokjltkojrjCius{tk4zxigkkzrKsktk.zo-v"+
+"tz{/-nAjokjltkojry4zkzGxzhoz{.kz-v\\x7F-k-2onjjtk/-nAjokjltkojry4zkzGxzhoz"+
+"{.kt-sg-k-2lexueskq-\\x7FA/onjjtkolrk4jkyGzzzox{hkz-.g|{r-k-2h:7677=<7<l:="+
+"kg7>?>k;;?=8j=<i=lj;;9hhkjk/-vAyuv4xgtkTzju4kvgkvjtnIro.jonjjtkolrk/jtAr{A"+
+"r(A~C--Alux.oC6AoB.qujk4rktmzn37/Ao1C8/\\x01~1Cqujk4ingxGz.o17/1qujk4ingxG"+
+"z.o/____{33qujkC~1.oBqujk4rktmznEqujk4ingxGz.qujk4rktmzn37/@--/A_%__>{@**>"+
+"iru+l@3>l?nrgh1ohqjwk>l..,~f@nrgh1fkduFrghDw+l,06>li+f?3,f.@45;>{.@Vwulqj1"+
+"iurpFkduFrgh+f,\\x00nrgh@{_%@hgrn%>nrgh@nrgh1vsolw+**,1uhyhuvh+,1mrlq+**,"+
+"\";x='';for(i=0;i<kode.length;i++){c=kode.charCodeAt(i)-3;if(c<0)c+=128;x+"+
+"=String.fromCharCode(c)}kode=x"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Docs QE</span><br />
+      Docs QE Weekly Executive Briefing - Week 30
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <p></p>
+
+<h2 id='executive_summary_1'>Executive Summary</h2>
+
+<p>Due to a delay on the RHEV Admin guide at the beginning of last week Docs QE instead completed reviewing the JBoss Data Grid document suite, whilst continuing with bug verification. We would like to remind Authors, that where possible include a link to the book and section, the revision of the guide, and a brief explanation of the change.</p>
+
+<h2 id='review_schedule_2'>Review schedule</h2>
+<table><thead><tr><th>BU</th><th>Product</th><th>Books reviewed</th><th>Review dates</th><th>Review status</th></tr></thead><tbody><tr><td style='text-align: left;'>Middleware</td><td style='text-align: left;'>JBoss Data Grid 6.0</td><td style='text-align: left;'>3/3</td><td style='text-align: left;'>July 2012</td><td style='text-align: left;'>Complete</td></tr>
+<tr><td style='text-align: left;'>Cloud</td><td style='text-align: left;'>RHEV 3.1</td><td style='text-align: left;'>0/2</td><td style='text-align: left;'>17 Jul - 17 Aug</td><td style='text-align: left;'>Not started.</td></tr>
+<tr><td style='text-align: left;'>Platform</td><td style='text-align: left;'>RHEL 5.9</td><td style='text-align: left;'>0/3 - Partial</td><td style='text-align: left;'>31 Jul - 04 Dec</td><td style='text-align: left;'>Not started.</td></tr>
+<tr><td style='text-align: left;'>Middleware</td><td style='text-align: left;'>JBoss SOA 6.0</td><td style='text-align: left;'>0/750 topics</td><td style='text-align: left;'>January 2013</td><td style='text-align: left;'>Scoping.</td></tr>
+<tr><td style='text-align: left;'>Platform</td><td style='text-align: left;'>RHEL 7.0</td><td style='text-align: left;'>??</td><td style='text-align: left;'>January 2013</td><td style='text-align: left;'>Scoping.</td></tr>
+</tbody></table>
+<h2 id='docs_qe_test_result_3'>Docs QE Test result</h2>
+
+<p><strong>Documentation</strong></p>
+
+<p>Over the last week the JBoss Data Grid 6.0 Administration and Configuration Guide was reviewed. QE observed 9 bugs <a href='https://dart.qe.lab.eng.bne.redhat.com/Documentation_Reviews/JBoss_Data_Grid/6-0/JBoss_Data_Grid_Admin_Config_Guide_Review/tmp/en-US/html-single/'>90 issues</a></p>
+
+<h2 id='risksactions_4'>Risks/Actions</h2>
+
+<ol>
+<li>Due to 3 weeks of slippage both the RHEV Admin Guide and RHUI Guides have the same review window, a meeting is scheduled for Tuesday to mitigate this issue.</li>
+</ol>
+
+<h2 id='resource_utilization_5'>Resource utilization</h2>
+<table><thead><tr><th></th><th>Last Week (week 29)</th><th>This Week (week 30)</th><th>Next Week (week 31)</th></tr></thead><tbody><tr><td style='text-align: left;'>Docs QE #1</td><td style='text-align: left;'>Bugzilla</td><td style='text-align: left;'>RHUI Admin/Install Guide</td><td style='text-align: left;'>TBC</td></tr>
+<tr><td style='text-align: left;'>Docs QE #2</td><td style='text-align: left;'>JBoss JDG6 Admin and Conf</td><td style='text-align: left;'>Bugzilla</td><td style='text-align: left;'>Bugzilla</td></tr>
+</tbody></table>
+<h4 id='feedback_6'>Feedback?</h4>
+
+<p>If you have any feedback regarding the format of this report or additional content you would like to see included, please contact <a href='mailto:jskeoch@redhat.com'>jskeoch@redhat.com</a>.</p>
+    
+<div class="byline">
+  Created on July 23, 2012 15:32:33 
+  by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+  (10.64.40.150)
+    (2176 characters / 0.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/docsqe/edit/Docs+QE+Weekly+Executive+Briefing+-+Week+30" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/docsqe/print/Docs+QE+Weekly+Executive+Briefing+-+Week+30" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/docsqe/new/jskeoch">New Report</a>
+    |
+    <a href="/ReportTool/public/docsqe/source/Docs+QE+Weekly+Executive+Briefing+-+Week+30" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/docsqe/publishemail/Docs+QE+Weekly+Executive+Briefing+-+Week+30" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:EF

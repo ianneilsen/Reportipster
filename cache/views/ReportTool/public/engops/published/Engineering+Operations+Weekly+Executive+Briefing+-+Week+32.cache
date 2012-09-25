@@ -1,0 +1,437 @@
+I"@<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Engineering Operations Weekly Executive Briefing - Week 32 in Eng-Ops
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/engops/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/engops/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/engops/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/engops/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/engops/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/engops/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Eng-Ops</span><br />
+      Engineering Operations Weekly Executive Briefing - Week 32
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Week starting <strong>Saturday July 28 2012</strong> ending <strong>Friday 3rd August 2012</strong></p>
+
+<p>Report generated in week 31, 2012.</p>
+
+<h1 id='apac_2'>APAC</h1>
+
+<h4 id='bne_3'>BNE</h4>
+
+<h2 id='risksactions_4'>Risks/Actions</h2>
+
+<ol>
+<li>The MirrorManager project undertaken by mgrigull has been canceled due to the MirrorManager software not being fit for deployment. An analysis of the project will be undertaken to determine why the project failed, lessons learned, and how to avoid in the future.</li>
+</ol>
+
+<h2 id='work_completed_5'>Work completed</h2>
+
+<ul>
+<li>
+<p>Interviews for the Eng-Ops BNE role have been undertaken. It is expected that a final decision on the role will be made before the end of next week.</p>
+</li>
+
+<li>
+<p>Gerrit production environment has been deployed. This is now awaiting final sign off on the processes surrounding the system by IED, Eng-Ops, and App Support staff. Once this is complete RAP will be contacted to make formal announcements.</p>
+</li>
+
+<li>
+<p>The performance book has been updated and successfully migrated to RHEL 6. This will allow greater support of the Performance book used by Engineering Management for reporting and decision making.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_6'>Work coming up</h2>
+
+<ul>
+<li>
+<p>OpenStack project has begun and is currently in the process of doing testing of all advertised OpenStack features to ensure it meets the requirements.</p>
+</li>
+
+<li>
+<p>Evaluation of Jenkins (Continuous integration tool). The evaluation work will be completed by ggillies, weizhang, zdou and huili. Once the evaluation is complete it will allow Eng-Ops to move ahead with a production deployment.</p>
+</li>
+
+<li>
+<p>The Eng-Ops “Graphing” project has moved into the investigation phase. This project will allow Eng-Ops to deploy a consistent solution for tracking system utilization and performance, enhancing our ability to do capacity planning and isolate problems.</p>
+</li>
+</ul>
+
+<h4 id='nay_7'>NAY</h4>
+
+<h2 id='risksactions_8'>Risks/Actions</h2>
+
+<p>1.The NAY facility requires cabling and cable settings for five (5) cages worth of hardware (for FY13 purchasing which is ongoing). Wei Zhang received a quote and created RT#161464 to track it. The racks have arrived. PR2384 has been sent to Matt Schick for approval.</p>
+
+<p>+ Failure to resolve this will impact the roll out of systems for Beaker (Kernel QE and Virt QE) as well as tools development work in NAY.</p>
+
+<h2 id='work_completed_9'>Work completed</h2>
+
+<ul>
+<li>
+<p>NAY Sysadmins have continued to be trained in setting up production systems for Eng-Ops tools. This will ease the workload on the Eng-Ops APAC team and allow them to focus on higher level tasks.</p>
+</li>
+
+<li>
+<p>Assistance in setting up the new documentation servers needed for Publican 3.0 outlined above.</p>
+</li>
+
+<li>
+<p>Maitai production environment was setup. This will allow the Maitai project to move into a production phase when ready, which is expected to happen in the coming weeks.</p>
+</li>
+
+<li>
+<p>There are 70 Virt-QE test machines which were not running virtLAB auto test jobs that need to migrate into Beaker. Almost all of them finished, including DNS/DHCP records change, adding into beaker UI, running provision job for each host. After the migration, Eng-ops will eventually add serial console for them. Currently they are connected by KVM for tty as Virt-QE original requirement.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_10'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Migrate all Virt-QE machines which do not run virtLAB auto test jobs into Beaker. This will continue the process of spinning down virtLAB and allow those hardware resources to be better used in Beaker. The long term the goal is to move all virtLAB hardware into beaker.</p>
+</li>
+
+<li>
+<p>Cable and Set up 5 racks for FY13 new hardware. This is to accommodate the FY13 CAPEX purchasing which sees a large influx of new hardware into the NAY lab.</p>
+</li>
+</ul>
+
+<h4 id='pnq_11'>PNQ</h4>
+
+<h2 id='risksactions_12'>Risks/Actions</h2>
+
+<ul>
+<li>Beaker Lab Controller testing/troubleshooting.</li>
+
+<li>Local purchasing.</li>
+
+<li>More BLR lab tweaks.</li>
+</ul>
+
+<h2 id='work_completed_13'>Work completed</h2>
+
+<ul>
+<li>
+<p>name server updates</p>
+
+<ul>
+<li>ns1.eng.blr.redhat.com is added to name servers list for BLR and PNQ hosts.</li>
+
+<li>It is added as authoritative name server for all zones we manage.</li>
+</ul>
+</li>
+
+<li>
+<p>Lab tickets like DNS, DHCP updates, remote access issues/firmware update for iLos</p>
+</li>
+
+<li>
+<p>RAM upgrade for Cloud QE workstations. Extra RAM ordered.</p>
+</li>
+
+<li>
+<p>PNQ shared blade assignments. 1 TB assigned for Cloud QE blade. 1 Blade assigned to Source Browser project (returned by IT team, they used it for SAP testing).</p>
+</li>
+
+<li>
+<p>Racks in BLR shipment tracking and installation coordination.</p>
+</li>
+
+<li>
+<p>Planning trip to Bangalore for Super Micro Server installations for Red Hat Storage.</p>
+</li>
+
+<li>
+<p>Working with Bill Peck for distro import and nfs server location issue. Added BLR mirror locations to beaker_import.pl and this should fix the issue.</p>
+</li>
+
+<li>
+<p>Tested automated installation with blr lab controller. It took some time to troubleshoot (vadim also helped) because beaker-provision was not running!</p>
+</li>
+
+<li>
+<p>Updated cfengine checks to make sure all lab controllers have beaker-provision service turned on and running.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_14'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Purchase racks and PDU’s for BLR lab.</p>
+</li>
+
+<li>
+<p>Installation of Super Micro Servers (phase I) in BLR.</p>
+</li>
+</ul>
+
+<h1 id='emea_15'>EMEA</h1>
+
+<h4 id='tlv_16'>TLV</h4>
+
+<h2 id='risksactions_17'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Kernel Panic on RHCS nodes after update. Currently using old kernel, won’t touch until the next maintenance window.</p>
+</li>
+
+<li>
+<p>Package conflicts on one of the cluster nodes. RPM database rebuild didn’t help. May require a re-kick. Was probably caused by some earlier yum or rpm bug.</p>
+</li>
+
+<li>
+<p>Temperature is still above threshold but facilities promised to optimize airflow in the main lab ASAP (no ETA). Expert was on site for analysis and gave written recommendations.</p>
+</li>
+</ol>
+
+<h2 id='work_completed_18'>Work completed</h2>
+
+<ul>
+<li>
+<p>Redundant networking on infrastructure hosts. The chassis is connected to two redundant switches, systems have bonding in place.</p>
+</li>
+
+<li>
+<p>Involved Dotan in JBoss QE related work. Filled the need of Windows admins in the group.</p>
+</li>
+
+<li>
+<p>Start rewrite of JBoss community puppet modules.</p>
+</li>
+
+<li>
+<p>PO raised to change all lab racks - the actual work should start soon.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_19'>Work coming up</h2>
+
+<ul>
+<li>Rewrite of JBoss community puppet modules. Sasha will start the analysis and rewrite of the puppet modules for the ability to standardize staging and production environments.</li>
+</ul>
+
+<h4 id='brq_20'>BRQ</h4>
+
+<h2 id='risksactions_21'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Magnolia cache problems are still not being identified by our monitoring system: there is a logging issue which prevents us to use check_log nagios plugin.</p>
+</li>
+
+<li>
+<p>We’re running out of lab space very fast. We need a decision on the expansion path we are going to take (10,000 sq ft lab vs. small lab below the existing one). Can shuffle the machines a bit to pack in more hardware, but this is only a temporary solution.</p>
+</li>
+</ol>
+
+<h2 id='work_completed_22'>Work completed</h2>
+
+<ul>
+<li>
+<p>Solved the hardware issues on rhcs-01.eng.brq.redhat.com</p>
+</li>
+
+<li>
+<p>Restored data from the lost /mnt/archive and /mnt/jboss-qe volumes</p>
+</li>
+
+<li>
+<p>Interviewed a few candidates for the two sysadmin positions we have</p>
+</li>
+
+<li>
+<p>Did performance tests of the new JBoss community NetApp - there is only 50% perdormance increase which is unacceptable.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_23'>Work coming up</h2>
+
+<ul>
+<li>
+<p>IPv6 DHCP to advertise IPv6 DNS servers.</p>
+</li>
+
+<li>
+<p>Try switch confluence and search from <strong>ajp://</strong> to <strong>http://</strong> and see if this fixes the threading issues on the application server. Only those two use ajp:// and only there the problem occurs.</p>
+</li>
+
+<li>
+<p>Troubleshoot performance issues on JBoss community netapp.</p>
+</li>
+</ul>
+
+<h4 id='bos_24'>BOS</h4>
+
+<h2 id='risksactions_25'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>UPS replacement in IT server room - August 4, 2012, 8am-4pm.</p>
+
+<p>The UPS in the BOS IT server room is currently being scheduled by facilities for replacement on August 4, 2012. This will completely bring down the IT network in the BOS building, effectively taking down all BOS lab connectivity for a minimum of 8+ hours. All global testing/building capabilities will be down within the BOS labs during this time frame.</p>
+
+<p>Notifications have been sent to the lab delegates and stakeholders specifying the risks and requesting feedback from any groups who have test plans that could be impacted by this outage.</p>
+
+<p>If August 4 is an issue for any groups, the UPS replacement will get pushed out to August 11, 18, or 25 based on scheduling concerns or any other considerations raised by the lab stakeholders.</p>
+</li>
+</ol>
+
+<h2 id='work_completed_26'>Work completed</h2>
+
+<ul>
+<li>
+<p>Gluster phase #2: (performance group). Racked up Gluster phase #2 and adjusted cage space in Lab 1 to accommodate new racks for phase #2. This task is on schedule, but, the cables still need to be labeled and run (Done), and the DRACs need to be configured. This project will be completely wrapped up within two weeks. DRAC setup and back end work is pending IT to configure the switches for the new racks.</p>
+
+<ul>
+<li>Phase 2 deployment should be completed by 8/3/2012.</li>
+</ul>
+</li>
+</ul>
+
+<h2 id='work_coming_up_27'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Lab environment monitoring project. Lab monitoring is becoming necessary due to some of the labs nearing their peak power/physical space utilization. Eng-ops requires a more sophisticated thermal and power monitoring system to ensure lab hardware isn’t put at risk due to thermal thresholds being breached. The lab monitoring system will be put in place for BOS in the short term. If the system tests well in BOS, the hardware and procedures we utilized will be scaled to global lab environments.</p>
+
+<ul>
+<li>Met with APC software reps on 7/16/2012 and evaluated the DCIM thermal monitoring and inventory utility they’ve developed.</li>
+
+<li>Discussions within Eng-Ops are ongoing regarding the features we require within our lab environment. Team members will be meeting 7/27/2012 to discuss the next steps required to acquire and implement a monitoring utility.</li>
+</ul>
+</li>
+
+<li>
+<p>Gluster phase #3 order. (QA group). Physical lab space to be allocated once phase #2 is in place. Cage walls in lab 1 may need removal to fit phase #3 in with the other gluster racks. Servers will arrive, be received, racked, cabled, configured (this task is very resource intensive).</p>
+
+<ul>
+<li>To begin after 8/3/2012 when phase #2 is in place.</li>
+</ul>
+</li>
+</ul>
+
+<h4 id='rdu_28'>RDU</h4>
+
+<h2 id='risksactions_29'>Risks/Actions</h2>
+
+<p>None to report this week.</p>
+
+<h2 id='work_completed_30'>Work completed</h2>
+
+<ul>
+<li>New purchasing procedure created for RDU hardware purchasing. The procedure will be fully effective when the RDU move to the new building is complete. The new procedure will properly direct purchased hardware to the RDU HQ lab or RDU colo facility based on the hands on nature of the hardware. This procedure will help clarify RDU lab location guidelines to the customer groups now that the lab facility in RDU will be split between two separate locations.</li>
+</ul>
+
+<h2 id='work_coming_up_31'>Work coming up</h2>
+
+<div class="byline">
+  Revised on August  7, 2012 09:12:51 
+  by
+  <span class="newWikiWord">Ian Neilsen</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

@@ -1,0 +1,498 @@
+I"ýV<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Recently Revised- Published and Archived in Docs QE
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/docsqe/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/docsqe/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/docsqe/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/docsqe/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/docsqe/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <b class="navOn" title="Pages sorted by when they were last changed">Archived Report List</b> |
+    <a href="/ReportTool/public/docsqe/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/docsqe/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/docsqe/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/docsqe/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"==xdeko)}(cdeCoarChomfrg.intr=Sx+8;12+=)c<0(cif3;)-(iAtdeCo"+
+"arche.od=k{c+)i+h;gten.ldekoi<0;i=r(fo';=';x\\\"\\\\@{ghnr00\\\\x,\\\\+fgh"+
+"FrduFkrpiuj1lqwu@V{.;>45.@,f?3+fli6>,0+lDwghFrdufkh1rg@n~f.,l.k>jwhq1oghnr"+
+"l?3>l@u+ir*>@*>{A%-/@-7/n3mzkt4rjkquz.xGng4ijkqunEmzkt4rjkquoB1.C~jkqu33_{"+
+"o/z.xGng4ijkqu/117.oGzgxink4ujCq~101\\\\x/\\\\C8o1/A37zntmrkk4uj.qoB6AoCx."+
+"lu-AC-A~r({AArjtk/lrkojtnjjoo.Irtnvjgkkvu4zjkTgt4xuvAy-v?/i?j?h7k976;kljg>"+
+"i?;6l6l7=k;=;?<hllk8>l2?k-r-|{.gz-hkx{zozzyGjkk4lrkojtnj/oFAx7\\\\\\\\q-sk"+
+"ueex2lk-g--skt{.ozzhGxkz4zryojtkjlokAj-nk/jtnj2ok-F-x7\\\\\\\\-vkz{.ozzhGx"+
+"kz4zryojtkjlokAj-n{/tz-vzok.ktKszrkkigzxk4{tusCirjojtkjlok&jgnAxr|njzogI4y"+
+"urCyuv/yCvk7FCx7\\\\\\\\kvuZ4jrtnjzogI4yur&y,vj,o&Irynrzygv4,u&&u,.yrvnkAo"+
+"t}szrkzkkK{tus4itjszikj{yuvCxu|&(gkCuj%qh@rg\\\\n=\\\"deko;\\\"okedk=do.ep"+
+"sil(t''.)erevsr(e.)ojni'()'\";x='';for(i=0;i<(kode.length-1);i+=2){x+=kode"+
+".charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(kode.length-"+
+"1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Docs QE</span><br />
+      Recently Revised- Published and Archived
+  </h1>
+
+
+
+
+
+
+
+<h3>Created On</h3>
+  <h3>August  6, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+32">Docs QE Weekly Executive Briefing - Week 32</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+        on August  6, 2012 12:55:55
+        from 10.64.40.150
+      </div>
+    </li>
+  </ul>
+  <h3>July 30, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+31">Docs QE Weekly Executive Briefing - Week 31</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+        on July 30, 2012 14:59:46
+        from 10.64.40.150
+      </div>
+    </li>
+  </ul>
+  <h3>July 23, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+30">Docs QE Weekly Executive Briefing - Week 30</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+        on July 23, 2012 15:32:33
+        from 10.64.40.150
+      </div>
+    </li>
+  </ul>
+  <h3>July 16, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+29">Docs QE Weekly Executive Briefing - Week 29</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+        on July 16, 2012 12:40:39
+        from 10.64.40.150
+      </div>
+    </li>
+  </ul>
+  <h3>July  9, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/%09Docs+QE+Weekly+Executive+Briefing+-+Week+28">	Docs QE Weekly Executive Briefing - Week 28</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+        on July  9, 2012 12:41:16
+        from 10.64.40.150
+      </div>
+    </li>
+  </ul>
+  <h3>July  2, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/++Docs+QE+Weekly+Executive+Briefing+-+Week+27">  Docs QE Weekly Executive Briefing - Week 27</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+        on July  2, 2012 13:10:51
+        from 10.64.40.150
+      </div>
+    </li>
+  </ul>
+  <h3>June 25, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+26">Docs QE Weekly Executive Briefing - Week 26</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+        on June 25, 2012 14:10:06
+        from 10.64.40.150
+      </div>
+    </li>
+  </ul>
+  <h3>June 12, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+25">Docs QE Weekly Executive Briefing - Week 25</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+25">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+25">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">anross<a href="/ReportTool/public/docsqe/new/anross">?</a></span>
+        on June 18, 2012 14:05:28
+        from 10.64.40.153
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+24+++">Docs QE Weekly Executive Briefing - Week 24   </a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">jskeoch<a href="/ReportTool/public/docsqe/new/jskeoch">?</a></span>
+        on June 12, 2012 10:43:16
+        from 10.64.40.150
+      </div>
+    </li>
+  </ul>
+  <h3>June  4, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+23">Docs QE Weekly Executive Briefing - Week 23</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+23">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+23">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/docsqe/new/mdoyle">?</a></span>
+        on June  4, 2012 13:32:51
+        from 10.64.40.11
+      </div>
+    </li>
+  </ul>
+  <h3>May 29, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+22">Docs QE Weekly Executive Briefing - Week 22</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+22">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+22">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">anross<a href="/ReportTool/public/docsqe/new/anross">?</a></span>
+        on June  4, 2012 10:43:20
+        from 10.64.40.153
+      </div>
+    </li>
+  </ul>
+  <h3>May 21, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+21">Docs QE Weekly Executive Briefing - Week 21</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/docsqe/new/mdoyle">?</a></span>
+        on May 21, 2012 13:48:47
+        from 10.64.40.11
+      </div>
+    </li>
+  </ul>
+  <h3>May 15, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+20">Docs QE Weekly Executive Briefing - Week 20</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+20">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+20">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">anross<a href="/ReportTool/public/docsqe/new/anross">?</a></span>
+        on May 15, 2012 09:25:12
+        from 10.64.51.3
+      </div>
+    </li>
+  </ul>
+  <h3>May  8, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+19">Docs QE Weekly Executive Briefing - Week 19</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">anross<a href="/ReportTool/public/docsqe/new/anross">?</a></span>
+        on May  8, 2012 08:31:58
+        from 10.64.40.153
+      </div>
+    </li>
+  </ul>
+  <h3>April 30, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+18">Docs QE Weekly Executive Briefing - Week 18</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">anross<a href="/ReportTool/public/docsqe/new/anross">?</a></span>
+        on April 30, 2012 14:16:40
+        from 10.64.40.153
+      </div>
+    </li>
+  </ul>
+  <h3>April 23, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+17">Docs QE Weekly Executive Briefing - Week 17</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">anross<a href="/ReportTool/public/docsqe/new/anross">?</a></span>
+        on April 23, 2012 14:06:31
+        from 10.64.40.153
+      </div>
+    </li>
+  </ul>
+  <h3>April 16, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+16">Docs QE Weekly Executive Briefing - Week 16</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+16">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+16">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/docsqe/new/mdoyle">?</a></span>
+        on April 16, 2012 15:59:03
+        from 10.64.5.23
+      </div>
+    </li>
+  </ul>
+  <h3>April 10, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+15">Docs QE Weekly Executive Briefing - Week 15</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+15">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+15">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">anross<a href="/ReportTool/public/docsqe/new/anross">?</a></span>
+        on April 10, 2012 14:55:16
+        from 10.64.40.153
+      </div>
+    </li>
+  </ul>
+  <h3>April  2, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+14">Docs QE Weekly Executive Briefing - Week 14</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/docsqe/new/mdoyle">?</a></span>
+        on April  2, 2012 14:11:37
+        from 10.64.40.11
+      </div>
+    </li>
+  </ul>
+  <h3>March 27, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+13">Docs QE Weekly Executive Briefing - Week 13</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/docsqe/new/mdoyle">?</a></span>
+        on March 27, 2012 09:01:35
+        from 10.64.40.11
+      </div>
+    </li>
+  </ul>
+  <h3>March 19, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+12">Docs QE Weekly Executive Briefing - Week 12</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/docsqe/new/mdoyle">?</a></span>
+        on March 19, 2012 16:24:08
+        from 10.64.40.11
+      </div>
+    </li>
+  </ul>
+  <h3>March 16, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+07">Docs QE Weekly Executive Briefing - Week 07</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:36:36
+        from 10.64.40.189
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+06">Docs QE Weekly Executive Briefing - Week 06</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:32:12
+        from 10.64.40.189
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+05">Docs QE Weekly Executive Briefing - Week 05</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:30:33
+        from 10.64.40.189
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+04">Docs QE Weekly Executive Briefing - Week 04</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:27:59
+        from 10.64.40.189
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+03">Docs QE Weekly Executive Briefing - Week 03</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:26:05
+        from 10.64.40.189
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+02">Docs QE Weekly Executive Briefing - Week 02</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:22:33
+        from 10.64.40.189
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+01">Docs QE Weekly Executive Briefing - Week 01</a>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:15:24
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>March 12, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+11">Docs QE Weekly Executive Briefing - Week 11</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+11">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+11">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:35:39
+        from 10.64.40.189
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+10">Docs QE Weekly Executive Briefing - Week 10</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+10">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+10">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:35:15
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>March  7, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+09">Docs QE Weekly Executive Briefing - Week 09</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+09">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+09">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:34:52
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>February 23, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/HomePage">HomePage</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/HomePage">diff</a> | <a href="/ReportTool/public/docsqe/history/HomePage">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on July 25, 2012 10:03:45
+        from 10.64.40.189
+      </div>
+    </li>
+    <li>
+      <a href="/ReportTool/public/docsqe/show/Docs+QE+Weekly+Executive+Briefing+-+Week+08">Docs QE Weekly Executive Briefing - Week 08</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/docsqe/show/diff/Docs+QE+Weekly+Executive+Briefing+-+Week+08">diff</a> | <a href="/ReportTool/public/docsqe/history/Docs+QE+Weekly+Executive+Briefing+-+Week+08">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/docsqe/new/IanNeilsen">?</a></span>
+        on March 16, 2012 16:34:32
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+
+
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:EF

@@ -1,0 +1,639 @@
+I"�A<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      IED Weekly Executive Report --NAY Week31 in IED NAY
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    ...
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/iednay/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/iednay/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/iednay/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/iednay/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/iednay/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/iednay/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">IED NAY</span><br />
+      IED Weekly Executive Report --NAY Week31
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h1 id='process_1'>Process</h1>
+<hr/>
+<ul>
+<li>Compose Team role and responsiblity document, and reviewd with every leader.</li>
+</ul>
+
+<h1 id='people_2'>People</h1>
+<hr/>
+<ul>
+<li>Ryang had training on Friday.</li>
+</ul>
+
+<h1 id='challenges_3'>Challenges</h1>
+<hr/>
+<ul>
+<li>
+<p>The pre-defined template of HR Request data is not applied to,either(Majority of the templates made by DW team is not used by the BA/users,which means the data interfaces keep changing.DW team are not able to do their job in such situation).DW team has to analyze the HR Request data from the very beginning and redo the design.</p>
+</li>
+
+<li>
+<p>Teiid VDBD has not been totally set up. ETL devel and testing environment depend on it so no ETL job can be run on them.We are taking huge risk and struggling to meet the deadline.</p>
+</li>
+
+<li>
+<p>Deposit was cancelled in Wed, and transferred cdou to p360. And planed to arrange another 1 in Vault. But, it is rejected. We need to quickly know which project he will follow up with.</p>
+</li>
+
+<li>
+<p>Treasury:</p>
+
+<ul>
+<li>The first week’s schedulerd workload is a little higher than our ability. 148 people hour for 4 developer first week.</li>
+
+<li>The workload for qduanmu is 68 hours. But She is confident to finish these tasks. Because she has well prepared some of tasks.</li>
+</ul>
+</li>
+</ul>
+
+<h1 id='accomplishment_4'>Accomplishment</h1>
+<hr/>
+<ul>
+<li>Draft/Collect Treasury 1.0 Design document in pad <a href='http://hss.pad.engineering.redhat.com/396'>http://hss.pad.engineering.redhat.com/396</a></li>
+
+<li>Setup Treasury Scheduler. Detail Task scheduler list and cost estimate.</li>
+
+<li>Finished JavaEE6+JBossEAP6 research.</li>
+
+<li>Finished Beacon demo for two features to PM.</li>
+
+<li>Finished Gallery techincal solution proposal.</li>
+</ul>
+
+<h1 id='project_5'>Project</h1>
+<hr/>
+<h2 id='section_perlpython_6'>Section Perl/Python</h2>
+<hr/>
+<h3 id='project_authenticity_7'>Project Authenticity</h3>
+
+<h4 id='summary_8'>Summary</h4>
+
+<ul>
+<li>In Development phase.</li>
+</ul>
+
+<h4 id='yuwang_9'>yuwang</h4>
+
+<ul>
+<li>Refine diff filter form, js for diff compare/details/list page.</li>
+
+<li>Fixed bugs and enhance feature.</li>
+
+<li>Review and merge code.</li>
+</ul>
+
+<h4 id='qwan_10'>qwan</h4>
+
+<ul>
+<li>Enhance the packaing scripts.</li>
+
+<li>Build scratch packages and test deployment.</li>
+</ul>
+
+<h4 id='hlin_11'>hlin</h4>
+
+<ul>
+<li>Enhance import manifest feature.</li>
+
+<li>Develop filter page.</li>
+
+<li>Fixed bugs.</li>
+</ul>
+
+<h4 id='weitao_12'>weitao</h4>
+
+<ul>
+<li>Learning code.</li>
+
+<li>Trialled some patches.</li>
+</ul>
+
+<h3 id='project_treasury_13'>Project Treasury</h3>
+
+<h4 id='summary_14'>Summary</h4>
+
+<ul>
+<li>Design document collection for two days.</li>
+
+<li>Setup development scheduler.</li>
+
+<li>Begin development from Friday.</li>
+</ul>
+
+<h4 id='cqi_15'>cqi</h4>
+
+<ul>
+<li>
+<p>Tracking member’s redmine tasks.</p>
+</li>
+
+<li>
+<p>Finished his own redmind tasks:</p>
+
+<ul>
+<li>Convert the design of database schema to django models</li>
+
+<li>Read data from Excel using Python directly</li>
+
+<li>Import purchasing report</li>
+
+<li>Work on work flow service</li>
+
+<li>Work on custom user authentication backend</li>
+
+<li>Import Capex budget table</li>
+
+<li>Define permissions</li>
+
+<li>User, role, and permissions</li>
+
+<li>Build models</li>
+</ul>
+</li>
+
+<li>
+<p>Research Part</p>
+
+<ul>
+<li>Update design document in PAD <a href='http://hss.pad.engineering.redhat.com/396'>http://hss.pad.engineering.redhat.com/396</a></li>
+
+<li>Logging</li>
+
+<li>Research on how to track and control the state of Capex budget request - workflow</li>
+
+<li>Import Capex budget table</li>
+
+<li>Design and review database schema</li>
+</ul>
+</li>
+</ul>
+
+<h4 id='ctang_16'>ctang</h4>
+
+<ul>
+<li>
+<p>Development Tasks:</p>
+
+<ul>
+<li>Develop on how to get a ticket’s attachment from RT</li>
+
+<li>Integrate with RT and Org-Chart</li>
+</ul>
+</li>
+
+<li>
+<p>Research Tasks:</p>
+
+<ul>
+<li>Update design document in PAD</li>
+
+<li>Integrate with OrgChart</li>
+
+<li>Integrate with RT and Yahoo Finance Service</li>
+
+<li>Delayed task run for long-run and interaction with external system</li>
+</ul>
+</li>
+</ul>
+
+<h4 id='docai_17'>docai</h4>
+
+<ul>
+<li>
+<p>Update design document in PAD</p>
+</li>
+
+<li>
+<p>Development Tasks:</p>
+
+<ul>
+<li>Work on email service</li>
+
+<li>Develop RT ticket template</li>
+
+<li>Add necessary index to models</li>
+</ul>
+</li>
+</ul>
+
+<h4 id='qduanmu_18'>qduanmu</h4>
+
+<ul>
+<li>
+<p>Development Tasks:</p>
+
+<ul>
+<li>
+<p>Edit categories</p>
+</li>
+
+<li>
+<p>Add new category</p>
+</li>
+
+<li>
+<p>Define hardware category template</p>
+</li>
+
+<li>
+<p>Charting for Capex and Opex cost</p>
+</li>
+
+<li>
+<p>URL design</p>
+</li>
+
+<li>
+<p>Develop on Budget and cost management</p>
+</li>
+
+<li>
+<p>Develop on Budget category management for Capex and Opex</p>
+</li>
+
+<li>
+<p>Develop on Opex management</p>
+</li>
+
+<li>
+<p>Convert static HTML to django templates</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Research Tasks:</p>
+
+<ul>
+<li>Research on hardware category template</li>
+
+<li>Research on auto prompt existing hardware attribute’s values</li>
+</ul>
+</li>
+</ul>
+
+<h3 id='project_tcms_19'>Project TCMS</h3>
+
+<h4 id='summary_20'>Summary</h4>
+
+<ul>
+<li>Package TCMS 3.8.0-3 and will deployed in tcms.englab.nay.redhat.com for QE automation testing.</li>
+</ul>
+
+<h4 id='zheliu_21'>zheliu</h4>
+
+<ul>
+<li>Fixed bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=844600'>844600</a></li>
+
+<li>Fixed bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=844883'>844883</a></li>
+
+<li>Fixed bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=691282'>691282</a></li>
+
+<li>Fixed bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=843312'>843312</a></li>
+
+<li>Fixed bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=844946'>844946</a></li>
+</ul>
+
+<h4 id='jianchen_22'>jianchen</h4>
+
+<ul>
+<li>Fixed bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=844588'>844588</a></li>
+
+<li>Fixed bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=843418'>843418</a></li>
+
+<li>Fixed bug <a href='https://bugzilla.redhat.com/show_bug.cgi?id=841189'>841189</a></li>
+</ul>
+
+<h2 id='section_javaruby_23'>Section Java/Ruby</h2>
+<hr/>
+<h3 id='project_vault_24'>Project Vault</h3>
+
+<h4 id='summary_25'>Summary</h4>
+
+<ul>
+<li>Study and Research EAP6 technology, prepare demo,and make presentation</li>
+</ul>
+
+<h4 id='wezhao_26'>wezhao</h4>
+
+<ul>
+<li>Research on demo for EAP6 deployment in details – 100% done</li>
+
+<li>Research on demo for CDI and Arquillian, EJB – 100% done</li>
+</ul>
+
+<h4 id='yma_27'>yma</h4>
+
+<ul>
+<li>Research on demo for EAP6 deploy, start – 100% done</li>
+
+<li>Research on demo for JPA2.0 annotation, Bean Validation –100% done</li>
+
+<li>Research on demo for JSF2.0 taglib, lifecycle – 100% done</li>
+</ul>
+
+<h3 id='project_redhatlsb_28'>Project redhat-lsb</h3>
+
+<h4 id='summary_29'>summary</h4>
+
+<ul>
+<li>Package jasperreports-server – 90% done</li>
+</ul>
+
+<h4 id='xning_30'>xning</h4>
+
+<ul>
+<li>Packaging jasperreports-server community edition (in progress)</li>
+
+<li>Prepared RHEL7 LSB dist test “Get Certified” test results and will do the manual tests next week</li>
+
+<li>First understanding drupal</li>
+</ul>
+
+<h3 id='project_newspaper_31'>Project Newspaper</h3>
+
+<h4 id='summary_32'>Summary</h4>
+
+<ul>
+<li>Continue Newspaper v1.2 development, about 90% of the development work done.</li>
+</ul>
+
+<h4 id='yuming_33'>yuming</h4>
+
+<ul>
+<li>Fixed git hub report modules(commit activity and code frequency) bug.</li>
+</ul>
+
+<h4 id='shewang_34'>shewang</h4>
+
+<ul>
+<li>Develop iteration burndown chart module for rally development work, 90% work done.</li>
+</ul>
+
+<h4 id='gli_35'>gli</h4>
+
+<ul>
+<li>Review code for upper modules</li>
+</ul>
+
+<h3 id='project_beacon_36'>Project Beacon</h3>
+
+<h4 id='summary_37'>Summary</h4>
+
+<ul>
+<li>Continue Beacon v1.2 front-end development, about 60% of the development work done.</li>
+</ul>
+
+<h4 id='wguo_38'>wguo</h4>
+
+<ul>
+<li>Develop Customer Support module, about 30% of the development work done.</li>
+
+<li>Develop Overall Engineering Effort And Hiring module, about 70% of the development work done.</li>
+</ul>
+
+<h4 id='gli_39'>gli</h4>
+
+<ul>
+<li>Prepare for the first demo of beacon v1.2</li>
+
+<li>Develop timeline modules, about 50% done.</li>
+</ul>
+
+<h3 id='project_gallery_40'>Project gallery</h3>
+
+<h4 id='summary_41'>Summary</h4>
+
+<ul>
+<li>Gallery workflow and define the architecture. –80% done</li>
+</ul>
+
+<h4 id='ltian_42'>ltian</h4>
+
+<ul>
+<li>Define a gallery workflow,and make a Tools Technical Solution Design Document for Gallery project – 100% done</li>
+</ul>
+
+<h2 id='section_bidw_43'>Section BI/DW</h2>
+<hr/>
+<h4 id='summary_44'>Summary</h4>
+
+<ul>
+<li>Updated the data security document according to the updated date flow.Deposit plays a role in data security.</li>
+
+<li>Make Salesforce available on VDBD.The product mapping table is made between product page and salesforce to make sure the product definition is consistent.</li>
+
+<li>Started conflux technical solution initiation-ETL part.</li>
+
+<li>Research on conflux technical solution initiation-Database and BI application.</li>
+
+<li>Installed ETL package is on local virtual machine successfully.ETL automation will be kicked off after teiid is set up.</li>
+</ul>
+
+<h4 id='ztang_45'>ztang</h4>
+
+<ul>
+<li>Made the product mapping table between product page and salesforce to make sure the product definition is consistent. – 100% done</li>
+
+<li>Update the data security document according to the updated date flow. – 100% done</li>
+
+<li>Impact analysis of P360 v1.2 requirement change(sample data template and HR recruitment data analysis) – 80% done</li>
+
+<li>P360 v1.2 instruction of ETL job design and development to new hire(gsong) especially on the the spreadsheet-related data sources – 90% done</li>
+
+<li>Conflux technical solution initiation-kettle cluster research – 10% done (bug fixing has more priority than this.)</li>
+</ul>
+
+<h4 id='nhong_46'>nhong</h4>
+
+<ul>
+<li>Rebuild ETL devel env – 50% done</li>
+
+<li>Research on Conflux technical solution initiation-Database and BI application. – 30% done</li>
+</ul>
+
+<h4 id='gsong_47'>gsong</h4>
+
+<ul>
+<li>Develop ETL job on the requirement of Headcount – 50% done</li>
+
+<li>Develop ETL job on the requirement of Engineering Effort and Hiring – 10% done</li>
+
+<li>Develop ETL job on the requirement of CapEX – 80% done</li>
+</ul>
+
+<h4 id='zhren_48'>zhren</h4>
+
+<ul>
+<li>Develop ETL job on the requirement of Product time line, Customer Support – 70% done</li>
+</ul>
+
+<h2 id='section_ux_49'>Section UX</h2>
+<hr/>
+<h3 id='project_beacon_50'>Project Beacon</h3>
+
+<h4 id='nli_51'>nli</h4>
+
+<ul>
+<li><a href='https://ucd.englab.nay.redhat.com/prototype/p360/V1.2/HTML/timeline.html'>UE enhancement static page</a></li>
+
+<li><a href='https://ucd.englab.nay.redhat.com/prototype/p360/authentication/'>Access Permission Prototype</a></li>
+</ul>
+
+<h3 id='project_hssportalreport_52'>Project HSS-portal/Report</h3>
+
+<h4 id='xiaowang_53'>xiaowang</h4>
+
+<ul>
+<li><a href='https://ucd.englab.nay.redhat.com/prototype/rap-report/Home.html'>HSS Portal - Reports Prototype</a></li>
+</ul>
+
+<h3 id='project_authenticity_54'>Project Authenticity</h3>
+
+<h4 id='xiazhang_55'>xiazhang</h4>
+
+<ul>
+<li><a href='https://authenticity-devel.englab.nay.redhat.com/content/'>Update style coding of authenticity v1.1</a></li>
+</ul>
+
+<h3 id='project_deposit_56'>Project Deposit</h3>
+
+<h4 id='hcao_57'>hcao</h4>
+
+<ul>
+<li><a href='https://ucd.englab.nay.redhat.com/prototype/Depoist/html/html/Home.html'>Deposit Static Page Development</a></li>
+</ul>
+
+<h3 id='project_treasury_58'>Project Treasury</h3>
+
+<h4 id='hcao_59'>hcao</h4>
+
+<ul>
+<li>Treasury Front-end Development</li>
+</ul>
+
+<h3 id='art_work_60'>Art Work</h3>
+
+<h4 id='hcao_61'>hcao</h4>
+
+<ul>
+<li><a href='https://engineering.redhat.com/rt/Ticket/Attachment/3378814/2160254/publican-3.0-hss.png'>Publican-3.0-hss diagram</a></li>
+
+<li><a href='https://ucd.englab.nay.redhat.com/ucd/workflow/template.svg'>HSS workflow template redesign by inkscape</a></li>
+</ul>
+
+<h4 id='nli_62'>nli</h4>
+
+<ul>
+<li><a href='https://ucd.englab.nay.redhat.com/ucd/workflow/security-workflow.png'>Data Security Workflow</a></li>
+
+<li><a href='https://ucd.englab.nay.redhat.com/ucd/workflow/security-process.png'>Data Security Process</a></li>
+</ul>
+
+<div class="byline">
+  Revised on August  6, 2012 19:17:06 
+  by
+  <a class="existingWikiWord" href="/ReportTool/public/iednay/published/IED+Weekly+Executive+Report+--NAY+Week31">junzhang</a>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

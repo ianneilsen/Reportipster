@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+    <%- if @page and (@page.name == 'HomePage') and (%w( show published print ).include?(params['action'])) -%>
+      <%= h(@web.name) + (@show_diff ? ' (changes)' : '') %>
+    <%- elsif @web -%>
+      <%= @title %> in <%= h @web.name %>
+    <%- else -%>
+      <%= @title %>
+    <%- end -%>
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="<%= @robots_metatag_value %>" />
+  
+  <%= stylesheet_link_tag 'instiki', :media => 'all'  unless @inline_style %>
+  <%= stylesheet_link_tag 'syntax', :media => 'all'  unless @inline_style %>
+  <%= javascript_include_tag :defaults %>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #<%= @web ? @web.color : "a70000" %>; 
+    }
+    a:visited.existingWikiWord {
+      color: #<%= darken(@web ? @web.color : "a70000") %>;
+    }
+    <%= Rails.root.join('public', 'stylesheets', 'instiki.css').read if @inline_style %>
+    <%= Rails.root.join('public', 'stylesheets', 'syntax.css').read if @inline_style %>
+  </style>
+
+  <%= "<style type='text/css'>#{@style_additions}</style>".html_safe if @style_additions %>
+  <style type="text/css"> 
+    <%= @web && @web.additional_style ? @web.additional_style.html_safe : '' %>
+  </style>
+
+  
+  <%= csrf_meta_tag %>
+  <%- if @web -%>
+   <%- if @web.markup == :markdown -%>
+
+
+   <%- end -%>
+  	<%= auto_discovery_link_tag(:atom, {:controller => 'wiki', :web => @web.address, :action => 'atom_with_headlines'},
+  	      :title => 'Atom with headlines') %>
+  	<%= auto_discovery_link_tag(:atom, {:controller => 'wiki', :web => @web.address, :action => 'atom_with_content'},
+  	      :title => 'Atom with full content') %>
+  <%- end -%>
+</head>
+
+<body>
+
+<div id="Container">
+<%= render(:file => 'navigation') unless @web.nil? || @hide_navigation %>
+<div id="Content">
+  <h1 id="pageName">
+    <%- if @page and (@page.name == 'HomePage') and %w( show published print ).include?(@action_name) -%>
+      <%= h(@web.name) + (@show_diff ? ' (changes)' : '') %>
+    <%- elsif @web -%>
+      <span class="webName"><%= @web.name %></span><br />
+      <%= @title %>
+    <%- else -%>
+      <%= @title %>
+    <%- end %>
+  </h1>
+
+
+<%- if flash[:info] -%>
+  <div class="info"><%= escape_preserving_linefeeds flash[:info] %></div>
+<%- end -%>
+
+<%- if @error or flash[:error] -%> 
+    <div class="errorExplanation"><%= escape_preserving_linefeeds(@error || flash[:error]) %></div>
+<%- end -%>
+
+<%= @content_for_layout %>
+
+<%- if @show_footer -%>
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+<%- end -%>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>

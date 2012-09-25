@@ -1,0 +1,350 @@
+I"O<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      OpenShift 2.0 Executive Briefing - Sprint 15(July 16th - Aug 3rd) in OpenShift
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/openshift/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/openshift/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/openshift/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/openshift/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/openshift/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/openshift/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">OpenShift</span><br />
+      OpenShift 2.0 Executive Briefing - Sprint 15(July 16th - Aug 3rd)
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h2 id='qe_test_result_summary_1'>QE Test result summary</h2>
+
+<p>Sprint started <strong>Monday July 16th 2012</strong> finished <strong>Friday Aug 3rd 2012</strong>.</p>
+
+<p>Reporting for the 18th Day (Aug, 2nd) of Sprint 15, data captured on Aug, 2nd</p>
+<div class='maruku_toc'><ul style=''></ul></div>
+<h2 id='sprint_over_sprint_summary_2'>Sprint over Sprint Summary</h2>
+
+<ul>
+<li>21 user stories which are scheduled to be completed by DCUT day, 14 user stories are accepted, 3 user stories have slipped to next sprint;</li>
+
+<li>Total number of bugs in open status is rising by 18.8%</li>
+
+<li>Total number of newly open bugs has decreased.</li>
+</ul>
+
+<p><strong>Open Bug Count Change:</strong> <img alt='Up' src='/ReportTool/public/openshift/files/Up.png'/> +18.8% (166 -&gt;154- &gt; 183)</p>
+
+<ul>
+<li>
+<p>From Sprint 13 to Sprint 15,</p>
+
+<ul>
+<li>Total number of bugs still in a working state (NEW/ASSIGNED/ON_DEV/POST/MODIFIED) changed from 166 to 154 to 183</li>
+</ul>
+</li>
+</ul>
+
+<p><strong>Bugs Awaiting Triage Change:</strong> <img alt='Up' src='/ReportTool/public/openshift/files/Up.png'/> +50% (17 -&gt; 8 -&gt; 24)</p>
+
+<ul>
+<li>
+<p>From Sprint13 to Sprint15, bug awaiting triage changed from 17 to 8 to 24.</p>
+
+<ul>
+<li><a href='https://url.corp.redhat.com/waitingtriage'>Open bug without triage keyword</a></li>
+</ul>
+</li>
+</ul>
+
+<p><strong>Bugs Awaiting Verification Change:</strong> <img alt='Down' src='/ReportTool/public/openshift/files/Down.png'/> -40.0%% (18 -&gt; 25 &gt;15)</p>
+
+<ul>
+<li>From Sprint13 to Sprint15, ON_QA bug count changed from 18 to 25 to 15</li>
+</ul>
+
+<p><strong>Code Coverage:</strong> from sprint 13 to sprint 15 <img alt='Up' src='/ReportTool/public/openshift/files/Up.png'/> <strong>29.92%</strong> -&gt; <strong>25.51%</strong> -&gt; <strong>26.77%</strong></p>
+
+<ul>
+<li>Average Code Coverage of broker, stickshift_broker and stickshift_node changed from 29.92% to 25.51% to 26.77% from sprint 13 to sprint 15</li>
+</ul>
+
+<p><strong>Story Point Change:</strong> <img alt='Down' src='/ReportTool/public/openshift/files/Down.png'/> -32% (99 to 64 to 43)</p>
+
+<ul>
+<li>From Sprint13 to Sprint14 to sprint 15 , story points need QE changed from 99 to 64 to 43.</li>
+</ul>
+
+<p><strong>Testing Status in Sprint 15</strong></p>
+
+<ul>
+<li>Have finished full functional or acceptance testing for 12 devenv or INT builds.</li>
+
+<li>Have finished 4 old clients backward compatibility testing.</li>
+
+<li>Have finished creating 6000 vhosts for c9 node testing.</li>
+</ul>
+
+<h2 id='risksactions_for_sprint_15_3'>Risks/Actions for Sprint 15</h2>
+
+<p>N/A</p>
+
+<h2 id='awareness_for_sprint_15_4'>Awareness for Sprint 15</h2>
+
+<p>N/A</p>
+<hr/>
+<h2 id='detailed_feature_trend_sprint_over_sprint_5'>Detailed Feature Trend (Sprint over Sprint)</h2>
+
+<h5 id='sprint_15_user_stories_status_6'>Sprint 15 User Stories Status</h5>
+
+<p>Devcut user stories: (21)</p>
+
+<pre><code>+ BI(11), Runtime(7), Design(0), UI(3), Doc(0)</code></pre>
+
+<p>Completed user stories: (21)</p>
+
+<pre><code>+ BI(12), Runtime(7), Design(0), UI(5), Doc(7)</code></pre>
+
+<p>Accepted user stories: (14)</p>
+
+<pre><code>+ BI(3), Runtime(3), Design(0), UI(1), Doc(6)</code></pre>
+
+<p>Under testing user stories: (1)</p>
+
+<pre><code>+ Docs(1)</code></pre>
+
+<p>Slipped to next sprint user stories: (3) + BI(2), UI(1)</p>
+
+<h5 id='sprint_points_change_sprint_over_sprint_for_sprint_13_to_sprint_14_to_sprint_15_7'>Sprint points change (Sprint over Sprint) (for sprint 13 to sprint 14 to sprint 15)</h5>
+
+<ul>
+<li>
+<p>Total story points change: <strong>+1.4% (from 140 to 142 to 135)</strong></p>
+
+<pre><code>  BI (41-&gt;32&gt;48), Runtime(31-&gt;30&gt;40), Design(18-&gt;19&gt;14), Doc(13-&gt;24&gt;6), UI(37-&gt;37&gt;27)</code></pre>
+</li>
+
+<li>
+<p>Total story needing QE points change: <strong>-0.6% (from 99 to 64 to 60)</strong></p>
+
+<pre><code>  BI (23-&gt;18&gt;25), Runtime(26-&gt;20&gt;17), Doc(13-&gt;12&gt;6), UI(37-&gt;14&gt;11)</code></pre>
+</li>
+
+<li>
+<p>Stories with test cases approved within window: <strong>10/10 = 100%</strong></p>
+
+<pre><code>  BI ( 4/4), Runtime(4/4, ), UI(2/2)</code></pre>
+</li>
+</ul>
+<hr/>
+<h2 id='detailed_bug_trend_sprint_over_sprint_8'>Detailed Bug Trend (Sprint over Sprint)</h2>
+
+<h5 id='total_number_of_bugs_still_in_a_working_state_newassignedon_devpostmodified_at_the_end_of_sprint_9'>Total number of bugs still in a working state (NEW/ASSIGNED/ON_DEV/POST/MODIFIED) at the end of sprint</h5>
+<table><thead><tr><th>Component</th><th>Sprint 13(June 22)</th><th>Sprint 14(July 12)</th><th>Sprint 15 (Aug 3)</th></tr></thead><tbody><tr><td style='text-align: left;'>Total</td><td style='text-align: center;'>166</td><td style='text-align: center;'>154</td><td style='text-align: right;'>183</td></tr>
+<tr><td style='text-align: left;'>Broker</td><td style='text-align: center;'>29</td><td style='text-align: center;'>24</td><td style='text-align: right;'>17</td></tr>
+<tr><td style='text-align: left;'>Cartridges</td><td style='text-align: center;'>45</td><td style='text-align: center;'>52</td><td style='text-align: right;'>69</td></tr>
+<tr><td style='text-align: left;'>CLI</td><td style='text-align: center;'>28</td><td style='text-align: center;'>32</td><td style='text-align: right;'>46</td></tr>
+<tr><td style='text-align: left;'>Website</td><td style='text-align: center;'>38</td><td style='text-align: center;'>25</td><td style='text-align: right;'>32</td></tr>
+<tr><td style='text-align: left;'>REST API</td><td style='text-align: center;'>14</td><td style='text-align: center;'>9</td><td style='text-align: right;'>9</td></tr>
+<tr><td style='text-align: left;'>Quick Starts</td><td style='text-align: center;'>5</td><td style='text-align: center;'>2</td><td style='text-align: right;'>4</td></tr>
+<tr><td style='text-align: left;'>Docs</td><td style='text-align: center;'>4</td><td style='text-align: center;'>6</td><td style='text-align: right;'>17</td></tr>
+<tr><td style='text-align: left;'>Community Content</td><td style='text-align: center;'>1</td><td style='text-align: center;'>2</td><td style='text-align: right;'>2</td></tr>
+<tr><td style='text-align: left;'>Design</td><td style='text-align: center;'>0</td><td style='text-align: center;'>0</td><td style='text-align: right;'>0</td></tr>
+<tr><td style='text-align: left;'>Test Suite</td><td style='text-align: center;'>1</td><td style='text-align: center;'>1</td><td style='text-align: right;'>1</td></tr>
+</tbody></table>
+<p><img alt='15-1' src='/ReportTool/public/openshift/files/sprint15-1.png'/></p>
+
+<h5 id='opening_blocking_bug_10'>Opening Blocking Bug:</h5>
+
+<p><a href='https://url.corp.redhat.com/MASbugs'>Open medium above severity bugs</a></p>
+<table><thead><tr><th>Component</th><th>Sprint 13(June 22)</th><th>Sprint 14(July 12)</th><th>Sprint 15 (Aug 3)</th></tr></thead><tbody><tr><td style='text-align: left;'>Total</td><td style='text-align: center;'>24</td><td style='text-align: center;'>25</td><td style='text-align: right;'>33</td></tr>
+<tr><td style='text-align: left;'>Broker</td><td style='text-align: center;'>2</td><td style='text-align: center;'>3</td><td style='text-align: right;'>6</td></tr>
+<tr><td style='text-align: left;'>Cartridges</td><td style='text-align: center;'>9</td><td style='text-align: center;'>11</td><td style='text-align: right;'>16</td></tr>
+<tr><td style='text-align: left;'>CLI</td><td style='text-align: center;'>0</td><td style='text-align: center;'>0</td><td style='text-align: right;'>2</td></tr>
+<tr><td style='text-align: left;'>Website</td><td style='text-align: center;'>5</td><td style='text-align: center;'>2</td><td style='text-align: right;'>3</td></tr>
+<tr><td style='text-align: left;'>RESTPI</td><td style='text-align: center;'>0</td><td style='text-align: center;'>1</td><td style='text-align: right;'>0</td></tr>
+<tr><td style='text-align: left;'>Quick Starts</td><td style='text-align: center;'>5</td><td style='text-align: center;'>2</td><td style='text-align: right;'>3</td></tr>
+<tr><td style='text-align: left;'>Documentation</td><td style='text-align: center;'>3</td><td style='text-align: center;'>5</td><td style='text-align: right;'>3</td></tr>
+<tr><td style='text-align: left;'>Community Content</td><td style='text-align: center;'>0</td><td style='text-align: center;'>1</td><td style='text-align: right;'>0</td></tr>
+<tr><td style='text-align: left;'>Design</td><td style='text-align: center;'>0</td><td style='text-align: center;'>0</td><td style='text-align: right;'>0</td></tr>
+</tbody></table>
+<p><img alt='15-2' src='/ReportTool/public/openshift/files/sprint15-2.png'/></p>
+
+<h5 id='newly_open_bugs_within_sprint_11'>Newly Open Bugs within sprint</h5>
+<table><thead><tr><th>Component</th><th>Sprint 13</th><th>Sprint 14</th><th>Sprint 15</th></tr></thead><tbody><tr><td style='text-align: left;'>Total</td><td style='text-align: center;'>189</td><td style='text-align: center;'>135</td><td style='text-align: left;'>135</td></tr>
+<tr><td style='text-align: left;'>Broker</td><td style='text-align: center;'>38</td><td style='text-align: center;'>27</td><td style='text-align: left;'>26</td></tr>
+<tr><td style='text-align: left;'>Cartridges</td><td style='text-align: center;'>50</td><td style='text-align: center;'>45</td><td style='text-align: left;'>51</td></tr>
+<tr><td style='text-align: left;'>CLI</td><td style='text-align: center;'>33</td><td style='text-align: center;'>24</td><td style='text-align: left;'>25</td></tr>
+<tr><td style='text-align: left;'>Website</td><td style='text-align: center;'>51</td><td style='text-align: center;'>18</td><td style='text-align: left;'>14</td></tr>
+<tr><td style='text-align: left;'>REST API</td><td style='text-align: center;'>6</td><td style='text-align: center;'>8</td><td style='text-align: left;'>3</td></tr>
+<tr><td style='text-align: left;'>Quick Starts</td><td style='text-align: center;'>5</td><td style='text-align: center;'>4</td><td style='text-align: left;'>7</td></tr>
+<tr><td style='text-align: left;'>Documentation</td><td style='text-align: center;'>6</td><td style='text-align: center;'>7</td><td style='text-align: left;'>7</td></tr>
+<tr><td style='text-align: left;'>Community Content</td><td style='text-align: center;'>0</td><td style='text-align: center;'>2</td><td style='text-align: left;'>2</td></tr>
+<tr><td style='text-align: left;'>Design</td><td style='text-align: center;'>0</td><td style='text-align: center;'>0</td><td style='text-align: left;'>0</td></tr>
+</tbody></table>
+<p><img alt='15-3' src='/ReportTool/public/openshift/files/sprint15-3.png'/></p>
+
+<h5 id='closed_bugs_change_to_verified_or_closed_within_sprint_12'>Closed (Bugs change to VERIFIED or CLOSED) within sprint</h5>
+<table><thead><tr><th>Component</th><th>Sprint 13</th><th>Sprint 14</th><th>Sprint 15</th></tr></thead><tbody><tr><td style='text-align: left;'>Total</td><td style='text-align: center;'>223</td><td style='text-align: center;'>135</td><td style='text-align: right;'>107</td></tr>
+<tr><td style='text-align: left;'>Broker</td><td style='text-align: center;'>48</td><td style='text-align: center;'>28</td><td style='text-align: right;'>31</td></tr>
+<tr><td style='text-align: left;'>Cartridges</td><td style='text-align: center;'>50</td><td style='text-align: center;'>34</td><td style='text-align: right;'>38</td></tr>
+<tr><td style='text-align: left;'>CLI</td><td style='text-align: center;'>36</td><td style='text-align: center;'>18</td><td style='text-align: right;'>9</td></tr>
+<tr><td style='text-align: left;'>Website</td><td style='text-align: center;'>75</td><td style='text-align: center;'>33</td><td style='text-align: right;'>10</td></tr>
+<tr><td style='text-align: left;'>Rest API</td><td style='text-align: center;'>7</td><td style='text-align: center;'>11</td><td style='text-align: right;'>4</td></tr>
+<tr><td style='text-align: left;'>Quick Starts</td><td style='text-align: center;'>3</td><td style='text-align: center;'>7</td><td style='text-align: right;'>5</td></tr>
+<tr><td style='text-align: left;'>Documentation</td><td style='text-align: center;'>4</td><td style='text-align: center;'>3</td><td style='text-align: right;'>8</td></tr>
+<tr><td style='text-align: left;'>Community Content</td><td style='text-align: center;'>0</td><td style='text-align: center;'>1</td><td style='text-align: right;'>2</td></tr>
+<tr><td style='text-align: left;'>Design</td><td style='text-align: center;'></td><td style='text-align: center;'>0</td><td style='text-align: right;'>0</td></tr>
+</tbody></table>
+<p><img alt='15-4' src='/ReportTool/public/openshift/files/sprint15-41.png'/></p>
+
+<h5 id='bounce_back_bug_status_changed_from_on_qaverifiedclosed_to_assigned_within_sprint_13'>Bounce Back (Bug status changed from ON_QA/VERIFIED/CLOSED to ASSIGNED) within sprint</h5>
+<table><thead><tr><th>Component</th><th>Sprint 13</th><th>Sprint 14</th><th>Sprint 15</th></tr></thead><tbody><tr><td style='text-align: left;'>Total</td><td style='text-align: center;'>32</td><td style='text-align: center;'>22</td><td style='text-align: left;'>19</td></tr>
+<tr><td style='text-align: left;'>Broker</td><td style='text-align: center;'>5</td><td style='text-align: center;'>8</td><td style='text-align: left;'>3</td></tr>
+<tr><td style='text-align: left;'>Cartridges</td><td style='text-align: center;'>12</td><td style='text-align: center;'>6</td><td style='text-align: left;'>8</td></tr>
+<tr><td style='text-align: left;'>CLI</td><td style='text-align: center;'>6</td><td style='text-align: center;'>1</td><td style='text-align: left;'>1</td></tr>
+<tr><td style='text-align: left;'>Website</td><td style='text-align: center;'>8</td><td style='text-align: center;'>5</td><td style='text-align: left;'>3</td></tr>
+<tr><td style='text-align: left;'>REST API</td><td style='text-align: center;'>1</td><td style='text-align: center;'>2</td><td style='text-align: left;'>2</td></tr>
+<tr><td style='text-align: left;'>Quick Starts</td><td style='text-align: center;'>0</td><td style='text-align: center;'>0</td><td style='text-align: left;'>0</td></tr>
+<tr><td style='text-align: left;'>Documentation</td><td style='text-align: center;'>0</td><td style='text-align: center;'>0</td><td style='text-align: left;'>0</td></tr>
+<tr><td style='text-align: left;'>Design</td><td style='text-align: center;'>0</td><td style='text-align: center;'>0</td><td style='text-align: left;'>0</td></tr>
+</tbody></table>
+<p><img alt='15-5' src='/ReportTool/public/openshift/files/sprint15-5.png'/></p>
+<hr/>
+<h2 id='test_coverage_14'>Test Coverage</h2>
+
+<p>Average Code Coverage: from sprint 13 to sprint 14 to sprint15 <strong>29.92%</strong> -&gt; <strong>25.51%</strong> -&gt;<strong>26.77%</strong></p>
+
+<p>Code Coverage Trend Graph</p>
+
+<h5 id='detailed_breakdown_15'>Detailed breakdown</h5>
+
+<ul>
+<li>
+<p>broker coverage:(Total Coverage:24.29 % Code Coverage: 17.44%)</p>
+
+<ul>
+<li><span>Jenkins Job broker_coverage</span> (http://ci.dev.openshift.redhat.com/jenkins/job/libra_coverage/lastSuccessfulBuild/artifact/rhc/log/coverage/broker_coverage/index.html)</li>
+</ul>
+</li>
+
+<li>
+<p>stickshift-broker coverage:(Total Coverage:38.60% Code Coverage: 30.48%)</p>
+
+<ul>
+<li><a href='http://ci.dev.openshift.redhat.com/jenkins/job/libra_coverage/lastSuccessfulBuild/artifact/rhc/log/stickshift_broker_coverage/index.html'>Jenkins Job stickshift_broker_coverage</a></li>
+</ul>
+</li>
+
+<li>
+<p>stickshift-node coverage:(Total Coverage:47.20% Code Coverage: 32.40%)</p>
+
+<ul>
+<li><a href='http://ci.dev.openshift.redhat.com/jenkins/job/libra_coverage/lastSuccessfulBuild/artifact/rhc/log/stickshift_node_coverage/index.html'>Jenkins Job stickshift_node_coverage</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="byline">
+  Created on August  2, 2012 19:17:32 
+  by
+  <a class="existingWikiWord" href="/ReportTool/public/openshift/published/OpenShift+2.0+Executive+Briefing+-+Sprint+15%28July+16th+-+Aug+3rd%29">Ian Neilsen</a>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:EF

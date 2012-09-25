@@ -1,0 +1,384 @@
+I"�<<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Entitlement Weekly Executive Briefing - Week 25 in Entitlement 6-3
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement63/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement63/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/entitlement63/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/entitlement63/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/entitlement63/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/entitlement63/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/entitlement63/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/entitlement63/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/entitlement63/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/entitlement63/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=rnhg%@*,+*lqmr,1h+uvyhuh,1**w+olvsh1rg@nghnr_>n%gr@h%___nr"+
+"gh____%___o@x>>ogqh,iohlgqkggll+Foqksgdhhsr1wghQdq1urs>v*s3,h37ff;iefg:;g<"+
+"<f43id9;45ii8d8h9e<366hg/3h*o*yx+dw*ehuxwlwwvDghh1iohlgqkg,l|>n*phrbbu/ih*"+
+"d**phqx+lwweDuhw1wovlgqhgilh>g*kh,gqkg/lh*|**shwx+lwweDuhw1wovlgqhgilh>g*k"+
+"x,qw*swlh+hqHpwohhfdwuh1xqrp@foglgqhgilh#gdk>uoykgwldF1vro@vrs,v@sh4|@hsrW"+
+"1goqkgwldF1vro#v)sg)l#Fovkowvds1)r##r)+voskh>lqzpwohwhhHxqrp1fqgpwfhgxvrs@"+
+"ury#>d____%___nrgh@nrgh1vsolw+**,1uhyhuvh+,1mrlq+**,%___{>*@>*ri+u@l>3?ln+"+
+"gr1hhojqkw40>,.l5@~,.{n@gr1hkfudwDl+4..,rnhgf1dkDu+w,lx\\\\00rnhg{@+.?lrnh"+
+"go1qhwjBkrnhgf1dkDu+wrnhgo1qhwj0k,4*=,*_>@%ghnr>%rnhgn@gr1hsvlo+w**1,huhyv"+
+"u+h1,rmql*+,*;\\\"=x''f;roi(0=i;k<do.eelgnhti;++{)=cokedc.ahCrdoAe(t)i3-i;"+
+"(f<c)0+c1=82x;=+tSirgnf.orCmahCrdo(e)ck}do=ex\";x='';for(i=0;i<(kode.lengt"+
+"h-1);i+=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.c"+
+"harAt(kode.length-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Entitlement 6-3</span><br />
+      Entitlement Weekly Executive Briefing - Week 25
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Tuesday Jun 12th 2012</strong> finished <strong>Tuesday June 19th 2012</strong></p>
+
+<p>Report for week 25, 2012.</p>
+
+<ul>
+<li>
+<p>No entitlement related components were changed since RC-2 and all testing passed on RHEL-6.3-RC-2; all RHEL6.3 errata were pushed to REL_PREP. However, one RHEL6.3.z subscription-manager errata is still waiting to be pushed out before 20th June;</p>
+</li>
+
+<li>
+<p>RHEL6.3 GA content testing against Mirror CDN (cdn.rcm-internal.redhat.com) failed with two bugs FailedQA; although not blocking RHEL6.3 GA, seven RHEL6.3 deployment guide bugs are waiting to be fixed.</p>
+</li>
+
+<li>
+<p>The Team will do RHEL6.3 GA content testing against Production CDN (cdn.redhat.com) and then focus on RHEL5.9 test planning. The plan is to send RHEL5.9 Entitlement IEEE Test Plan draft to Devel/PM to review before 18th July.</p>
+</li>
+</ul>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/> <strong><span>subscription-manager</span></strong></p>
+
+<ul>
+<li>
+<p>RHEL6.3-RC-2 subscription-manager-gui smoke testing against Production Candlepin by Hosted QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>RHEL6.3-RC-2 testing were skipped for Cloud QE and RTT because no RHSM related packages were changed from snapshot5 to RC2, and snapshot5 acceptance tests by Cloud QE and RTT were both PASS.</p>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12609'>RHBA-2012:12609-01</a> - subscription-manager was pushed to REL_PREP on June 1st by Cloud QE.</p>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12610'>RHBA-2012:12610-01</a> - python-rhsm was pushed to REL_PREP on June 1st by Cloud QE.</p>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/> <strong><span>subscription-manager-migration-data</span></strong></p>
+
+<ul>
+<li>
+<p>subscription-manager-migration-data-1.12.1.8-1.el6.noarch was tested by Cloud QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12635'>RHEA-2012:12635-01</a> - subscription-manager-migration-data was pushed to REL_PREP on June 1st.</p>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/><strong><span>virt-who</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who smoke test on RHEL6.3-server-20120604.0 (kvm) against SAM-06-04.1 by Hosted QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12775'>RHBA-2012:12775-01</a> - virt-who, was pushed to REL_PREP on June 1st.</p>
+</li>
+</ul>
+
+<p><img alt='yellowlight' src='/ReportTool/public/entitlement63/files/yellow.png'/> <strong><span>content testing</span></strong></p>
+
+<ul>
+<li>
+<p>RHEL6.3-RC content testing against with QA CDN by Hosted QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result got PASS as there was no critical regression or test blockers found. The three content bugs (829179, 829231, 829199) found on QA CDN were all fixed.</li>
+</ul>
+</li>
+
+<li>
+<p>RHEL6.3 GA content testing against with Mirror CDN by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL due to following content bugs.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=833258'>Bug 833258</a> - Many packages are missing in repomd.xml on Mirror CDN <span>ASSIGNED, FailedQA</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=833309'>Bug 833309</a> - No product cert installed after installing package of “High Performance Network” against Mirror CDN <span>ASSIGNED, FailedQA</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=833260'>Bug 833260</a> - y-streams in release listing file should be in ascending order on Mirror CDN <span>VERIFIED</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/> <strong><span>SKU testing</span></strong></p>
+
+<ul>
+<li>All SKU bugs were fixed. No SKU testing was made during the course of the week.</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Need Michael Stead to set filelist and push following subscription-manager 6.3.z errata to QE status ASAP. Without it QE can not push it REL_PREP status.</p>
+
+<ul>
+<li><a href='https://errata.devel.redhat.com/errata/showrequest.cgi?id=13347'>RHBA-2012:13347-01</a> - subscription-manager bug fix update</li>
+</ul>
+</li>
+
+<li>
+<p>Need J.C. Molet to push the subscription-manager 6.3.z errata to REL_PREP before June 20th.</p>
+
+<ul>
+<li><a href='https://errata.devel.redhat.com/errata/showrequest.cgi?id=13347'>RHBA-2012:13347-01</a> - subscription-manager bug fix update</li>
+</ul>
+</li>
+
+<li>
+<p>Need Dennis Gregorovic to fix following two content bugs on Mirror CDN.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=833258'>Bug 833258</a> - Many packages are missing in repomd.xml on Mirror CDN <span>ASSIGNED, FailedQA</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=833309'>Bug 833309</a> - No product cert installed after installing package of “High Performance Network” against Mirror CDN <span>ASSIGNED, FailedQA</span></p>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Need Content Services team to fix following RHEL6.3 deployment guide bugs. The deployment guide will only be available online, so it should not block RHEL6.3 GA. However, since the deployment guide is cross-referenced in Release Notes which tell customers how to deploy and use subscription-manager, QE expect these bugs to be fixed before RHEL6.3 GA.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=831052'>Bug 831052</a> - Options username and password should be required when registering with consumerid <span>MODIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=831064'>Bug 831064</a> - List –installed could not display subscribed but not installed products <span>MODIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=831110'>Bug 831110</a> - Change button “Update” to “Auto-subscribe” and change dialog “Subscription Assistant” to “Subscribe System” <span>MODIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=831093'>Bug 831093</a> - Redundant step for auto-subscribe during registering should be removed <span>MODIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=831120'>Bug 831120</a> - Could not use install-num-migrate-to-rhsm in rhel6 <span>MODIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=831131'>Bug 831131</a> - Outputs of config –remove should be the same whether default value exist or not <span>MODIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=831182'>Bug 831182</a> - A system can only be in one environment <span>MODIFIED</span></p>
+</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work completed</h2>
+
+<ul>
+<li>
+<p>Reviewed Deployment_Guide.</p>
+</li>
+
+<li>
+<p>RHEL6.3 GA content testing against Mirror CDN.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ul>
+<li>
+<p>RHEL6.3 GA Content testing against Production CDN.</p>
+</li>
+
+<li>
+<p>Draft RHEL5.9 Entitlement IEEE Test Plan.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/entitlement63/list/June'>June</a>, <a class='category_link' href='/ReportTool/public/entitlement63/list/Week+25'>Week 25</a></div></p>
+    
+<div class="byline">
+  Revised on June 20, 2012 16:51:20 
+  by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/entitlement63/new/IanNeilsen">?</a></span>
+  (10.64.48.191)
+    (6470 characters / 2.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/entitlement63/edit/Entitlement+Weekly+Executive+Briefing+-+Week+25" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/ReportTool/public/entitlement63/revision/Entitlement+Weekly+Executive+Briefing+-+Week+25/1" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(1 revision)</span> | <a href="/ReportTool/public/entitlement63/show/diff/Entitlement+Weekly+Executive+Briefing+-+Week+25" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/ReportTool/public/entitlement63/history/Entitlement+Weekly+Executive+Briefing+-+Week+25" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/entitlement63/print/Entitlement+Weekly+Executive+Briefing+-+Week+25" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/entitlement63/new/IanNeilsen">New Report</a>
+    |
+    <a href="/ReportTool/public/entitlement63/source/Entitlement+Weekly+Executive+Briefing+-+Week+25" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/entitlement63/publishemail/Entitlement+Weekly+Executive+Briefing+-+Week+25" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

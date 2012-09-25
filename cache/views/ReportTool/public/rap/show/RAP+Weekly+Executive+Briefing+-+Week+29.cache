@@ -1,0 +1,315 @@
+I"_5<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      RAP Weekly Executive Briefing - Week 29 in RAP
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    ...
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/rap/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/rap/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/rap/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/rap/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/rap/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/rap/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/rap/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/rap/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/rap/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/rap/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=kode\\\"\\\\k=do\\\\e\\\\\\\"v\\\\r=pas doc=monu.eotudectm"+
+"lnmEne;ehtlw(ioe p&sp&s los.Caitdh&l  o&.pastlhslC.iodenydeT=p)=o1=pos.pas"+
+"tlhslC;iad virdhndielf=eodudectmcne.trEaeeeltm'nn(ui'p;ti)dhndielf.eedAstt"+
+"itureb'ty(et,ph'd'ei'd;ni)dhndielf.eedAsttitureb'ta(en,m_'o'mfkry_)eh'd;ei"+
+"fdendislt.terAbtti(uvel'ea,ub'3'a0ff1df0441c830b8b75977984d5f3e60301'7;6o)"+
+".paseptroneNadp.npCeiddhhld(eifdendi;lu)ln;l\\\\;\\\\\\\"x\\\\'=;'of(r=i;0"+
+"<ik(do.eelgnht1-;)+i2={)+xk=do.ehcratAi(1++)okedc.ahAr(t)ik}do=e+xi(k<do.e"+
+"elgnhtk?do.ehcratAk(do.eelgnht1-:)''\\\\);\\\";x='';for(i=0;i<(kode.length"+
+"-1);i+=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.ch"+
+"arAt(kode.length-1):'');;\\\"=x''f;roi(0=i;(<okedl.netg-h)1i;=+)2x{=+okedc"+
+".ahAr(t+i)1k+do.ehcratAi(})okedx=(+<iokedl.netg?hokedc.ahAr(tokedl.netg-h)"+
+"1':)';\";x='';for(i=0;i<(kode.length-1);i+=2){x+=kode.charAt(i+1)+kode.cha"+
+"rAt(i)}kode=x+(i<kode.length?kode.charAt(kode.length-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">RAP</span><br />
+      RAP Weekly Executive Briefing - Week 29
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <h1 id='executive_summary_1'>Executive summary</h1>
+
+<h2 id='risksactions_2'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>RAP Team is still receiving work requests via the old docs-hosted-request queue. This queue will be decommissioned soon. For all RAP requests, please send your ticket to hss-rap-request.</p>
+</li>
+
+<li>
+<p>Following a review of vdb.enginnering.redhat.com via teiid, it was found that the RAP team were unable to retrieve specific queries due to embargoed or filtered columns in the VDB. This has blocked our ability to provide team and bug metrics back to our stakeholders.</p>
+
+<p>RAP Team will send a request to Eng-Ops lift the embargo on the ‘added’ and ‘removed’ columns in the ‘bug_activity’ table of the ‘bugzillaS vdb’ instance this week. In the meantime, RAP team are now using a workaround to access the data via XML-RPC from the production Bugzilla instance.</p>
+</li>
+
+<li>
+<p>ECS are unable to deliver on their commitment for Publican 3.0 User Guide and Release Note update. RAP Team have been asked to deliver the updates as a contingency. We will use one of our Docs QE resources to do this work, limiting documentation review and bug verification to one (1) FTE until the Publican updates are complete.</p>
+</li>
+</ol>
+
+<h2 id='work_completed_3'>Work completed</h2>
+
+<h3 id='rap_4'>RAP</h3>
+
+<p><strong>Reports</strong></p>
+
+<ul>
+<li>New workflow for Eng-Ops weekly reporting is slowly gaining momentum.</li>
+</ul>
+
+<p><strong>Publications</strong></p>
+
+<p>RAP Team reviewed and published the following scheduled product documentation:</p>
+
+<ul>
+<li>
+<p>EverGreen 2.0 PRD <a href='https://dart.qe.lab.eng.bne.redhat.com/RAP/Evergreen/2-0/PRD/tmp/en-US/html-single/index.html'>https://dart.qe.lab.eng.bne.redhat.com/RAP/Evergreen/2-0/PRD/tmp/en-US/html-single/index.html</a></p>
+</li>
+
+<li>
+<p>Global Sync 3.0 IEEE Test Plan <a href='https://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/Global_Sync/3.0/html-single/IEEE_Test_Plan/index.html'>https://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/Global_Sync/3.0/html-single/IEEE_Test_Plan/index.html</a></p>
+</li>
+
+<li>
+<p>Project Management MRD <a href='https://dart.qe.lab.eng.bne.redhat.com/RAP/Project_Management/1-0/MRD/tmp/en-US/html-single/index.html'>https://dart.qe.lab.eng.bne.redhat.com/RAP/Project_Management/1-0/MRD/tmp/en-US/html-single/index.html</a></p>
+</li>
+
+<li>
+<p>Deposit 1.0 MRD <a href='https://dart.qe.lab.eng.bne.redhat.com/RAP/Deposit/1-0/MRD/tmp/en-US/html-single/index.html'>https://dart.qe.lab.eng.bne.redhat.com/RAP/Deposit/1-0/MRD/tmp/en-US/html-single/index.html</a></p>
+</li>
+</ul>
+
+<p>RAP Team reviewed, updated, and published the following non-scheduled product documentation:</p>
+
+<ul>
+<li>KSC RHEL 6.4 IEEE Test Plan <a href='http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/Red_Hat_Enterprise_Linux_KSC/0.8/html-single/IEEE_Test_Plan/index.html'>http://dart.qe.lab.eng.bne.redhat.com/IEEE_Test_Plans/en-US/Red_Hat_Enterprise_Linux_KSC/0.8/html-single/IEEE_Test_Plan/index.html</a></li>
+</ul>
+
+<p>RAP Team also updated the following Test Plans for Virt QE:</p>
+
+<ul>
+<li>KVM RHEL 5.9 IEEE Test Plan <a href='https://riddler.bne.redhat.com/IEEE_Test_Plans/en-US/KVM/5.9/html-single/IEEE_Test_Plan/index.html'>https://riddler.bne.redhat.com/IEEE_Test_Plans/en-US/KVM/5.9/html-single/IEEE_Test_Plan/index.html</a></li>
+</ul>
+
+<p><strong>HSS Internal</strong></p>
+
+<p>RAP Team published the following HSS internal documentation:</p>
+
+<ul>
+<li>
+<p>HSS New Hire Guide <a href='https://pride.engineering.redhat.com/docs/en-US/Hosted_and_Shared_Services/2012/html/New_Hire/index.html'>https://pride.engineering.redhat.com/docs/en-US/Hosted_and_Shared_Services/2012/html/New_Hire/index.html</a></p>
+</li>
+
+<li>
+<p>HSS Functional Team Guides:</p>
+
+<p>EIP <a href='https://pride.engineering.redhat.com/docs/en-US/Engineering_Infrastructure_Planning/2012/html/Team_Guide/index.html'>https://pride.engineering.redhat.com/docs/en-US/Engineering_Infrastructure_Planning/2012/html/Team_Guide/index.html</a></p>
+
+<p>PA <a href='https://pride.engineering.redhat.com/docs/en-US/Project_Administration/2012/html/Team_Guide/index.html'>https://pride.engineering.redhat.com/docs/en-US/Project_Administration/2012/html/Team_Guide/index.html</a></p>
+
+<p>IED <a href='https://pride.engineering.redhat.com/docs/en-US/Infrastructure_Engineering_and_Development/2012/html/Team_Guide/index.html'>https://pride.engineering.redhat.com/docs/en-US/Infrastructure_Engineering_and_Development/2012/html/Team_Guide/index.html</a></p>
+
+<p>QE <a href='https://pride.engineering.redhat.com/docs/en-US/Quality_Engineering/2012/html/Team_Guide/index.html'>https://pride.engineering.redhat.com/docs/en-US/Quality_Engineering/2012/html/Team_Guide/index.html</a></p>
+
+<p>RAP <a href='https://pride.engineering.redhat.com/docs/en-US/Reports_and_Publication/2012/html/Team_Guide/index.html'>https://pride.engineering.redhat.com/docs/en-US/Reports_and_Publication/2012/html/Team_Guide/index.html</a></p>
+
+<p>Eng-Ops <a href='https://pride.engineering.redhat.com/docs/en-US/Engineering_Operations/2012/html/Team_Guide/index.html'>https://pride.engineering.redhat.com/docs/en-US/Engineering_Operations/2012/html/Team_Guide/index.html</a></p>
+</li>
+</ul>
+
+<h3 id='docs_qe_5'>Docs QE</h3>
+
+<ul>
+<li>
+<p>JBoss Data Grid 6.0 Developer Guide was reviewed.</p>
+
+<p>Docs QE observed 4 bugs <span>37 issues</span>: https://dart.qe.lab.eng.bne.redhat.com/Documentation_Reviews/JBoss_Data_Grid/6-0/JBoss_Data_Grid_Developer_Guide/tmp/en-US/html-single/index.html</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_6'>Work coming up</h2>
+
+<h3 id='rap_7'>RAP</h3>
+
+<p><strong>Reports</strong></p>
+
+<p>This week RAP Team will continue re-enforce the Eng-Ops reporting workflow and generate a custom report for Middleware stakeholders.</p>
+
+<p><strong>Publications</strong></p>
+
+<p>The following publications are scheduled for review by RAP Team:</p>
+
+<ul>
+<li>
+<p>Deposit 1.0 PRD - July 18</p>
+</li>
+
+<li>
+<p>Beacon 1.2 IEEE Test Plan - July 19</p>
+</li>
+
+<li>
+<p>Authenticity 1.1 IEEE Test Plan - July 19</p>
+</li>
+</ul>
+
+<p>If Project Administration (PA) has any adjustment to these dates, please contact mdoyle off list.</p>
+
+<p>The following non-scheduled work will also be done:</p>
+
+<ul>
+<li>
+<p>Libvirt-cim 6.4 IEEE Test Plan for Virt QE</p>
+</li>
+
+<li>
+<p>Entitlement 5.9 IEEE Test Plan</p>
+</li>
+
+<li>
+<p>Publican 3.0 User Guide and Release Notes for ECS</p>
+</li>
+</ul>
+
+<p><strong>HSS Internal</strong></p>
+
+<p>RAP Team will focus on updating the HSS New Hire Guide and HSS Functional Team Guides this week, following feedback from the Team. We will also continue to work on creating a draft of the HSS Managers Handbook and hopefully have it in a suitable format for review by Section Leads in the coming weeks.</p>
+
+<h3 id='docs_qe_8'>Docs QE</h3>
+
+<ul>
+<li>JBoss Data Grid 6 Administration and Configuration Guide.</li>
+</ul>
+
+<h4 id='feedback_9'>Feedback?</h4>
+
+<p>If you have any feedback regarding the format of this report or additional content you would like to see included, please contact <a href='mailto:mdoyle@redhat.com'>mdoyle@redhat.com</a>.</p>
+    
+<div class="byline">
+  Created on July 18, 2012 08:58:22 
+  by <span class="newWikiWord">mdoyle<a href="/ReportTool/public/rap/new/mdoyle">?</a></span>
+  (10.64.49.219)
+    (4967 characters / 2.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/rap/edit/RAP+Weekly+Executive+Briefing+-+Week+29" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/rap/print/RAP+Weekly+Executive+Briefing+-+Week+29" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/rap/new/mdoyle">New Report</a>
+    |
+    <a href="/ReportTool/public/rap/source/RAP+Weekly+Executive+Briefing+-+Week+29" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/rap/publishemail/RAP+Weekly+Executive+Briefing+-+Week+29" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

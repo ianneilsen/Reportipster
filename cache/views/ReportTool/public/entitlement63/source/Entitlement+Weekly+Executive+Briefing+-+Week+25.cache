@@ -1,0 +1,206 @@
+I"$<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Entitlement Weekly Executive Briefing - Week 25 in Entitlement 6-3
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006;  
+    }
+    
+  </style>
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >Executive summary 
+=================
+ 
+Testing started **Tuesday Jun 12th 2012** finished **Tuesday June 19th 2012** 
+
+Report for week 25, 2012. 
+
++ No entitlement related components were changed since RC-2 and all testing passed on RHEL-6.3-RC-2; all RHEL6.3 errata were pushed to REL_PREP. However, one RHEL6.3.z subscription-manager errata is still waiting to be pushed out before 20th June; 
+
++ RHEL6.3 GA content testing against Mirror CDN (cdn.rcm-internal.redhat.com) failed with two bugs FailedQA; although not blocking RHEL6.3 GA, seven RHEL6.3 deployment guide bugs are waiting to be fixed. 
+
++ The Team will do RHEL6.3 GA content testing against Production CDN (cdn.redhat.com) and then focus on RHEL5.9 test planning. The plan is to send RHEL5.9 Entitlement IEEE Test Plan draft to Devel/PM to review before 18th July.
+
+
+QE Test result summary 
+---------------------- 
+
+[[green.png:pic]] **[subscription-manager]** 
+
++ RHEL6.3-RC-2 subscription-manager-gui smoke testing against Production Candlepin by Hosted QE: **PASS** (cached)
+
+   + Test result was PASS as there was no critical regression or test blockers found.
+
++ RHEL6.3-RC-2 testing were skipped for Cloud QE and RTT because no RHSM related packages were changed from snapshot5 to RC2, and snapshot5 acceptance tests by Cloud QE and RTT were both PASS.
+ 
++ [RHBA-2012:12609-01](https://errata.devel.redhat.com/errata/stateview/12609) - subscription-manager was pushed to REL_PREP on June 1st by Cloud QE.
+
++ [RHBA-2012:12610-01](https://errata.devel.redhat.com/errata/stateview/12610) - python-rhsm was pushed to REL_PREP on June 1st by Cloud QE.
+
+
+[[green.png:pic]] **[subscription-manager-migration-data]** 
+
++ subscription-manager-migration-data-1.12.1.8-1.el6.noarch was tested by Cloud QE: **PASS** (cached)
+
+   + Test result was PASS as there was no critical regression or test blockers found.
+
++ [RHEA-2012:12635-01](https://errata.devel.redhat.com/errata/stateview/12635) - subscription-manager-migration-data was pushed to REL_PREP on June 1st.
+
+
+[[green.png:pic]]**[virt-who]** 
+
++ virt-who smoke test on RHEL6.3-server-20120604.0 (kvm) against SAM-06-04.1 by Hosted QE: **PASS** (cached)
+
+   + Test result was PASS as there was no critical regression or test blockers found.
+
++ [RHBA-2012:12775-01](https://errata.devel.redhat.com/errata/stateview/12775) - virt-who, was pushed to REL_PREP on June 1st.
+
+
+[[yellow.png:pic]] **[content testing]** 
+
++ RHEL6.3-RC content testing against with QA CDN by Hosted QE: **PASS** (cached)
+
+   + Test result got PASS as there was no critical regression or test blockers found. The three content bugs (829179, 829231, 829199) found on QA CDN were all fixed.
+     
++ RHEL6.3 GA content testing against with Mirror CDN by Hosted QE: **FAIL** 
+
+   + Test result was FAIL due to following content bugs.
+        
+      + [Bug 833258](https://bugzilla.redhat.com/show_bug.cgi?id=833258) - Many packages are missing in repomd.xml on Mirror CDN [ASSIGNED, FailedQA]
+
+      + [Bug 833309](https://bugzilla.redhat.com/show_bug.cgi?id=833309) - No product cert installed after installing package of &quot;High Performance Network&quot; against Mirror CDN [ASSIGNED, FailedQA]
+
+      + [Bug 833260](https://bugzilla.redhat.com/show_bug.cgi?id=833260) - y-streams in release listing file should be in ascending order on Mirror CDN [VERIFIED]
+                
+
+[[green.png:pic]] **[SKU testing]**
+
++ All SKU bugs were fixed. No SKU testing was made during the course of the week.
+
+For more information, see QE Test result details at the end of the online report. 
+
+Risks/Actions 
+-------------- 
+
+1. Need Michael Stead to set filelist and push following subscription-manager 6.3.z errata to QE status ASAP. Without it QE can not push it REL_PREP status.
+    
+   + [RHBA-2012:13347-01](https://errata.devel.redhat.com/errata/showrequest.cgi?id=13347)  - subscription-manager bug fix update 
+   
+2. Need J.C. Molet to push the subscription-manager 6.3.z errata to REL_PREP before June 20th.
+    
+   + [RHBA-2012:13347-01](https://errata.devel.redhat.com/errata/showrequest.cgi?id=13347)  - subscription-manager bug fix update 
+
+3. Need Dennis Gregorovic to fix following two content bugs on Mirror CDN.
+        
+   + [Bug 833258](https://bugzilla.redhat.com/show_bug.cgi?id=833258) - Many packages are missing in repomd.xml on Mirror CDN [ASSIGNED, FailedQA]
+
+   + [Bug 833309](https://bugzilla.redhat.com/show_bug.cgi?id=833309) - No product cert installed after installing package of &quot;High Performance Network&quot; against Mirror CDN [ASSIGNED, FailedQA]
+
+4. Need Content Services team to fix following RHEL6.3 deployment guide bugs. The deployment guide will only be available online, so it should not block RHEL6.3 GA. However, since the deployment guide is cross-referenced in Release Notes which tell customers how to deploy and use subscription-manager, QE expect these bugs to be fixed before RHEL6.3 GA.
+
+   + [Bug 831052](https://bugzilla.redhat.com/show_bug.cgi?id=831052) - Options username and password should be required when registering with consumerid [MODIFIED]
+
+   + [Bug 831064](https://bugzilla.redhat.com/show_bug.cgi?id=831064) - List --installed could not display subscribed but not installed products [MODIFIED]
+
+   + [Bug 831110](https://bugzilla.redhat.com/show_bug.cgi?id=831110) - Change button &quot;Update&quot; to &quot;Auto-subscribe&quot; and change dialog &quot;Subscription Assistant&quot; to &quot;Subscribe System&quot; [MODIFIED]
+
+   + [Bug 831093](https://bugzilla.redhat.com/show_bug.cgi?id=831093) - Redundant step for auto-subscribe during registering should be removed [MODIFIED]
+
+   + [Bug 831120](https://bugzilla.redhat.com/show_bug.cgi?id=831120) - Could not use install-num-migrate-to-rhsm in rhel6 [MODIFIED]
+
+   + [Bug 831131](https://bugzilla.redhat.com/show_bug.cgi?id=831131) - Outputs of config --remove should be the same whether default value exist or not [MODIFIED]
+
+   + [Bug 831182](https://bugzilla.redhat.com/show_bug.cgi?id=831182) - A system can only be in one environment [MODIFIED]
+
+
+
+Work completed 
+-------------- 
+
++ Reviewed Deployment_Guide.
+
++ RHEL6.3 GA content testing against Mirror CDN.
+
+Work coming up 
+-------------- 
+
++ RHEL6.3 GA Content testing against Production CDN.
+
++ Draft RHEL5.9 Entitlement IEEE Test Plan.
+
+
+---------- 
+QE Test result details 
+---------------------- 
+
+--------- 
+category: June, Week 25
+</textarea>
+</div> <!-- Container -->
+
+
+ <a href="/ReportTool/public/entitlement63/show/Entitlement+Weekly+Executive+Briefing+-+Week+25">Back To Report</a>
+</body>
+</html>:EF

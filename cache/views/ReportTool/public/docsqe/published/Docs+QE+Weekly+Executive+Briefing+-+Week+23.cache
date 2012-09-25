@@ -1,0 +1,173 @@
+I"�<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Docs QE Weekly Executive Briefing - Week 23 in Docs QE
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/docsqe/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/docsqe/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/docsqe/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/docsqe/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/docsqe/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/docsqe/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Docs QE</span><br />
+      Docs QE Weekly Executive Briefing - Week 23
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<h2 id='review_schedule_1'>Review schedule</h2>
+<table><thead><tr><th>BU</th><th>Product</th><th>Books reviewed</th><th>Review dates</th><th>Review status</th></tr></thead><tbody><tr><td style='text-align: left;'>Platform</td><td style='text-align: left;'>RHEL 6.3</td><td style='text-align: left;'>2/5</td><td style='text-align: left;'>28 May - 14 Jun</td><td style='text-align: left;'>In progress.</td></tr>
+<tr><td style='text-align: left;'>Middleware</td><td style='text-align: left;'>JBoss EAP 5 PicketLink</td><td style='text-align: left;'>0/2</td><td style='text-align: left;'>17 Jun - 19 Jun</td><td style='text-align: left;'>Not started.</td></tr>
+<tr><td style='text-align: left;'>Cloud</td><td style='text-align: left;'>RHEV 3.1</td><td style='text-align: left;'>TBA</td><td style='text-align: left;'>12 Jul - 30 Aug</td><td style='text-align: left;'>Scoping.</td></tr>
+</tbody></table>
+<p>Docs QE presentation for Brno “QE your way to greatness”, date and time TBA. Be there or be square.</p>
+
+<h2 id='docs_qe_test_result_2'>Docs QE Test result</h2>
+
+<p><strong>Documentation</strong></p>
+
+<p>As Docs QE bugs typically contain more than one issue, we are starting to include the total number of issues found in our bug summaries and reporting.</p>
+
+<ul>
+<li>
+<p>Red Hat Enterprise Linux 6.3 Virtualization Getting Started Guide - Completed <a href='https://dart.qe.lab.eng.bne.redhat.com/Documentation_Reviews/Red_Hat_Enterprise_Linux/6-3/Virtualization_Getting_Started_Guide/tmp/en-US/html-single/'>4 bugs, 31 issues</a></p>
+</li>
+
+<li>
+<p>OpenShift 2.0 sprint 12 1/1 User Story accepted.</p>
+</li>
+
+<li>
+<p>Errata RHEA-2012-13025-01 - Red Hat Enterprise Linux 6.3 Release Notes - has been pushed to RHN and set to REL-PREP.</p>
+</li>
+</ul>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<p>None to report this week.</p>
+
+<h2 id='work_coming_up_4'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Virtualization Host Configuration and Guest Installation Guide</p>
+</li>
+
+<li>
+<p>Virtualization Security Guide</p>
+</li>
+
+<li>
+<p>Virtualization Administration Guide</p>
+</li>
+
+<li>
+<p>OpenShift 2.0 sprint 13.</p>
+</li>
+</ul>
+
+<h4 id='feedback_5'>Feedback?</h4>
+
+<p>If you have any feedback regarding the format of this report or additional content you would like to see included, please contact <a href='mailto:jskeoch@redhat.com'>jskeoch@redhat.com</a>.</p>
+
+<div class="byline">
+  Revised on June  4, 2012 13:32:51 
+  by
+  <a class="existingWikiWord" href="/ReportTool/public/docsqe/published/mdoyle">mdoyle</a>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

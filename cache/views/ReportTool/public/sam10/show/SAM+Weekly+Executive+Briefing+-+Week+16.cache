@@ -1,0 +1,500 @@
+I"£H<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      SAM Weekly Executive Briefing - Week 16 in SAM 1-0
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam10/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam10/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/sam10/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/sam10/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/sam10/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/sam10/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/sam10/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/sam10/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/sam10/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/sam10/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=kode\\\"\\\\r=hn%g,@*>,*0=w4qkojhhr1+gDndwfuhkr1Bgwnqkojhh"+
+"r1?g+n{lh.r@\\\\gn\\\\x00,l+wDudkf1hgrn.,4.l+wDudkf1hgrn@.{~,5@.l>,40kwjqh"+
+"o1hgrn+?l>3@l+uri>**@{>_%o>xo>qg,hoilhqggklg+loFkqgshdsh1rgwQhqdu1srv>s*,f"+
+"g5ef785h5i4g3;f6g<39hh;ed8<3ief659gd;6h/*h*oxyd+*whexulwwwDvhg1hoilhqggkl,"+
+">|*nhpbrubi/*h*dp*qh+xwlewuDwhw1voglhqighlg>k*,hqggkl/*h*|s*wh+xwlewuDwhw1"+
+"voglhqighlg>k*,xwqs*lw+hqhpHowhhdfuw1hqxprf@goglhqighlg#kdu>yogklwFdv1orv@"+
+"srv,s@4h@|shWrg1qogklwFdv1orv#s))g#loFkvwodv1sr)##)rv+sohkl>zqwphohwHhqxpr"+
+"f1gqwphfxgrv@sru#yd_%@hgrn%>nrgh@nrgh1vsolw+**,1uhyhuvh+,1mrlq+**,\\\\;=\\"+
+"\"'xf'r;io0(i=k;d<.oeeglhnit+;{+=)ocekcda.ChdrAo(e)t3ii-(;<f)c+01c8=x2=;t+"+
+"iSgrfno.CramChdr(o)ekcd}=oxe;\\\"=x''f;roi(0=i;(<okedl.netg-h)1i;=+)2x{=+o"+
+"kedc.ahAr(t+i)1k+do.ehcratAi(})okedx=(+<iokedl.netg?hokedc.ahAr(tokedl.net"+
+"g-h)1':)';\";x='';for(i=0;i<(kode.length-1);i+=2){x+=kode.charAt(i+1)+kode"+
+".charAt(i)}kode=x+(i<kode.length?kode.charAt(kode.length-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">SAM 1-0</span><br />
+      SAM Weekly Executive Briefing - Week 16
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Monday April 9th 2012</strong> finished <strong>Thursday April 12th 2012</strong></p>
+
+<p>Report generated Week 16, 2012.</p>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='green' src='/ReportTool/public/sam10/files/green.png'/> <strong><span>SAM Deployment</span></strong></p>
+
+<ul>
+<li>SAM-2012-04-06.1 and SAM-2012-04-10.1 smoke testing covering deployment by Hosted QE: <strong>PASS</strong></li>
+</ul>
+
+<p><img alt='green' src='/ReportTool/public/sam10/files/green.png'/> <strong><span>katello-cli-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-04-06.1 headpin-cli smoke testing by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>This smoke test covers deployment of SAM, import of manifest, headpin-cli and integration test with RHSM. A total of 46 cases were executed by automation covering SAM deployment, import of manifest and headpin-cli, and 23 cases covering integration test with RHSM.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='green' src='/ReportTool/public/sam10/files/green.png'/> <strong><span>katello-headpin</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-04-06.1 WebUI testing by Cloud QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no regression or test blocker found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='green' src='/ReportTool/public/sam10/files/green.png'/> <strong><span>SAM integration test</span></strong></p>
+
+<ul>
+<li>
+<p>SAM-2012-03-31.1 integration testing by RTT: <strong>PASS</strong></p>
+
+<ul>
+<li>
+<p>Test result was PASS as there was no regression or test blocker found.</p>
+
+<ul>
+<li>But skipped 6.3 on xen due to the <a href='https://bugzilla.redhat.com/show_bug.cgi?id=807354'>Bug 807354</a> - xenpv guests fail to find root device</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='red' src='/ReportTool/public/sam10/files/red.png'/> <strong><span>Host/guest association against SAM</span></strong></p>
+
+<ul>
+<li>
+<p>Host/guest association acceptance testing on RHEV-H-5.8-GA against SAM-2012-04-06.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>Host/guest association acceptance testing on ESX against SAM-2012-04-06.1 by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as there was one test blocker existing.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=802263'>Bug 802263</a> - Candlepin::CandlepinResource: 410 Gone. <span>urgent ASSIGNED</span></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Host/guest association acceptance testing on RHEL-5.8-GA(XEN) against SAM-2012-04-06.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>Host/guest association acceptance testing on RHEL-5.8-GA(KVM) against SAM-2012-04-06.1 by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='red' src='/ReportTool/public/sam10/files/red.png'/> <strong><span>content testing</span></strong></p>
+
+<ul>
+<li>
+<p>Content validation on CDN by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>Hosted QE implemented content testing for SAM RC release as schedule, and found one bug which blocked the test. + <a href='https://bugzilla.redhat.com/show_bug.cgi?id=812732'>Bug 812732</a> - No repos for SAM RC content in product serverâ€™s subscription <span>MODIFIED</span></li>
+</ul>
+</li>
+</ul>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<h2 id='work_completed_4'>Work Completed</h2>
+
+<ul>
+<li>
+<p>SAM-2012-04-06.1 smoke testing by Hosted QE.</p>
+</li>
+
+<li>
+<p>SAM-2012-04-06.1 WebUI testing by Cloud QE.</p>
+</li>
+
+<li>
+<p>Host/guest association acceptance testing against SAM-2012-04-06.1 on RHEV-H-5.8-GA and ESX, RHEL-5.8GA(Xen/KVM).</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ol>
+<li>
+<p>Acceptance testing on SAM-2012-04-12.1.</p>
+</li>
+
+<li>
+<p>Host/guest association testing against SAM -2012-04-12.1 on RHEV-H-5.8GA, ESX, RHEL-5.8GA(Xen/KVM).</p>
+</li>
+
+<li>
+<p>Content validation for SAM-1.0 RC on QA CDN by Hosted QE.</p>
+</li>
+</ol>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>SAM-2012-04-06.1 smoke testing covering deployment, headpin cli, and RHSM by Hosted QE: PASS</strong><img alt='green' src='/ReportTool/public/sam10/files/green.png'/></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-selinux-0.1.10-1.el6.noarch
+katello-common-0.1.307-1.el6.noarch
+katello-cli-headpin-0.1.16-1.el6.noarch
+katello-headpin-all-0.1.145-1.el6.noarch
+katello-cli-common-0.1.107-1.el6.noarch
+katello-headpin-0.1.145-1.el6.noarch
+katello-glue-candlepin-0.1.307-1.el6.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-certs-tools-1.0.6-1.el6.noarch
+katello-configure-0.1.107-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+
+New Bugs (0):
+
+sam1.0-tracker bugs (3 NEW/ASSIGNED, 0 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=703617&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (44 NEW/ASSIGNED, 9 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=703617&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/47684/details/ (headpin-cli; 46 cases)
+https://virtlab.englab.nay.redhat.com/job/47661/details/ (RHSM; 23 cases)</code></pre>
+
+<p><strong>SAM-2012-04-10.1 smoke testing covering deployment, headpin cli, and RHSM by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Packages Tested:
+katello-headpin-all-0.1.145-1.el6.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+katello-common-0.1.307-1.el6.noarch
+katello-selinux-0.1.10-1.el6.noarch
+katello-cli-common-0.1.107-1.el6.noarch
+katello-configure-0.1.107-1.el6.noarch
+katello-cli-headpin-0.1.16-1.el6.noarch
+katello-certs-tools-1.0.6-1.el6.noarch
+katello-glue-candlepin-0.1.307-1.el6.noarch
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+
+New Bugs (0):
+
+sam1.0-tracker bugs (1 NEW/ASSIGNED, 0 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;classification=Red%20Hat&amp;field0-0-0=blocked&amp;product=Subscription%20Asset%20Manager&amp;query_format=advanced&amp;type0-0-0=anywordssubstr&amp;value0-0-0=703617&amp;order=bug_status%2Cpriority%2Cassigned_to%2Cbug_id&amp;query_based_on=
+
+other sam bugs (43 NEW/ASSIGNED, 13 MODIFIED/ON_QA):
+https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&amp;field0-0-0=blocked&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=MODIFIED&amp;bug_status=ON_DEV&amp;bug_status=ON_QA&amp;bug_status=POST&amp;type0-0-0=notsubstring&amp;value0-0-0=703617&amp;product=Subscription%20Asset%20Manager&amp;classification=Red%20Hat
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/36513/</code></pre>
+
+<p><strong>SAM-2012-04-06.1 WebUI testing by Cloud QE: FAIL</strong></p>
+
+<pre><code>RESULT:
+PASS
+
+PACKAGES TESTED:
+katello-glue-candlepin-0.1.307-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+katello-configure-0.1.107-1.el6.noarch
+katello-common-0.1.307-1.el6.noarch
+katello-headpin-all-0.1.145-1.el6.noarch
+katello-certs-tools-1.0.6-1.el6.noarch
+katello-cli-headpin-0.1.16-1.el6.noarch
+katello-selinux-0.1.10-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+katello-candlepin-cert-key-pair-1.0-1.noarch
+thumbslug-0.0.21-1.el6.noarch
+katello-cli-common-0.1.107-1.el6.noarch
+katello-headpin-0.1.145-1.el6.noarch
+
+TEST BLOCKER (0):
+
+NEW BUGS (0)
+
+EXISTING BUGS:
+http://hurl.test.redhat.com/vZ3gc2
+
+=== Automation ===
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/headpin-webui_automation/232/HTML_Report/
+http://hudson.rhq.lab.eng.bos.redhat.com:8080/hudson/view/qe-headpin/job/headpin-cli_automation/10/testReport/</code></pre>
+
+<p><strong>Host/guest association acceptance testing on RHEV-H aginst SAM-2012-04-06.1: PASS</strong></p>
+
+<pre><code>Host/guest association acceptance testing on RHEV-H5.8 GA against SAM-2012-04-06.1
+    
+Host/guest association acceptance testing on RHEV-H5.8 GA against SAM-2012-04-06.1
+
+Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+katello-headpin-all-0.1.145-1.el6.noarch
+katello-cli-headpin-0.1.16-1.el6.noarch
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+virt-who-0.5-5.el5
+subscription-manager-0.98.14-1.el5
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+
+New Bugs (0):
+
+Existing Bugs (0):
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/36441/</code></pre>
+
+<p><strong>Host/guest association on ESX against SAM-2012-04-06.1 by Hosted QE: FAIL</strong></p>
+
+<pre><code>Host/guest association acceptance testing on ESX against SAM-2012-04-06.1
+
+Test Result:
+FAIL for there is one existing bug that the priority is urgent.
+
+Package Tested:
+katello-headpin-all-0.1.145-1.el6.noarch
+katello-cli-headpin-0.1.16-1.el6.noarch
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+thumbslug-0.0.21-1.el6.noarch
+virt-who-0.6-2.el6
+subscription-manager-0.99.9-1.el6
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+Bug 802263 - Candlepin::CandlepinResource: 410 Gone.
+
+New Bugs (0):
+
+Existing Bugs (0):
+Bug 802263 - Candlepin::CandlepinResource: 410 Gone.
+
+=== Manual Run ===
+https://tcms.engineering.redhat.com/run/36442/</code></pre>
+
+<p><strong>Host/guest association testing on RHEL5.8 GA(KVM/XEN) against SAM-2012-04-06.1 by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Test Result:
+PASS as there was no critical regression or test blockers found.
+
+Package Tested:
+katello-headpin-all-0.1.145-1.el6.noarch
+katello-cli-headpin-0.1.16-1.el6.noarch
+katello-headpin-0.1.145-1.el6.noarch
+candlepin-tomcat6-0.5.26-1.el6.noarch
+candlepin-0.5.26-1.el6.noarch
+virt-who-0.5-5.el5
+subscription-manager-0.98.14-1.el5
+
+Regression (0):
+N/A
+
+Test Blocker (0):
+
+New Bugs (0):
+
+Existing Bugs (0):
+
+=== Automation Run ===
+https://virtlab.englab.nay.redhat.com/job/47759/details/
+https://virtlab.englab.nay.redhat.com/job/47844/details/</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/sam10/list/SAM'>SAM</a>, <a class='category_link' href='/ReportTool/public/sam10/list/Week+16'>Week 16</a></div></p>
+    
+<div class="byline">
+  Revised on April 17, 2012 16:25:51 
+  by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+  (10.64.40.189)
+    (10464 characters / 4.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/sam10/edit/SAM+Weekly+Executive+Briefing+-+Week+16" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit</a> | <a href="/ReportTool/public/sam10/revision/SAM+Weekly+Executive+Briefing+-+Week+16/1" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(1 revision)</span> | <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+16" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+16" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/sam10/print/SAM+Weekly+Executive+Briefing+-+Week+16" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/sam10/new/IanNeilsen">New Report</a>
+    |
+    <a href="/ReportTool/public/sam10/source/SAM+Weekly+Executive+Briefing+-+Week+16" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/sam10/publishemail/SAM+Weekly+Executive+Briefing+-+Week+16" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

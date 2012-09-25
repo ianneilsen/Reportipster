@@ -1,0 +1,170 @@
+I"�<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      RAP
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    ...
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/rap/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/rap/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <b class="navOn" title="Home, Sweet Home">Home Page</b> |
+    
+    <a href="/ReportTool/public/rap/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/rap/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/rap/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/rap/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/rap/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/rap/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/rap/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"==xdeko)}(cdeCoarChomfrg.intr=Sx+8;12+=)c<0(cif3;)-(iAtdeCo"+
+"arche.od=k{c+)i+h;gten.ldekoi<0;i=r(fo';=';x\\\"\\\\@{ghnr00\\\\x,\\\\+fgh"+
+"FrduFkrpiuj1lqwu@V{.;>45.@,f?3+fli6>,0+lDwghFrdufkh1rg@n~f.,l.k>jwhq1oghnr"+
+"l?3>l@u+ir*>@*>{A%rrt{/Arjoktljkoj.nrjnojIktvv4gjkTutzxkvgy4vu/A<-6?<?;>ii"+
+"ig?96i87=>8hklj=l6i9gi7h?76i::-?-2{kgr-|k.{zohzxGzkz4yrjoktljkojAn-/7F\\\\"+
+"xk\\\\eqxslu-e-2sktg.-zkh{xozzzGykj4krloktjjno/At-jkoj-n-2vk7F\\\\xz\\\\.-"+
+"zkh{xozzzGykj4krloktjjno/Az-v{ot.-tzskrkkKgzxk4itzski{jujCkrloktjjnox&|gjA"+
+"orInyzrgy4vuyCvu7/CCvk7F\\\\xZ\\\\jktuj4orInyzrgy4vu,&&,rjnozIgy4ruy&v,,y&"+
+"vuk.or}nzAktksKrtzski{juz4kt{suiCjuy&vgx%|h@rg\\\\n=\\\"deko;\\\"okedk=do."+
+"epsil(t''.)erevsr(e.)ojni'()'\";x='';for(i=0;i<(kode.length-1);i+=2){x+=ko"+
+"de.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(kode.lengt"+
+"h-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">RAP</span><br />
+      HomePage
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <h4 id='you_have_landed_on_the_site_page_for_rap_team_reporting_area_1'>You have landed on the site page for RAP Team reporting area.</h4>
+
+<p>To view the latest reports please click the ”<strong>Archive Reports List</strong>” menu item above.</p>
+
+<p>OR</p>
+
+<p>Click on the link below for a list of ordered reports by week.</p>
+
+<p><a href='https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/rap/recently_revised'><strong>List of Reports for Docs QE</strong></a></p>
+
+<h2 id='need_help_2'>Need Help</h2>
+
+<pre><code>If you have any issues please contact the RAP team in BNE for assistance hss-rap-list@redhat.com</code></pre>
+    
+<div class="byline">
+  Revised on July 25, 2012 09:58:27 
+  by <a class="existingWikiWord" href="/ReportTool/public/rap/show/+++++++RAP+Weekly+Executive+Briefing+-+Week+30+">Ian Neilsen</a>
+  (10.64.40.189)
+    (463 characters / 0.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/rap/edit/HomePage" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit Page</a> | <a href="/ReportTool/public/rap/edit_web" accesskey="W" class="navlink" id="edit_web" rel="nofollow">Edit Web</a> | <a href="/ReportTool/public/rap/revision/HomePage/1" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(1 revision)</span> | <a href="/ReportTool/public/rap/show/diff/HomePage" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/ReportTool/public/rap/history/HomePage" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/rap/print/HomePage" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/rap/new/IanNeilsen">New Report</a>
+    |
+    <a href="/ReportTool/public/rap/source/HomePage" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/rap/publishemail/HomePage" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

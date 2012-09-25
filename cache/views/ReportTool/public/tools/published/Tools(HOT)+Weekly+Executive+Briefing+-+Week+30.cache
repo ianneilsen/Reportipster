@@ -1,0 +1,775 @@
+I"e<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Tools(HOT) Weekly Executive Briefing - Week 30 in Tools
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/tools/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/tools/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/tools/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/tools/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/tools/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/tools/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Tools</span><br />
+      Tools(HOT) Weekly Executive Briefing - Week 30
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h1 id='overall_status_1'>Overall status</h1>
+
+<p><strong>Report generated in Week 30, 2012</strong></p>
+<table><thead><tr><th>Project</th><th>Project phase</th><th>Release date</th><th>Status</th><th>Overview</th></tr></thead><tbody><tr><td style='text-align: left;'>Errata Tool 2.4</td><td style='text-align: left;'>Planning</td><td style='text-align: left;'>TBA</td><td style='text-align: left;'>On Track</td><td style='text-align: left;'>Coverity &amp; ABIdiff reqs.</td></tr>
+<tr><td style='text-align: left;'>Errata Tool 3.0</td><td style='text-align: left;'>Planning</td><td style='text-align: left;'>2012-10-30</td><td style='text-align: left;'>Starting</td><td style='text-align: left;'>RHEL 7 reqs. Draft MRD done.</td></tr>
+<tr><td style='text-align: left;'>Deposit 1.0</td><td style='text-align: left;'>Planning</td><td style='text-align: left;'>TBD</td><td style='text-align: left;'>Planning</td><td style='text-align: left;'>MRD sign off, PRD research.</td></tr>
+<tr><td style='text-align: left;'>Bugzilla 4.2.4</td><td style='text-align: left;'>Development</td><td style='text-align: left;'>TBD</td><td style='text-align: left;'>On Track</td><td style='text-align: left;'>None.</td></tr>
+<tr><td style='text-align: left;'>Vault V1.0</td><td style='text-align: left;'>Development</td><td style='text-align: left;'>TBD</td><td style='text-align: left;'>Suspended</td><td style='text-align: left;'>Pending and shift developer to deposit project.</td></tr>
+<tr><td style='text-align: left;'>Beaker 0.10</td><td style='text-align: left;'>Development</td><td style='text-align: left;'>2012-07-??</td><td style='text-align: left;'>On Track</td><td style='text-align: left;'>Waiting for staging environment.</td></tr>
+<tr><td style='text-align: left;'>GlobalSync</td><td style='text-align: left;'>Development</td><td style='text-align: left;'>2012-07-30</td><td style='text-align: left;'>On Track</td><td style='text-align: left;'>Transition Docs ready.</td></tr>
+<tr><td style='text-align: left;'>Bugzilla 4.2-4</td><td style='text-align: left;'>Development</td><td style='text-align: left;'>2012-08-30</td><td style='text-align: left;'>On track</td><td style='text-align: left;'>None</td></tr>
+<tr><td style='text-align: left;'>Product 360 1.2</td><td style='text-align: left;'>Development</td><td style='text-align: left;'>2012-09-17</td><td style='text-align: left;'>On track</td><td style='text-align: left;'>Final project schedule ready.</td></tr>
+<tr><td style='text-align: left;'>Newspaper 1.2</td><td style='text-align: left;'>Development</td><td style='text-align: left;'>2012-09-18</td><td style='text-align: left;'>On Track</td><td style='text-align: left;'>Schedule is delayed due to data related issues.</td></tr>
+<tr><td style='text-align: left;'>TCMS 3.8.0</td><td style='text-align: left;'>Testing</td><td style='text-align: left;'>2012-08-07</td><td style='text-align: left;'>On Track</td><td style='text-align: left;'>3.8.0 is the last release for TCMS 3.</td></tr>
+<tr><td style='text-align: left;'>Newspaper 1.1</td><td style='text-align: left;'>Testing R2</td><td style='text-align: left;'>TBD</td><td style='text-align: left;'>Delayed</td><td style='text-align: left;'>v1.1 may be promoted to production in 3 weeks.</td></tr>
+<tr><td style='text-align: left;'>Errata Tool 2.3</td><td style='text-align: left;'>Awaiting release</td><td style='text-align: left;'>TBD</td><td style='text-align: left;'>On Track</td><td style='text-align: left;'>Ready but plan to do a announcement/tech talk before going live.</td></tr>
+<tr><td style='text-align: left;'>Pkg Wrangler 0.4.0</td><td style='text-align: left;'>Released</td><td style='text-align: left;'>2012-07-13</td><td style='text-align: left;'>Released</td><td style='text-align: left;'>In prod and ready for use.</td></tr>
+<tr><td style='text-align: left;'>Bugzilla 4.2-3</td><td style='text-align: left;'>Released</td><td style='text-align: left;'>2012-07-12</td><td style='text-align: left;'>Released</td><td style='text-align: left;'>Released without QE testing.</td></tr>
+</tbody></table><div class='maruku_toc'><ul style=''><li><a href='#overall_status_1'>Overall status</a></li><li><a href='#project_status_2'>Project status</a><ul style=''><li><a href='#bugzilla_424_3'>Bugzilla 4.2-4</a></li><li><a href='#beaker_010_6'>Beaker 0.10</a></li><li><a href='#errata_tool_23_11'>Errata Tool 2.3</a></li><li><a href='#errata_tool_24_16'>Errata Tool 2.4</a></li><li><a href='#errata_30_20'>Errata 3.0</a></li><li><a href='#pkg_wrangler_040_25'>Pkg Wrangler 0.4.0</a></li><li><a href='#tcms_380_30'>TCMS 3.8.0</a></li><li><a href='#global_sync_35'>Global Sync</a></li><li><a href='#product360_12_40'>Product360 1.2</a></li><li><a href='#deposit_v10_45'>Deposit V1.0</a></li><li><a href='#newspaper_v11__v12_50'>Newspaper V1.1 &amp; V1.2</a></li><li><a href='#vault_55'>Vault</a></li></ul></li><li><a href='#appendix_60'>Appendix</a><ul style=''><li><a href='#bugzilla_61'>Bugzilla</a></li><li><a href='#beaker_62'>Beaker</a></li><li><a href='#errata_63'>Errata</a></li><li><a href='#package_wrangler_64'>Package Wrangler</a></li><li><a href='#tcms_65'>TCMS</a></li><li><a href='#global_sync_66'>Global Sync</a></li><li><a href='#product360_67'>Product360</a></li><li><a href='#newspaper_68'>Newspaper</a></li><li><a href='#hss_portal_69'>HSS Portal</a></li></ul></li></ul></div>
+<h1 id='project_status_2'>Project status</h1>
+
+<h2 id='bugzilla_424_3'>Bugzilla 4.2-4</h2>
+
+<h4 id='summary_4'>Summary</h4>
+
+<ul>
+<li>Bugzilla 4.2.4-4 is now in the Development phase</li>
+</ul>
+
+<h4 id='work_coming_up_5'>Work coming up</h4>
+
+<ul>
+<li>Bug 798022 - Customized document fields for ECS team to meet the workflow</li>
+
+<li>Bug 818974 - Support “External Trackers” in “change columns”</li>
+
+<li>Bug 794694 - Some bugs have NULL “RESOLUTION” for “CLOSED” status</li>
+
+<li>Bug 821671 - Script “collectstats.pl” run long time and RAM are exhausted</li>
+
+<li>Bug 823339 - Advanced search changes</li>
+
+<li>Bug 826590 - The help documents and the UI is inconsistent when creating group</li>
+
+<li>Bug 840355 - XML-RPC Doc is inconsistent with api</li>
+
+<li>Bug 835998 - writing guidelines doesn’t match</li>
+
+<li>Bug 831328 - Internal activity flags are leaked to external user</li>
+
+<li>Bug 826699 - Private comments on Bugzilla are public in Jira</li>
+
+<li>Bug 839462 - Private comments on Jira are public in Bugzilla</li>
+
+<li>Bug 826496 - Regression issue: autocomplete doesn’t work after upgrade</li>
+
+<li>Bug 823405 - Software error” when click “Show dependency graph”</li>
+
+<li>Bug 837969 - Some constraints for table bug_ext_bz_map are incorrect</li>
+</ul>
+<hr/>
+<h2 id='beaker_010_6'>Beaker 0.10</h2>
+
+<h4 id='summary_7'>Summary</h4>
+
+<p>The 0.10 release of Beaker includes RHEV-M integration for increased Beaker scheduling scalability.</p>
+
+<h4 id='risksactions_8'>Risks/Actions</h4>
+
+<ul>
+<li>Waiting for Beaker 0.9 to stabilize in production before stage environment can be used for RHEV-M.</li>
+
+<li>We will perhaps be re-purposing beaker-devel to host major releases so minors can go on stage unhindered.</li>
+
+<li>bpeck to talk to kernel group to borrow hardware for a month to host RHEV on.</li>
+
+<li>Waiting on hardware purchase order.</li>
+</ul>
+
+<h4 id='work_completed_9'>Work completed</h4>
+
+<ul>
+<li>Prototype Scheduler / RHEV-M interaction developed. Continue work on Beaker Scheduler integration. Workarounds found for guest provisioning and post-install reboots.</li>
+</ul>
+
+<h4 id='work_coming_up_10'>Work coming up</h4>
+
+<ul>
+<li>Continued Scheduler integration of RHEV-M work with kickstart template work.</li>
+
+<li>Documentation of the above.</li>
+</ul>
+<hr/>
+<h2 id='errata_tool_23_11'>Errata Tool 2.3</h2>
+
+<h4 id='summary_12'>Summary</h4>
+
+<p>The 2.3 release of Errata Tool contains a number of UX/UI enhancements and Remote API improvements.</p>
+
+<h4 id='risksactions_13'>Risks/Actions</h4>
+
+<ul>
+<li>None</li>
+</ul>
+
+<h4 id='work_completed_14'>Work completed</h4>
+
+<ul>
+<li>Ready to release pending tech talk/announcement from team.</li>
+</ul>
+
+<h4 id='work_coming_up_15'>Work coming up</h4>
+
+<ul>
+<li>Finish up publican docs and push to engineering.redhat.com/docs (SB/JO).</li>
+
+<li>Schedule a tech talk/announcement to introduce the new version 2.3 to users (ER).</li>
+
+<li>Release logistics &amp; coordination with eng-ops-prod.</li>
+</ul>
+
+<h2 id='errata_tool_24_16'>Errata Tool 2.4</h2>
+
+<h4 id='summary_17'>Summary</h4>
+
+<p>Will address new Coverity requirements and ABIdiff integration.</p>
+
+<ul>
+<li>Estimated launch date 24th August 2012.</li>
+</ul>
+
+<h4 id='work_completed_18'>Work completed</h4>
+
+<p>None.</p>
+
+<h4 id='work_coming_up_19'>Work coming up</h4>
+
+<ul>
+<li>Start looking at rpmdiff and coverity functionality.</li>
+
+<li>ABIdiff component is waiting for ABIdiff production setup.</li>
+</ul>
+
+<h2 id='errata_30_20'>Errata 3.0</h2>
+
+<h4 id='summary_21'>Summary</h4>
+
+<p>The Errata Tool 3.0 is to be used with the RHEL 7 release. This is the first time the Errata Tool will be used with a major (.0) release. We have received the list of requirements from RHEL7, but there are some questions that need to be addressed before moving forward. Errata Tool 3.0 needs to be in place by October 30th, 2012 (this is when Fedora branches). One of the goals is to allow different products to have different advisory workflows. ET is historically RHEL-centric, hence we can’t easily configure workflow on a per product basis.</p>
+
+<ul>
+<li>Work on Errata Tool 3.0 will begin after the staging of the 2.3 release.</li>
+</ul>
+
+<h4 id='risksactions_22'>Risks/Actions</h4>
+
+<ul>
+<li>The RHEL7 team expressed their concern that the requirements for the Errata Tool 3.0 and RHEL7 have already been defined. However, HSS is now taking over the Errata Tool 3.0 and creating an MRD for this product. Previously, an MRD was not deemed appropriate for the Errata Tool and RHEL7, thus the requirements had been captured in meetings and turned into bugzilla’s. Capturing the requirements this way was to minimize the impact to the current Errata team and their process. The RHEL7 team needs to be assured that creating a new process to define what has already been defined will not impact the current committed date to RHEL7 of October 2012. This assurance was given by HSS to Debi Rieden (the current program manager of Errata Tool 3.0) and communicated back to the RHEL7 team by Debi.</li>
+</ul>
+
+<h4 id='work_completed_23'>Work completed</h4>
+
+<ul>
+<li>The requirements have been defined for RHEL 7.0.</li>
+
+<li>Errata v3.0 draft MRD has been written. Review is still needed by Ed Rousseau, then key stakeholders and product manager.</li>
+
+<li>Triage of RFE’s and bugs in Bugzilla is under way.</li>
+</ul>
+
+<h4 id='work_coming_up_24'>Work coming up</h4>
+
+<ul>
+<li>The tracker bug for Errata Tool 3.0 and RHEL7 - <a href='https://bugzilla.redhat.com/show_bug.cgi?id=726101'>Bug 726101</a></li>
+
+<li>An internal project page has been created: <a href='https://engineering.redhat.com/pp/product/errata/'>https://engineering.redhat.com/pp/product/errata/</a>.</li>
+
+<li>Set target milestones.</li>
+
+<li>Design work to begin next week in Westford (ER, JO)</li>
+</ul>
+<hr/>
+<h2 id='pkg_wrangler_040_25'>Pkg Wrangler 0.4.0</h2>
+
+<h4 id='summary_26'>Summary</h4>
+
+<p>Package Wrangler 0.4.0 is in production and ready for use by the RHEL 7 development team. RHEL7 Package reviews will take place Jul 17 - Oct 10.</p>
+
+<h4 id='risksactions_27'>Risks/Actions</h4>
+
+<ul>
+<li>There was an issue when the RHEL7 packages were imported into Package Wrangler, incorrect notifications were being sent out. Thus, email notification has been disabled. A fix for this is currently being investigated.</li>
+</ul>
+
+<h4 id='work_completed_28'>Work completed</h4>
+
+<ul>
+<li>
+<p>The RHEL7.0 tracker <a href='https://bugzilla.redhat.com/show_bug.cgi?id=726104'>bug 726104</a></p>
+</li>
+
+<li>
+<p>Final documentation was made available with the release.</p>
+</li>
+
+<li>
+<p>The RHEL 7 team was asked to file bugs if they find issues with the product or with the documentation.</p>
+</li>
+</ul>
+
+<h4 id='work_coming_up_29'>Work coming up</h4>
+
+<ul>
+<li>An issue with identifying packages and FIPS mode testing was identified. Since there isn’t an easy way for developers to test this and then update Package Wrangler, this was not made a requirement for RHEL 7 Alpha 2. However, this requirement has been made a blocker for RHEL 7 Beta. At the present time if the FIPS check box is or is not checked, it will not block the package review. However, once developers can test in FIPS mode, Package Wrangler will block the review of the package if the FIPS box has not been checked.</li>
+</ul>
+<hr/>
+<h2 id='tcms_380_30'>TCMS 3.8.0</h2>
+
+<h4 id='summary_31'>Summary</h4>
+
+<p>TCMS 3.8.0 is the final release on TCMS 3. TCMS 3 will be in maintenance phase after 3.8.0 ( In maintenance phase, we will continue to monitor the bug list. Only critical bugs will be fixed in maintenance phase).</p>
+
+<h4 id='risksactions_32'>Risks/Actions</h4>
+
+<p>None to report for this week.</p>
+
+<h4 id='work_completed_33'>Work completed</h4>
+
+<ul>
+<li>
+<p>Devel’s finished the development tasks on schedule.</p>
+</li>
+
+<li>
+<p>QE will do bugs verification and full fuctional testing about new features on stage in this release.</p>
+</li>
+</ul>
+
+<h4 id='work_coming_up_34'>Work Coming up</h4>
+
+<ul>
+<li>
+<p>DEV will respin and package.</p>
+</li>
+
+<li>
+<p>QE will do full functional testing on the stage.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='global_sync_35'>Global Sync</h2>
+
+<h4 id='summary_36'>Summary</h4>
+
+<h4 id='risksissuesactions_37'>Risks/Issues/Actions</h4>
+
+<p><em>Issue</em>: Lack of communication with BNE staff outside eng-ops that are potentially affected by Globalsync migration.</p>
+
+<p><em>Status</em>: Prepared transition docs, will publish to brisbane-list once globalsync-stage is available.</p>
+
+<h4 id='work_completed_38'>Work completed</h4>
+
+<ul>
+<li>
+<p>QE test of 3.0.11 completed. One bug identified that was significantly easier to fix now rather than later</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841084'>Bug 841084</a> - <span>RFE</span>RAW_REPOS is better than RAW_TREES in config file.</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=838022'>Bug 838022</a> - Fix internal tracker URL to refer to GlobalSync rather than PulpDist</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=841734'>Bug 841734</a> - Rebase on PulpDist 0.1.0</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=839139'>Bug 839139</a> - Sort columns correctly in Web UI</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=835075'>Bug 835075</a> - Handle nonexistent sync history in repo summary table</p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=839101'>Bug 839101</a> - History limiting isn’t working correctly</p>
+</li>
+
+<li>
+<p>3.0.12 deployed to globalsyncv3-stage for testing</p>
+</li>
+</ul>
+
+<h4 id='work_coming_up_39'>Work coming up</h4>
+
+<ul>
+<li>
+<p>QE testing request submitted for 3.0.12 (no ETA for resource availability)</p>
+</li>
+
+<li>
+<p>Complete documentation of example site configuration (and associated demonstration trees) as a tutorial on the new job configuration format.</p>
+</li>
+
+<li>
+<p>Creation of globalsync-test environment (distinct from globalsync stage).</p>
+</li>
+
+<li>
+<p>New developer documentation.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='product360_12_40'>Product360 1.2</h2>
+
+<h4 id='summary_41'>Summary</h4>
+
+<h4 id='risksactions_42'>Risks/Actions</h4>
+
+<p><em>Risk:</em></p>
+
+<ul>
+<li>No headcount data for development.</li>
+</ul>
+
+<p><em>Action:</em></p>
+
+<ul>
+<li>Kevin to get a copy of the HR Hiring sheet from Lynn Moran,the data will be placed in eng-ops-mecha where project team can get from.</li>
+</ul>
+
+<p><em>Risk:</em></p>
+
+<ul>
+<li>As for EngVDB issue, stage etl servers will be rebuilt but the new purchasing hardware setup is yet to be completed, tracked in ticket <a href='https://engineering.redhat.com/rt/Ticket/Display.html?id=152038'>RT Ticket</a>.</li>
+</ul>
+
+<p><em>Action:</em></p>
+
+<ul>
+<li>
+<p>New Hardware was in lab in BOS, eng-ops have setup the following tickets track setup work on hardware for EngVDBD and p360.</p>
+</li>
+
+<li>
+<p><a href='https://engineering.redhat.com/rt/Ticket/Display.html?id=160658'>RT Ticket 160658</a></p>
+</li>
+
+<li>
+<p><a href='https://engineering.redhat.com/rt/Ticket/Display.html?id=160660'>RT Ticket 160660</a></p>
+</li>
+
+<li>
+<p><a href='https://engineering.redhat.com/rt/Ticket/Display.html?id=160661'>RT Ticket 160661</a></p>
+</li>
+</ul>
+
+<p><em>Risk:</em></p>
+
+<ul>
+<li>As a request to eng-ops team,a testing server will be built for testing before pushing pacakage into stage/production server. However, it’s lack of machine to set this up, it is pending on <a href='https://engineering.redhat.com/rt/Ticket/Display.html?id=160464'>Tracked in ticket</a>.</li>
+</ul>
+
+<p><em>Action:</em></p>
+
+<ul>
+<li>Code freeze day is Aug 17th. Testing will be conducted on stage server instead of testing server if the testing server is not able to be set.</li>
+</ul>
+
+<h4 id='work_completed_43'>Work completed</h4>
+
+<ul>
+<li>QE team completed test plan and test case,and published by RAP team.</li>
+
+<li>Completed Capex front-end development 70% task.</li>
+
+<li>UE Enhancement of legends alignment research done.Completed 70% coding.</li>
+
+<li>Completed 50% of Customer support module for data service.</li>
+
+<li>Completed 80% of Headcount front end code.</li>
+</ul>
+
+<h4 id='work_coming_up_44'>Work coming up</h4>
+
+<ul>
+<li>
+<p>To complete Capex Module and headcount module for front and data service coding tasks.</p>
+</li>
+
+<li>
+<p>Devel team to complete UE enhancement paging modification for table list.</p>
+</li>
+
+<li>
+<p>QE team received comments from PM and Devel, will update test plan per devel and PM’s feedback.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='deposit_v10_45'>Deposit V1.0</h2>
+
+<h4 id='summary_46'>Summary</h4>
+
+<p>Deposit tool for uploading data files to an ETL server has been developed for the p360 product.</p>
+
+<h4 id='risksactions_47'>Risks/Actions</h4>
+
+<p>No report</p>
+
+<h4 id='work_completed_48'>Work completed</h4>
+
+<ul>
+<li>
+<p>MRD was completed and published to <a href='https://dart.qe.lab.eng.bne.redhat.com/RAP/en-US/Deposit-draft/1.0/html-single/MRD/index.html'>https://dart.qe.lab.eng.bne.redhat.com/RAP/en-US/Deposit-draft/1.0/html-single/MRD/index.html</a>. MRD is in the middle of reviewing by EIP and stakeholder.</p>
+</li>
+
+<li>
+<p>PRD v1.0 was reviewed and completed <a href='https://dart.qe.lab.eng.bne.redhat.com/RAP/Deposit/1-0/PRD/tmp/en-US/html-single/'>https://dart.qe.lab.eng.bne.redhat.com/RAP/Deposit/1-0/PRD/tmp/en-US/html-single/</a></p>
+</li>
+
+<li>
+<p>Project team reviewed PRD and studied the detailed requirements.</p>
+</li>
+
+<li>
+<p>Deposit security proposal was drafted by devel team at <a href='http://hss.pad.engineering.redhat.com/380'>http://hss.pad.engineering.redhat.com/380</a>.</p>
+</li>
+</ul>
+
+<h4 id='work_coming_up_49'>Work Coming Up</h4>
+
+<ul>
+<li>
+<p>Devel team to do technical research per PRD.</p>
+</li>
+
+<li>
+<p>To get eng-ops involved to review deposit security proposal.</p>
+</li>
+
+<li>
+<p>Devel team to do cost estimation per requirement in PRD.</p>
+</li>
+
+<li>
+<p>To make project schedule.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='newspaper_v11__v12_50'>Newspaper V1.1 &amp; V1.2</h2>
+
+<h4 id='summary_51'>Summary</h4>
+
+<p>Newspaper v1.1 release is primarily aimed at the development of requirements from Libra QE.</p>
+
+<ul>
+<li>V1.1 is still in delayed mode, while production and VDB are built and deployed.</li>
+</ul>
+
+<h4 id='risksactions_52'>Risks/Actions</h4>
+
+<p><em>Issue</em>:</p>
+
+<ul>
+<li>V1.1 release delayed by DB Issue.</li>
+</ul>
+
+<p><em>Action</em>:</p>
+
+<ul>
+<li>
+<p>Jeff’s team is working on the issue.</p>
+
+<h4 id='work_completed_53'>Work completed</h4>
+</li>
+
+<li>
+<p>Devel has completed 60% of the development tasks.</p>
+</li>
+
+<li>
+<p>Devel has requested the testing sever from Eng-ops.</p>
+</li>
+</ul>
+
+<h4 id='work_coming_up_54'>Work Coming Up</h4>
+
+<ul>
+<li>
+<p>QE will draft the test plan.</p>
+</li>
+
+<li>
+<p>V1.3 PRD will be delivered by the end of this Month.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='vault_55'>Vault</h2>
+
+<h4 id='summary_56'>Summary</h4>
+
+<p>Start Vault v1.0 project</p>
+
+<h4 id='risksactions_57'>Risks/Actions</h4>
+
+<p>Developer resources were shifted to the deposit project. Project is suspended. It will be started in September.</p>
+
+<h4 id='work_completed_58'>Work completed</h4>
+
+<ul>
+<li>
+<p>Completed Vault v1.0 project PRD.</p>
+</li>
+
+<li>
+<p>Fixed and tested bugs;</p>
+</li>
+</ul>
+
+<p><a href='https://engineering.redhat.com/rt/Ticket/Display.html?id=839892'>Bug 839892</a> - <span>high</span> - comment time should not be the created time in email</p>
+
+<h4 id='work_coming_up_59'>Work coming up</h4>
+
+<ul>
+<li>None this week</li>
+</ul>
+<hr/>
+<h1 id='appendix_60'>Appendix</h1>
+
+<h2 id='bugzilla_61'>Bugzilla</h2>
+
+<p>Bugzilla - A software bug tracking system used by devel, docs, and qe to manage bugs on all Red Hat Products.</p>
+
+<p><em>Product URL:</em> <a href='https://bugzilla.redhat.com'>https://bugzilla.redhat.com</a></p>
+
+<p><em>Language/framework of product:</em> <a href=''>Perl</a></p>
+
+<p><strong>Product Manager:</strong> Yawei Li <a href='mailto:yawli@redhat.com'>yawli@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> Simon Green <a href='mailto:sgreen@redhat.com'>sgreen@redhat.com</a></p>
+
+<h2 id='beaker_62'>Beaker</h2>
+
+<p>Beaker is a automated software testing system which aims to achieve separation of concerns between inventory management and test execution.</p>
+
+<p><em>Product URL:</em> <a href='https://beaker.engineering.redhat.com'>https://beaker.engineering.redhat.com</a></p>
+
+<p><em>Language/framework of product:</em> <a href=''>Python (TurboGears)</a></p>
+
+<p><strong>Product Manager:</strong> Ed Rousseau <a href='mailto:rousseau@redhat.com'>rousseau@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> Bill Peck <a href='mailto:bpeck@redhat.com'>bpeck@redhat.com</a>, Dan Callaghan <a href='mailto:dcallagh@redhat.com'>dcallagh@redhat.com</a>, Raymond Mancy <a href='mailto:rmancy@redhat.com'>rmancy@redhat.com</a>, Steven Lawrance <a href='mailto:stl@redhat.com'>stl@redhat.com</a></p>
+
+<h2 id='errata_63'>Errata</h2>
+
+<p>The Errata System is responsible for managing the Red Hat Errata Process.</p>
+
+<p><em>Product URL:</em> <a href='https://errata.devel.redhat.com/'>https://errata.devel.redhat.com/</a></p>
+
+<p><em>Language/framework of product:</em> <a href=''>Ruby on Rails</a></p>
+
+<p><strong>Product Manager/Architect:</strong> Ed Rousseau <a href='mailto:rousseau@redhat.com'>rousseau@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> Jon Orris <a href='mailto:jorris@redhat.com'>jorris@redhat.com</a>, Simon Baird <a href='mailto:sbaird@redhat.com'>sbaird@redhat.com</a></p>
+
+<p><strong>Program Manager for 3.0:</strong> Debi Rieden <a href='mailto:drieden@redhat.com'>drieden@redhat.com</a></p>
+
+<h2 id='package_wrangler_64'>Package Wrangler</h2>
+
+<p>Package Wrangler is a new tool that helps create a package management system adding efficiency to the process of tracking package imports, reviews, approvals, and changes for all Red Hat releases.</p>
+
+<p><em>Product URL:</em> <a href='https://pkgwrangler.app.eng.bos.redhat.com/home/reviews/source/'>https://pkgwrangler.app.eng.bos.redhat.com/home/reviews/source/</a></p>
+
+<p><em>Language/framework of product:</em> <a href=''>Python (Django)</a></p>
+
+<p><strong>Product Manager/Architect:</strong> Ed Rousseau <a href='mailto:rousseau@redhat.com'>rousseau@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> Martin Magr <a href='mailto:mmagr@redhat.com'>mmagr@redhat.com</a>, Andrej Tokarcik <a href='mailto:atokarci@redhat.com'>atokarci@redhat.com</a></p>
+
+<p><strong>Program Manager:</strong> Debi Rieden <a href='mailto:drieden@redhat.com'>drieden@redhat.com</a></p>
+
+<h2 id='tcms_65'>TCMS</h2>
+
+<p>TCMS is a test case management system used by various teams to manage test cases.</p>
+
+<p><em>Product URL:</em> https://fedorahosted.org/nitrate/wiki</p>
+
+<p><em>Language/framework of product:</em> Python</p>
+
+<p><strong>Product Manager/Architect:</strong> Yawei Li <a href='mailto:yawli@redhat.com'>yawli@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> Chaobin Tang <a href='mailto:ctang@redhat.com'>ctang@redhat.com</a></p>
+
+<p><strong>Stage/Production Deployment:</strong> Weizhang <a href='mailto:weizhang@redhat.com'>weizhang@redhat.com</a></p>
+
+<h2 id='global_sync_66'>Global Sync</h2>
+
+<p>Global Sync is a tool to synchronize engineering content to various Red Hat offices globally.</p>
+
+<p><em>Product URL:</em> <a href='https://engineering.redhat.com/trac/global-sync/wiki'>https://engineering.redhat.com/trac/global-sync/wiki</a></p>
+
+<p><em>Language/framework of product:</em> <a href='Django'>Python</a></p>
+
+<p><strong>Product Manager:</strong> Kevin Baker <a href='mailto:kbaker@redhat.com'>kbaker@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> Nick Coghlan <a href='mailto:ncoghlan@redhat.com'>ncoghlan@redhat.com</a></p>
+
+<p><strong>Stage/Production Deployment:</strong> Marco Grigull <a href='mailto:mgrigull@redhat.com'>mgrigull@redhat.com</a></p>
+
+<h2 id='product360_67'>Product360</h2>
+
+<p>Product360 is a business intelligent tool/product that is able to dig, collect, integrate, analyze, summarize and present the timely status of all important Red Hat products and give reasonable forecast, which provides objective judgment for higher management making decisions.</p>
+
+<p><em>Product URL:</em> <a href='https://engineering.redhat.com/trac/product360'>https://engineering.redhat.com/trac/product360</a></p>
+
+<p><em>Language/framework of product:</em> <a href=''>Java/Jboss EPP</a></p>
+
+<p><strong>Product Manager/Architect:</strong> Gang Wang <a href='mailto:gawang@redhat.com'>gawang@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> Xufeng Liu <a href='mailto:xuliu@redhat.com'>xuliu@redhat.com</a>; Gang Li <a href='mailto:gli@redhat.com'>gli@redhat.com</a>; Zhi Wei tang <a href='mailto:ztang@redhat.com'>ztang@redhat.com</a>; Ning Hong <a href='mailto:nhong@redhat.com'>nhong@redhat.com</a></p>
+
+<p><strong>Stage/Production Deployment:</strong> Wei Zhang <a href='mailto:weizhang@redhat.com'>weizhang@redhat.com</a></p>
+
+<h2 id='newspaper_68'>Newspaper</h2>
+
+<p>Newspaper is a tool for dashboard integration. It presents fragmented data as real-time information on a central graphical dashboard. Users can customize their own dashboard.</p>
+
+<p><em>Product URL:</em> <a href='https://engineering.redhat.com/trac/newspaper'>https://engineering.redhat.com/trac/newspaper</a></p>
+
+<p><em>Language/framework of product:</em> <a href=''>Java/Jboss EPP</a></p>
+
+<p><strong>Product Manager/Architect:</strong> Gang Wang <a href='mailto:gawang@redhat.com'>gawang@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> ltian@redhat.com; shewang@redhat.com</p>
+
+<p><strong>Stage/Production Deployment:</strong> Wei Zhang <a href='mailto:weizhang@redhat.com'>weizhang@redhat.com</a></p>
+
+<h2 id='hss_portal_69'>HSS Portal</h2>
+
+<p><em>Product URL:</em> N/A</p>
+
+<p><em>Language/framework of product:</em> <a href=''>Python</a></p>
+
+<p><strong>Product Manager/Architect:</strong> “Suyun Wei” <a href='mailto:swei@redhat.com'>swei@redhat.com</a></p>
+
+<p><strong>Developer Team:</strong> “Ren Yang” <a href='mailto:ryang@redhat.com'>ryang@redhat.com</a>; “Yuguang Wang” <a href='mailto:yuwang@redhat.com'>yuwang@redhat.com</a>; “Haibo Lin” <a href='mailto:hlin@redhat.com'>hlin@redhat.com</a> “Xiangyang Chu” xch@redhat.com; <a href='mailto:kduanmu@redhat.com'>kduanmu@redhat.com</a></p>
+
+<p><strong>Stage/Production Deployment:</strong>: “Wei Zhang” <a href='mailto:weizhang@redhat.com'>weizhang@redhat.com</a></p>
+
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/tools/list/Week+30'>Week 30</a>, <a class='category_link' href='/ReportTool/public/tools/list/Hot'>Hot</a>, <a class='category_link' href='/ReportTool/public/tools/list/July'>July</a></div></p>
+
+<div class="byline">
+  Revised on July 27, 2012 10:37:11 
+  by
+  <span class="newWikiWord">Ian Neilsen</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

@@ -1,0 +1,318 @@
+I"�,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Entitlement Weekly Executive Briefing - Week 26 in Entitlement 6-3
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement63/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement63/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/entitlement63/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/entitlement63/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/entitlement63/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/entitlement63/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Entitlement 6-3</span><br />
+      Entitlement Weekly Executive Briefing - Week 26
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p> </p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Tuesday Jun 19th 2012</strong> finished <strong>Monday June 25th 2012</strong></p>
+
+<p>Report for week 26, 2012.</p>
+
+<ul>
+<li>
+<p>RHEL6.3 GA content testing against Production CDN (cdn.redhat.com) initially failed with two blocker bugs reported; They were quickly fixed by RCM and verified by QE, RHEL6.3 went to GA as scheduled.</p>
+</li>
+
+<li>
+<p>The Team will now focus on RHEL5.9 test planning. The plan is to send RHEL5.9 Entitlement IEEE Test Plan draft to Devel/PM for review before 18th July.</p>
+</li>
+</ul>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/> <strong><span>subscription-manager</span></strong></p>
+
+<ul>
+<li>
+<p>RHEL6.3-RC-2 subscription-manager-gui smoke testing against Production Candlepin by Hosted QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p>RHEL6.3-RC-2 testing were skipped for Cloud QE and RTT because no RHSM related packages were changed from snapshot5 to RC2, and snapshot5 acceptance tests by Cloud QE and RTT were both PASS.</p>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12609'>RHBA-2012:12609-01</a> - subscription-manager was pushed to SHIPPED_LIVE on June 19th by Cloud QE.</p>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12610'>RHBA-2012:12610-01</a> - python-rhsm was pushed to SHIPPED_LIVE on June 19th by Cloud QE.</p>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/> <strong><span>subscription-manager-migration-data</span></strong></p>
+
+<ul>
+<li>
+<p>subscription-manager-migration-data-1.12.1.8-1.el6.noarch was tested by Cloud QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12635'>RHEA-2012:12635-01</a> - subscription-manager-migration-data was pushed to SHIPPED_LIVE on June 19th by Cloud QE.</p>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/><strong><span>virt-who</span></strong></p>
+
+<ul>
+<li>
+<p>virt-who smoke test on RHEL6.3-server-20120604.0 (kvm) against SAM-06-04.1 by Hosted QE: <strong>PASS</strong> (cached)</p>
+
+<ul>
+<li>Test result was PASS as there was no critical regression or test blockers found.</li>
+</ul>
+</li>
+
+<li>
+<p><a href='https://errata.devel.redhat.com/errata/stateview/12775'>RHBA-2012:12775-01</a> - virt-who, was pushed to SHIPPED_LIVE on June 19th.</p>
+</li>
+</ul>
+
+<p><img alt='greenlight' src='/ReportTool/public/entitlement63/files/green.png'/> <strong><span>content testing</span></strong></p>
+
+<ul>
+<li>
+<p>RHEL6.3-RC content testing against with Production CDN by Hosted QE: <strong>PASS</strong></p>
+
+<ul>
+<li>
+<p>Test result got PASS as the two urgent content bugs (834173, 834177) found on Production CDN were fixed with one medium bug waiting to be fixed on RHEL5.9 / 6.4.</p>
+
+<ul>
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=834173'>Bug 834173</a> - Many packages are not pushed to real directories on Production CDN <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=834177'>Bug 834177</a> - No product cert installed after installing package of product SAP <span>VERIFIED</span></p>
+</li>
+
+<li>
+<p><a href='https://bugzilla.redhat.com/show_bug.cgi?id=834181'>Bug 834181</a> - Packages for cf-tools repos should be pushed to /Packages/ directories on Production CDN <span>NEW, medium</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><img alt='redlight' src='/ReportTool/public/entitlement63/files/red.png'/> <strong><span>SKU testing</span></strong></p>
+
+<ul>
+<li>
+<p>SKU testing of “Red Hat Storage” by Hosted QE: <strong>FAIL</strong></p>
+
+<ul>
+<li>
+<p>Test result was FAIL as there was high severity bug found.</p>
+
+<ul>
+<li><a href='https://bugzilla.redhat.com/show_bug.cgi?id=835327'>Bug 835327</a> - Arch attribute for “Red Hat Storage” should be “x86_64” <span>NEW, high</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Need J.C. Molet to push the subscription-manager 6.3.z errata to REL_PREP before June 29th.</p>
+
+<ul>
+<li><a href='https://errata.devel.redhat.com/errata/stateview/13347'>RHBA-2012:13347-01</a> - subscription-manager bug fix update</li>
+</ul>
+</li>
+</ol>
+
+<h2 id='work_completed_4'>Work completed</h2>
+
+<ul>
+<li>
+<p>RHEL6.3 GA content testing against Production CDN.</p>
+</li>
+
+<li>
+<p>Verify content bugs against Mirror CDN.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Content &amp; SKU testing for “Red Hat Storage”.</p>
+</li>
+
+<li>
+<p>Draft RHEL5.9 Entitlement IEEE Test Plan.</p>
+</li>
+</ul>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+
+<p><strong>RHEL6.3 GA content testing against Production CDN by Hosted QE: PASS</strong></p>
+
+<pre><code>Test Result:
+PASS as the two urgent content bugs (834173, 834177) found on Production CDN were fixed with one medium bug waiting to be fixed on RHEL5.9 / 6.4.
+
+RHEL Build:
+RHEL6.3-20120613.2
+
+New Bugs (3):
+
+[Bug 834173] - Many packages are not pushed to real directories on Production CDN [VERIFIED]
+   
+[Bug 834177] - No product cert installed after installing package of product SAP [VERIFIED]
+    
+[Bug 834181] - Packages for cf-tools repos should be pushed to /Packages/ directories on Production CDN [NEW, medium]
+Test Blocker (0):
+
+===Automation Run===
+
+|6Server x86_64 | https://virtlab.englab.nay.redhat.com/job/51065/details/ |
+|6Server i386 | https://virtlab.englab.nay.redhat.com/job/51064/details/ |
+|6Workstation x86_64 | https://virtlab.englab.nay.redhat.com/job/51077/details/| 
+|6Workstation i386 | https://virtlab.englab.nay.redhat.com/job/51076/details/| 
+|6Client x86_64 | https://virtlab.englab.nay.redhat.com/job/51069/details/|
+|6Client i386 | https://virtlab.englab.nay.redhat.com/job/51068/details/ |
+|6Computenode x86_64 | https://virtlab.englab.nay.redhat.com/job/51070/details/ |
+|6s390x| http://fileshare.englab.nay.redhat.com/pub/libra/logs/20120620225130/default/job_report.html |
+|6ppc64 | http://fileshare.englab.nay.redhat.com/pub/libra/logs/20120620232450/default/job_report.html |
+
+===Manual Run===
+N/A</code></pre>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/entitlement63/list/June'>June</a>, <a class='category_link' href='/ReportTool/public/entitlement63/list/Week+26'>Week 26</a></div></p>
+
+<div class="byline">
+  Created on June 26, 2012 17:30:19 
+  by
+  <a class="existingWikiWord" href="/ReportTool/public/entitlement63/published/Entitlement+5.9+Weekly+Executive+Briefing+-+Week+27">Ian Neilsen</a>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

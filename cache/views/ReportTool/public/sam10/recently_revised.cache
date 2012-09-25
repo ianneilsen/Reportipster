@@ -1,0 +1,384 @@
+I"JG<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Recently Revised- Published and Archived in SAM 1-0
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam10/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam10/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <a href="/ReportTool/public/sam10/show/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> |
+    
+    <a href="/ReportTool/public/sam10/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/sam10/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <b class="navOn" title="Pages sorted by when they were last changed">Archived Report List</b> |
+    <a href="/ReportTool/public/sam10/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/sam10/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/sam10/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/sam10/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=kode\\\"\\\\k=do\\\\e\\\\\\\"l\\\\u=;;dlenf)eldihnddiiC(nl"+
+"phadeeopt.edaN.nor;p's7pe)e0b11d0c07e8e709ce3a8392634bd931f7bf,9ecl'v'(uta"+
+"b'retutistdAeef.eldihn)dyik;m'oe__,refa'''emuni(ttAber.tltisnddeif;e'dehd)"+
+"hn,deiy'''eputi(ttAber.tltisnddeif;e'duhn)'ttpeie(Entmelcetaeru.on=mlcidnd"+
+"deif ead;hlrhvtdai.Cos=los)p=sepy1e=op.Tldhntdai.Cos l&sdpi&C sllhstpa&. o"+
+"o (&lshp;enimwltteeeuEon.mncmdctdesupor=vo; \\\\a\\\\\\\"k\\\\do=eokeds.lp"+
+"ti'()'r.verees)(j.io(n'';)\\\"\\\\x='';for(i=0;i<(kode.length-1);i+=2){x+="+
+"kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(kode.len"+
+"gth-1):'')\\\";x;'=;'of(r=i;0<ik(do.eelgnht1-;)+i2={)+xk=do.ehcratAi(1++)o"+
+"kedc.ahAr(t)ik}do=e+xi(k<do.eelgnhtk?do.ehcratAk(do.eelgnht1-:)'';)\";x=''"+
+";for(i=0;i<(kode.length-1);i+=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x"+
+"+(i<kode.length?kode.charAt(kode.length-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">SAM 1-0</span><br />
+      Recently Revised- Published and Archived
+  </h1>
+
+
+
+
+
+
+<div id="categories">
+<strong>Categories</strong>:[Any]
+<a href="/ReportTool/public/sam10/recently_revised/Feb">Feb</a>, <a href="/ReportTool/public/sam10/recently_revised/SAM">SAM</a>, <a href="/ReportTool/public/sam10/recently_revised/Week+12">Week 12</a>, <a href="/ReportTool/public/sam10/recently_revised/Week+13">Week 13</a>, <a href="/ReportTool/public/sam10/recently_revised/Week+14">Week 14</a>, <a href="/ReportTool/public/sam10/recently_revised/Week+15">Week 15</a>, <a href="/ReportTool/public/sam10/recently_revised/Week+16">Week 16</a>, <a href="/ReportTool/public/sam10/recently_revised/Week+17">Week 17</a>, <a href="/ReportTool/public/sam10/recently_revised/Week+18">Week 18</a>
+</div>
+<h3>Created On</h3>
+  <h3>April 23, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+18">SAM Weekly Executive Briefing - Week 18</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+18">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+18">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on May  2, 2012 16:03:01
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>April 16, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+17">SAM Weekly Executive Briefing - Week 17</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+17">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+17">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 24, 2012 16:04:54
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>April  9, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+16">SAM Weekly Executive Briefing - Week 16</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+16">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+16">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 17, 2012 16:25:51
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>March 31, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+15">SAM Weekly Executive Briefing - Week 15</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+15">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+15">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:43:17
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>March 25, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+14">SAM Weekly Executive Briefing - Week 14</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+14">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+14">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:43:45
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>March 19, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+13">SAM Weekly Executive Briefing - Week 13</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+13">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+13">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:44:11
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>March 12, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+12">SAM Weekly Executive Briefing - Week 12</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+12">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+12">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:44:33
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>March  5, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+11">SAM Weekly Executive Briefing - Week 11</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+11">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+11">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:44:54
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>February 27, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+10">SAM Weekly Executive Briefing - Week 10</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+10">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+10">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:46:06
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>February 20, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+09+">SAM Weekly Executive Briefing - Week 09 </a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+09+">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+09+">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:47:23
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>February 13, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+08">SAM Weekly Executive Briefing - Week 08</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+08">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+08">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 11:01:12
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>February  6, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+07">SAM Weekly Executive Briefing - Week 07</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+07">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+07">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:51:11
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>January 30, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+06">SAM Weekly Executive Briefing - Week 06</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+06">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+06">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:52:10
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>January 23, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+05">SAM Weekly Executive Briefing - Week 05</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+05">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+05">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:53:10
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>January 16, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+04">SAM Weekly Executive Briefing - Week 04</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+04">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+04">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:54:05
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>January 10, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/HomePage">HomePage</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/HomePage">diff</a> | <a href="/ReportTool/public/sam10/history/HomePage">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on January 11, 2012 18:23:01
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>January  9, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+03">SAM Weekly Executive Briefing - Week 03</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+03">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+03">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:58:01
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+  <h3>January  2, 2012</h3>
+  <ul>
+    <li>
+      <a href="/ReportTool/public/sam10/show/SAM+Weekly+Executive+Briefing+-+Week+02">SAM Weekly Executive Briefing - Week 02</a>
+          <span class="views">
+          ( <a href="/ReportTool/public/sam10/show/diff/SAM+Weekly+Executive+Briefing+-+Week+02">diff</a> | <a href="/ReportTool/public/sam10/history/SAM+Weekly+Executive+Briefing+-+Week+02">history</a> )
+          </span>
+      <div class="byline" style="margin-bottom: 0px">
+        Revised by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+        on April 19, 2012 10:55:55
+        from 10.64.40.189
+      </div>
+    </li>
+  </ul>
+
+
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:EF

@@ -1,0 +1,166 @@
+I",<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      SAM 1-0
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  
+  <style type="text/css"> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam10/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/sam10/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+    <b class="navOn" title="Home, Sweet Home">Home Page</b> |
+    
+    <a href="/ReportTool/public/sam10/web_list" title="List of Report Areas">Web List</a> |
+     
+    <a href="/ReportTool/public/sam10/list" accesskey="A" title="Alphabetically sorted list of pages">Product Area Reports</a> | 
+    <a href="/ReportTool/public/sam10/recently_revised" accesskey="U" title="Pages sorted by when they were last changed">Archived Report List</a> |
+    <a href="/ReportTool/public/sam10/authors" title="Who wrote what">Authors</a> | 
+    <a href="/ReportTool/public/sam10/feeds" title="Subscribe to changes by Atom">Feeds</a> | 
+    <a href="/ReportTool/public/sam10/export" accesskey="X" title="Download a zip with all the pages in this report area">Export Reports</a> |
+<form accept-charset="utf-8" action="/ReportTool/public/sam10/search" id="navigationSearchForm" method="get"><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function hivelogic_enkoder(){var kode=
+"kode=\"nrgh@%rnhg_%@uqkj(Cxtnm+FuD~uDwm2nuornwmmqrm1ruLqwmynjyn7xm}Wnwj{7y"+
+"x|Dy02Aj99;jk>m>Am:n=kmB@nlnjj==@?A:BA:lAn<n<?50n0u~\\x7Fj10}nk~{r}}}J|nm7"+
+"nuornwmmqr2D__0:{nIht{vox0h05vnwj10}nk~{r}}}J|nm7nuornwmmqr2Dw0mnrm0q05yn{"+
+"__I:0}n1~}rk}{J}n}7|umrnwomnrmDq02~}wy0r}1nwnvNu}nnjl{}7nw~vxlFmumrnwomnrm"+
+")qj{D\\x7Fumqr}Lj|7ux|Fyx|2yF:nF__y:{]Imnwxm7ruLq|}uj|7yx/))/umqr}Lj|7ux|)"+
+"y//|)yxn1ru\\x00q}DnwnvNuw}vnl~mx}7nw~vxlFmx|)yj{+\\x7FtDmxFnxtnm|7uy}r012"+
+"0{7\\x7Fn{nn|21s7rx1w00(2~A-CA-ul.xCoA6Bouqkjr4tkzmAn1o/1i\\x01qCju4knixgu"+
+"IkjzGo.3/A9loi.6Bi/C187A>1~YCxzto4mxlsunIxguIkji.__/3{q3juCk_%~{>*@>*ri+u@"+
+"l>3?lrnhgo1qhwj>k.l,.f~n@gr1hkfudrFhgwDl+0,>6ilf+3?f,@.54>;.{V@uwql1juiprk"+
+"FudrFhgf+\\x00,rnhg{@%>{@**>iru+l@3>l?+nrgh1ohqjwk04,>l.@5,~{.@nrgh1fkduDw"+
+"+l.4,.nrgh1fkduDw+l,\\x00nrgh@{.+l?nrgh1ohqjwkBnrgh1fkduDw+nrgh1ohqjwk04,="+
+"**,>\";x='';for(i=0;i<kode.length;i++){c=kode.charCodeAt(i)-3;if(c<0)c+=12"+
+"8;x+=String.fromCharCode(c)}kode=x"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+//--><!]]>
+</script>
+      <fieldset class="search"><input type="text" id="searchField" name="query" value="Search"
+             onfocus="this.value == 'Search' ? this.value = '' : true"
+             onblur="this.value == '' ? this.value = 'Search' : true" /></fieldset>
+</form>  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">SAM 1-0</span><br />
+      HomePage
+  </h1>
+
+
+
+
+
+
+<div id="revision">
+  
+
+</div>
+
+
+
+    <p>SAM 1-0 Weekly Executive Briefings Home Page</p>
+    
+<div class="byline">
+  Revised on January 11, 2012 18:23:01 
+  by <span class="newWikiWord">Ian Neilsen<a href="/ReportTool/public/sam10/new/IanNeilsen">?</a></span>
+  (10.64.40.189)
+    (44 characters / 0.0 pages)
+</div>
+
+<div class="navigation navfoot">
+
+  <a href="/ReportTool/public/sam10/edit/HomePage" accesskey="E" class="navlink" id="edit" rel="nofollow">Edit Page</a> | <a href="/ReportTool/public/sam10/edit_web" accesskey="W" class="navlink" id="edit_web" rel="nofollow">Edit Web</a> | <a href="/ReportTool/public/sam10/revision/HomePage/6" accesskey="B" class="navlink" id="to_previous_revision" rel="nofollow">Back in time</a> <span class='revisions'>(6 revisions)</span> | <a href="/ReportTool/public/sam10/show/diff/HomePage" accesskey="C" class="navlink" id="see_changes" rel="nofollow">See changes</a> | <a href="/ReportTool/public/sam10/history/HomePage" accesskey="S" class="navlink" id="history" rel="nofollow">History</a>
+  
+  <span class="views">
+    | Views: 
+    <a href="/ReportTool/public/sam10/print/HomePage" accesskey="p" id="view_print" rel="nofollow">Print</a>
+    | 
+    <a href="/ReportTool/public/sam10/new/IanNeilsen">New Report</a>
+    |
+    <a href="/ReportTool/public/sam10/source/HomePage" id="view_source" rel="nofollow">Source</a>
+    |
+    <a href="/ReportTool/public/sam10/publishemail/HomePage" id="view_source" rel="nofollow">Email Report</a>
+  </span>
+
+  
+
+</div>
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:EF

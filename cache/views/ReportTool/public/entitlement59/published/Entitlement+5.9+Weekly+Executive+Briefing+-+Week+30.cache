@@ -1,0 +1,270 @@
+I"À!<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <title>
+      Entitlement 5.9 Weekly Executive Briefing - Week 30 in Entitlement 5-9
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="index,follow" />
+  
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <link href="/ReportTool/public/stylesheets/syntax.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006; 
+    }
+    a:visited.existingWikiWord {
+      color: #710004;
+    }
+    
+    
+  </style>
+
+  <style type='text/css'>.newWikiWord { background-color: white; font-style: italic; }</style>
+  <style type="text/css"> 
+    ...
+    
+    
+    
+  </style>
+
+  
+  
+
+
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement59/atom_with_headlines" rel="alternate" title="Atom with headlines" type="application/atom+xml" />
+  	<link href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/entitlement59/atom_with_content" rel="alternate" title="Atom with full content" type="application/atom+xml" />
+</head>
+
+<body>
+
+<div id="Container">
+
+
+<div class="navigation">
+    <span class="skipNav"><a href='#navEnd'>Skip the Navigation Links</a> | </span>
+<a href="/ReportTool/public/entitlement59/web_list" title="List of Report Areas">Web List</a> |
+    <a href="/ReportTool/public/entitlement59/published/HomePage" accesskey="H" title="Home, Sweet Home">Home Page</a> | 
+    <a href="/ReportTool/public/entitlement59/feeds" title="Subscribe to changes by Atom">Feeds</a> |
+    <a href="/ReportTool/public/entitlement59/publist" title="Monthly List of published reports">Archived Reports List</a> 
+  <span id='navEnd'></span>
+</div>
+
+<div id="Content">
+  <h1 id="pageName">
+      <span class="webName">Entitlement 5-9</span><br />
+      Entitlement 5.9 Weekly Executive Briefing - Week 30
+  </h1>
+
+
+
+
+
+    
+<!-- <div class="abstract"> -->
+	<!--   <h4> Abstract </h4>
+        <div class="Container"> The Weekly Executive Briefing is designed to succinctly summarize QE's weekly testing activities for OpenShift by highlighting any significant accomplishments and risks. Our objective is to keep you informed of our testing progress, what we have planned for the coming week, and any issues blocking testing.</div>
+ -->
+<!-- </div> -->
+    
+<p></p>
+
+<h1 id='executive_summary_1'>Executive summary</h1>
+
+<p>Testing started <strong>Tuesday July 17th 2012</strong> finished <strong>Monday July 23rd 2012</strong></p>
+
+<p>Report for week 30, 2012.</p>
+
+<ul>
+<li>
+<p>HSS QE sent out on 19 July <a href='https://vault-stage.englab.nay.redhat.com/Vault/showRequest/966'>vault request</a> for PM/Devel to review the RHEL5.9 Entitlement IEEE Test Plan .</p>
+</li>
+
+<li>
+<p>Cloud QE worked on re-factoring CLI/GUI test automation based on new behaviour changes in rhel59 subscription-manager</p>
+</li>
+
+<li>
+<p>So far 70 open bugs have been qa_ack+ (increase by 2), with 8 open bugs needing qa_ack? (decrease by 2):</p>
+
+<ul>
+<li><a href='https://url.corp.redhat.com/rhel59-rhsm-qa-acked'>rhel59-rhsm-qa-acked</a> <strong>(70, increased by 2)</strong></li>
+
+<li><a href='https://url.corp.redhat.com/rhel59-rhsm-qa-to-ack'>rhel59-rhsm-qa-to-ack</a> <strong>(8, decreased by 2)</strong></li>
+</ul>
+</li>
+</ul>
+
+<h2 id='qe_test_result_summary_2'>QE Test result summary</h2>
+
+<p><img alt='nostatus' src='/ReportTool/public/entitlement59/files/nostatus.png'/> <strong><span>subscription-manager</span></strong></p>
+
+<ul>
+<li>No test status for subscription-manager, since we are in test planning phase.</li>
+</ul>
+
+<p><img alt='nostatus' src='/ReportTool/public/entitlement59/files/nostatus.png'/> <strong><span>subscription-manager-migration-data</span></strong></p>
+
+<ul>
+<li>No test status for subscription-manager-migration-data, since we are in test planning phase.</li>
+</ul>
+
+<p><img alt='nostatus' src='/ReportTool/public/entitlement59/files/nostatus.png'/><strong><span>virt-who</span></strong></p>
+
+<ul>
+<li>No test status for virt-who, since we are in test planning phase.</li>
+</ul>
+
+<p><img alt='nostatus' src='/ReportTool/public/entitlement59/files/nostatus.png'/> <strong><span>content testing</span></strong></p>
+
+<ul>
+<li>No test status for RHEL5.9, since we are in test planning phase.</li>
+</ul>
+
+<p>For more information, see QE Test result details at the end of the online report.</p>
+
+<h2 id='risksactions_3'>Risks/Actions</h2>
+
+<ol>
+<li>
+<p>Need PM (Siddharth Nagar) to review Authenticity v1.1 user stories and prototype by Tuesday 24 July.</p>
+
+<ul>
+<li>
+<p>Milestones:</p>
+
+<ul>
+<li>Authenticity v1.1 Devel freeze - 3 Aug.</li>
+
+<li>RHEL5.9 beta tree - 31 Aug.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>RHEL5.9 Entitlement IEEE Test Plan was sent out for stakeholders to review on the 19th July and due date set for the sign off on the 10th Aug.</p>
+</li>
+</ol>
+
+<ul>
+<li>
+<p>So far, we have got feedback from Alex Wood. Thank you for your prompt feedback.</p>
+</li>
+
+<li>
+<p>Could following stakeholders take a moment to review the corresponding features and provide your feedback in <a href='https://vault-stage.englab.nay.redhat.com/Vault/showRequest/966'>Vault request #966</a> ? Features which require your review have been given in the vault description.</p>
+
+<ul>
+<li>Adrian Likins</li>
+
+<li>Alex Wood</li>
+
+<li>Amanda Carter</li>
+
+<li>Bryan Kearney</li>
+
+<li>Chris Duryee</li>
+
+<li>Dennis Gregorovic</li>
+
+<li>Devan Goodwin</li>
+
+<li>James Bowes</li>
+
+<li>John Sefler</li>
+
+<li>Manuel Eduardo Ospina Sarmiento</li>
+
+<li>Marian Ganisin</li>
+
+<li>William Poteat</li>
+
+<li>Radek Novacek</li>
+
+<li>Siddharth Nagar</li>
+</ul>
+</li>
+</ul>
+
+<h2 id='work_completed_4'>Work completed</h2>
+
+<ul>
+<li>
+<p>Completed the RHEL5.9 IEEE Test Plan draft</p>
+</li>
+
+<li>
+<p>Created vault request for PM/Devel to review RHEL5.9 IEEE Test Plan</p>
+</li>
+
+<li>
+<p>Updated subscription-manager-migration scenarios according to Alex Woodâ€™s feedback.</p>
+</li>
+</ul>
+
+<h2 id='work_coming_up_5'>Work coming up</h2>
+
+<ul>
+<li>
+<p>Update RHEL5.9 IEEE Test Plan according to PM/Devel feedback</p>
+</li>
+
+<li>
+<p>Create TCMS test cases for RHEL5.9 new features</p>
+</li>
+
+<li>
+<p>Smoke test on RHEL5.9 Internal Tree Compose</p>
+</li>
+</ul>
+<hr/>
+<h2 id='qe_test_result_details_6'>QE Test result details</h2>
+<hr/>
+<p><div class='property'> category: <a class='category_link' href='/ReportTool/public/entitlement59/list/July'>July</a>, <a class='category_link' href='/ReportTool/public/entitlement59/list/Week+30'>Week 30</a></div></p>
+
+<div class="byline">
+  Created on July 24, 2012 18:59:40 
+  by
+  <span class="newWikiWord">Ian Neilsen</span>
+</div>
+
+<!-- <div class="navigation navfoot"> -->
+<!--><span class="views"></span> -->
+<!-- </div> -->
+
+
+    <div id="footer">
+    <div>Modified <a href="http://pride.bne.redhat.com/">Rails,maruku,Instiki,markdown,pandoc and others</a></div>
+    <div>Powered by <a href="https://dart.qe.lab.eng.bne.redhat.com/ReportTool/public/web_list">QE Brisbane Report Tool</a></div>
+    </div>
+
+</div> <!-- Content -->
+
+</div> <!-- Container -->
+
+</body>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 24);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=24" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</html>
+:ET

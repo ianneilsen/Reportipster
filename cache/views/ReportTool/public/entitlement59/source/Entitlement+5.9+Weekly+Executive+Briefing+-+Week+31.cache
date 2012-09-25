@@ -1,0 +1,156 @@
+I"^<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Entitlement 5.9 Weekly Executive Briefing - Week 31 in Entitlement 5-9
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006;  
+    }
+    
+  </style>
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    ...
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >[[!redirects IanNeilsen]]
+Executive summary 
+=================
+ 
+Testing started **Tuesday July 24th 2012** finished **Monday July 30th 2012** 
+
+Report for week 31, 2012. 
+
++ In the past week, HSS QE worked on updating Entitlement IEEE Test Plan according to feedback, and create test cases in TCMS. This week we will continue working on both of them.
+
++ Cloud QE worked on re-factoring CLI/GUI test automation based on new behaviour changes in rhel59 subscription-manager
+
++ So far 71 open bugs have been qa_ack+ (increase by 1), with 7 open bugs needing qa_ack? (decrease by 1):
+
+   + [rhel59-rhsm-qa-acked](https://url.corp.redhat.com/rhel59-rhsm-qa-acked)  **(71, increased by 1)**
+   + [rhel59-rhsm-qa-to-ack](https://url.corp.redhat.com/rhel59-rhsm-qa-to-ack) **(7, decreased by 1)**
+
+
+QE Test result summary 
+---------------------- 
+
+[[nostatus.png:pic]] **[subscription-manager]** 
+     
++ No test status for subscription-manager, since we are in test planning phase.
+
+
+[[nostatus.png:pic]] **[subscription-manager-migration-data]** 
+
++ No test status for subscription-manager-migration-data, since we are in test planning phase.
+
+
+[[nostatus.png:pic]]**[virt-who]** 
+
++ No test status for virt-who, since we are in test planning phase.
+
+
+[[nostatus.png:pic]] **[content testing]** 
+
++ No test status for RHEL5.9, since we are in test planning phase.
+
+For more information, see QE Test result details at the end of the online report. 
+
+Risks/Actions 
+-------------- 
+
+1. RHEL5.9 Entitlement IEEE Test Plan was sent out for stakeholders to review on the 19th July and due date set for the sign off on the 10th Aug.
+
++ So far, we have got feedback from Alex Wood, Marian Ganisin, Radek Novacek. Thank you for your prompt feedback.
++ Could following stakeholders take a moment to review the corresponding features and provide your feedback in [Vault request #966](https://vault-stage.englab.nay.redhat.com/Vault/showRequest/966) ? Features which require your review have been given in the vault description.
+
+   + Adrian Likins 
+   + Amanda Carter 
+   + Bryan Kearney
+   + Chris Duryee
+   + Dennis Gregorovic
+   + Devan Goodwin
+   + James Bowes
+   + John Sefler
+   + Manuel Eduardo Ospina Sarmiento 
+   + William Poteat
+   + Siddharth Nagar
+
+
+Work completed 
+-------------- 
+
++ Updated RHEL5.9 IEEE Test Plan according to Marian's feedback.
+
++ Assigned RHEL5.9 new test scenarios to QEs to develop test case in TCMS.
+
+Work coming up 
+-------------- 
+
++ Update RHEL5.9 IEEE Test Plan according to PM/Devel feedback.
+
++ Create TCMS test cases for RHEL5.9 new features.
+
++ Smoke test on RHEL5.9 Internal Tree Compose.
+
+---------- 
+QE Test result details 
+---------------------- 
+
+--------- 
+category: July, Week 31
+</textarea>
+</div> <!-- Container -->
+
+
+ <a href="/ReportTool/public/entitlement59/show/Entitlement+5.9+Weekly+Executive+Briefing+-+Week+31">Back To Report</a>
+</body>
+</html>:EF

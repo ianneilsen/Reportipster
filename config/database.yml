@@ -1,0 +1,49 @@
+
+development:
+    adapter: sqlite3
+    database: db/development.db.sqlite3
+
+test:
+    adapter: sqlite3
+    database: db/test.db.sqlite3
+
+production:
+  adapter: sqlite3
+  database: db/production.db.sqlite3
+
+
+
+################## ensure when copying database.yml file across to production you uncomment
+################## the below configuration to ensure that postgresql is used on dart
+
+  
+# PostgreSQL version 8.4
+#
+# Get the C bindings:
+#   gem install postgres
+# or use the pure-Ruby bindings (the only know way on Windows):
+#   gem install postgres-pr
+
+#postgresql_example:
+#  adapter: postgresql
+#  database: instiki_development
+#  username: instiki
+#  password:
+
+  # Connect on a TCP socket.  Omitted by default since the client uses a
+  # domain socket that doesn't need configuration.
+  #host: remote-database
+  #port: 5432
+
+  # Schema search path.  The server defaults to $user,public
+  #schema_search_path: myapp,sharedapp,public
+
+  # Character set encoding.  The server defaults to sql_ascii.
+  #encoding: UTF8
+
+  # Minimum log levels, in increasing order:
+  #   debug5, debug4, debug3, debug2, debug1,
+  #   info, notice, warning, error, log, fatal, or panic
+  # The server defaults to notice.
+  #min_messages: warning
+

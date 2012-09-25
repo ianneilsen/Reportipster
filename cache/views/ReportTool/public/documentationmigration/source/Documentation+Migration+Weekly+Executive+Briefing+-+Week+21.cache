@@ -1,0 +1,255 @@
+I"�-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Documentation Migration Weekly Executive Briefing - Week 21 in Documentation Migration
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #AA0006;  
+    }
+    
+  </style>
+  <link href="/ReportTool/public/stylesheets/instiki.css?1334290344" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="/ReportTool/public/javascripts/prototype.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/effects.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/dragdrop.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/controls.js?1334290344" type="text/javascript"></script>
+<script src="/ReportTool/public/javascripts/application.js?1334290344" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >Executive summary
+=================
+
+Testing started **Thu May 24th 2012** and finished **Fri May 25th 2012**.
+
+Report generated in week 21, 2012.
+
+The goal of this project is to migrate Red Hat documentation from the old website (docs.redhat.com/docs) to the new website (access.redhat.com/knowledge/docs). To that end, QE executed testing around three key areas: load testing (will the new site handle existing workloads), content testing (will the new site provide the same documentation), and i18n testing (will all translated material be available and render correctly). QE did not find any issues in load testing indicating that the new site is stable and will be able to handle existing traffic workloads. However, QE did find issues in content testing where product names and documents do not appear the same as on the old site; and i18n testing where certain content types do not render correctly. This indicates that while the new site can support the workload, the migration of content is not yet at a stage that meets the projects goals.
+
+
+## 1. QE Test results summary
+
+### Load testing
+
+[[greendot.png:pic]] **PASS**
+
+Load testing is designed to ensure that the new site can handle the same user workload as the old source site.
+
+1. Concurrent users: Simulate 235 users sending http requests to the server simultaneously, repeat 20 times. Compare the average response time and throughput with the first round or requests.
+
+    + Home page performance increase.[[greenuparrow.jpg:pic]]
+  
+    + Product page decrease.[[reddownarrow.jpg:pic]]
+  
+    + Download page stayed the same.[[orangesidearrow.jpg:pic]]
+
+### Content testing
+
+[[reddot.png:pic]] **FAIL**
+
+Content testing is designed to ensure that the content present in the old legacy site such as Product names and documents are present in the new site. Then verify the fixed issue.
+
+1. Compare product list between source website and new website. Ensure all products listed on the source website exist on the new website. 
+
+2. Compare product versions between source website and new website. Ensure each product version on the source website exists on the new website.
+
+3. Compare documents between source website and new website. Ensure every document on the source website exists on the new website.
+
+4. Compare document download usability. Ensure every downloadable document on the source website (in all 23 languages) can also be downloaded from the new website.
+
+5. Check the download link availability. Ensure every download link is valid and redirect function works correctly.
+
+
+### i18n
+
+[[reddot.png:pic]] **FAIL**
+
+i18n testing is designed to ensure that all formats of a document in all translated languages are accessible and render correctly. Then verify the fixed issue.
+
+
+## 2. Risks/Actions
+
+1. i18n : Only do the bug verification in this release because all the bugs still open status and can not fixed.
+
+2. Content : Should confirm with devs whether the content bugs are a Publican issue. QE will do some research and also get more familiar with Publican next week.
+
+
+## 3. QE Test result details
+
+### Load testing
+
+**Concurrent users**
+
+*Result:* **PASS**
+
+*Test：* Testing is based on 2 times the maximum number of concurrent users (identified in Appendix A) totaling 235 agents. We selected three (3) representative pages for testing:
+
+1. Home page &lt;https://access.qa.redhat.com/knowledge/docs/&gt;
+
+2. Product page &lt;https://access.qa.redhat.com/knowledge/docs/Red_Hat_Enterprise_Linux/&gt;
+
+3. Download page &lt;https://access.qa.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/pdf/6.0_Release_Notes/Red_Hat_Enterprise_Linux-6-6.0_Release_Notes-en-US.pdf&gt;
+
+Using Jmeter, we simulated 235 users sending http requests to the server at the same time, and repeated this 20 times.
+
+**Average Response Time (secs)**
+
+| Test page       | Agents |  Week13  |  Week18   |  Week21  |
+|:---------------:|:------:|:--------:|:---------:|:--------:|
+|New Home page    |  235   |    54    |     38    |    43    |
+|Product page     |  235   |    45    |     52    |    12    |
+|Download page    |  235   |    110   |     109   |    111   |
+|Old download page|  235   |    N/A   |     N/A   |    127   |
+
+
+**Throughput (req/sec)**
+
+| Test page       | Agents |  Week13  |  Week18   |  Week 21  |
+|:---------------:|:------:|:--------:|:---------:|:---------:|
+|New Home page    |  235   |   64.5   |   95.4    |   83.2    |
+|Product page     |  235   |   82.3   |   72.0    |   62.4    |
+|Download page    |  235   |   4.2    |   4.3     |   2.1     |
+|Old download page|  235   |   N/A    |   N/A     |   1.8     |
+
+
+**Error %**
+
+| Test page       | Agents |  Week13  |  Week18   |  Week 21  |
+|:---------------:|:------:|:--------:|:---------:|:---------:|
+|New Home page    |  235   |   0.02   |   0.00    |   0.00    |
+|Product page     |  235   |   0.01   |   0.00    |   0.00    |
+|Download page    |  235   |   0.00   |   0.00    |   0.06    |
+|Old download page|  235   |    N/A   |   N/A     |   0.00    |
+
+
+Error % = No response requests / All requests.
+
+*Analysis:* 
+
++ In the Home page, the average response time decreased from 54 to 43 seconds and throughput increased from 64.5 to 83.2 req/sec, indicating there has been a slight performance increase in this page. 
+
++ In the Product page, the average response time decreased from 45 seconds to 12 seconds, indicating that there was performance increase in this page.
+
++ In download page, both the average response time and throughput had little variation, so there is no real performance increase in this page.
+
+
+### Content testing
+
+*Result:* **FAIL**
+
+*Test:* Using automated Selenium tests, verify that all content on the old website exists on the new website. And verify following bugs:
+
++ Old website： &lt;http://docs.redhat.com/docs/&gt;
+
++ New website： &lt;https://access.qa.redhat.com/knowledge/docs/&gt; 
+
+Existing Bugs:
+
++ [Bug 811179](https://bugzilla.redhat.com/show_bug.cgi?id=811179) - Some documents were lost
+
++ [Bug 811176](https://bugzilla.redhat.com/show_bug.cgi?id=811176) - Some product names were changed
+
++ [Bug 811177](https://bugzilla.redhat.com/show_bug.cgi?id=811177) - Some product version names were changed
+
++ [Bug 811180](https://bugzilla.redhat.com/show_bug.cgi?id=811180) - The html format document &quot;RichFaces Components' Tag Library&quot; can not link to docs website
+
+Based on these discrepancies, the above four (4) bugs status are still on NEW or ON_DEV and the problem still exists.
+
+Some important documents were lost, regarding Red Hat Enterprise Linux, for detailed information, see [bug 811179](https://bugzilla.redhat.com/show_bug.cgi?id=811179).
+
+For details on the automation test result, visit &lt;http://ciqe.englab.nay.redhat.com/job/Docs_migration/17/Docs_migration__Report/?&gt;.
+
+
+### i18n
+
+*Result:*  **FAIL**
+
+*Test:* QE performed bug verification on new site. All the bugs listed are not fixed and status is NEW.
+
+Blocker Bugs:
+
++ [Bug 810766](https://bugzilla.redhat.com/show_bug.cgi?id=810766) - \[zh_TW] \[zh_CN]Redundant string '​' in document name of RHEL6.2 Release Note. 
+
++ [Bug 811178](https://bugzilla.redhat.com/show_bug.cgi?id=811178) - \[Indic] \[zh_TW] \[zh_CN]Fuzzy string display in document name.
+
+Existing Bugs:
+
++ [Bug 810768](https://bugzilla.redhat.com/show_bug.cgi?id=810768) - \[ALL LANG] Extra dots sort symbol in EPUB file of RHEL6.2 Release Note. 
+
++ [Bug 810770](https://bugzilla.redhat.com/show_bug.cgi?id=810770) - \[ALL LANG] Misalignment dots sort symbol in EPUB file of RHEL6.2 Release Note. 
+
+
+## Appendix A
+
+### Concurrent users
+
+To calculate the maximum number of concurrent users, QE analyzed the history logs from the previous four months. The following table lists the average response time and total number of visits per month including the day which had the most visits. From this information we then calculated the MAX number of concurrent users via the following formula:
+
++ Number of visitors per second = total number of visits per month / number of days / 24 hours / 60 minutes / 60 seconds
+
++ Concurrent users = number of visitors per second * average response time
+
+
+|  Month     | Average response time | Total visits | MAX concurrent users |
+|:-----------|----------------------:|-------------:|---------------------:|
+| 2011-11    |   297s                | 387,847      |     45               |
+| 2011-12    |   289s                | 333,678      |     37               |
+| 2012-01    |   347s                | 583,598      |     76               |
+| 2012-02    |   352s                | 472,812      |     92               |
+
+Day which had MAX concurrent users:
+
+|  Date      | Average response time | Total visits | MAX concurrent users |
+|:-----------|----------------------:|-------------:|---------------------:|
+| 2012-02-08 |   352s                | 28,703       |     117              |
+</textarea>
+</div> <!-- Container -->
+
+
+ <a href="/ReportTool/public/documentationmigration/show/Documentation+Migration+Weekly+Executive+Briefing+-+Week+21">Back To Report</a>
+</body>
+</html>:ET
